@@ -1,0 +1,1593 @@
+Allele	Consequence	IMPACT	SYMBOL	Gene	Feature_type	Feature	BIOTYPE	EXON	INTRON	HGVSc	HGVSp	cDNA_position	CDS_position	Protein_position	Amino_acids	Codons	Existing_variation	DISTANCE	STRAND	FLAGS	SYMBOL_SOURCE	HGNC_ID	TSL	APPRIS	ENSP	CLIN_SIG	SOMATIC	PHENO
+CSQ=C	5_prime_UTR_variant	MODIFIER		TC004699	Transcript	TC004699_001	protein_coding	2/3				558							-1						TC004699_001			
+C	upstream_gene_variant	MODIFIER		TC031461	Transcript	TC031461_001	protein_coding											4906	-1						TC031461_001			
+C	upstream_gene_variant	MODIFIER		TC031462	Transcript	TC031462_001	protein_coding											611	-1						TC031462_001			
+C	upstream_gene_variant	MODIFIER		TC031463	Transcript	TC031463_001	protein_coding											1571	1						TC031463_001			
+C	upstream_gene_variant	MODIFIER		TC031463	Transcript	TC031463_002	protein_coding											131	1						TC031463_002			
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=C	downstream_gene_variant	MODIFIER		TC004713	Transcript	TC004713_001	protein_coding											3109	-1						TC004713_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC004118	Transcript	TC004118_001	protein_coding											1919	-1						TC004118_001			
+G	downstream_gene_variant	MODIFIER		TC031487	Transcript	TC031487_001	protein_coding											2796	-1						TC031487_001			
+CSQ=G	intron_variant	MODIFIER		TC016052	Transcript	TC016052_001	protein_coding		2/2										1						TC016052_001			
+CSQ=G	intron_variant	MODIFIER		TC031488	Transcript	TC031488_001	protein_coding		2/2										-1						TC031488_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC013642	Transcript	TC013642_001	protein_coding											922	-1						TC013642_001			
+CSQ=A	intron_variant	MODIFIER		TC013633	Transcript	TC013633_001	protein_coding		7/8										-1						TC013633_001			
+A	intron_variant	MODIFIER		TC013633	Transcript	TC013633_002	protein_coding		8/9										-1						TC013633_002			
+A	intron_variant	MODIFIER		TC013633	Transcript	TC013633_003	protein_coding		7/8										-1						TC013633_003			
+A	downstream_gene_variant	MODIFIER		TC013633	Transcript	TC013633_004	protein_coding											3338	-1						TC013633_004			
+A	downstream_gene_variant	MODIFIER		TC013633	Transcript	TC013633_006	protein_coding											3338	-1						TC013633_006			
+A	intron_variant	MODIFIER		TC013633	Transcript	TC013633_007	protein_coding		8/9										-1						TC013633_007			
+A	intron_variant	MODIFIER		TC013633	Transcript	TC013633_008	protein_coding		8/9										-1						TC013633_008			
+A	intron_variant	MODIFIER		TC013633	Transcript	TC013633_009	protein_coding		8/9										-1						TC013633_009			
+A	downstream_gene_variant	MODIFIER		TC014175	Transcript	TC014175_001	protein_coding											4055	1						TC014175_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC014186	Transcript	TC014186_001	protein_coding											2256	1						TC014186_001			
+CSQ=A	intron_variant	MODIFIER		TC034520	Transcript	TC034520_001	protein_coding		14/15										-1						TC034520_001			
+A	intron_variant	MODIFIER		TC034520	Transcript	TC034520_002	protein_coding		12/13										-1						TC034520_002			
+CSQ=A	intron_variant	MODIFIER		TC010766	Transcript	TC010766_001	protein_coding		2/3										1						TC010766_001			
+A	downstream_gene_variant	MODIFIER		TC031545	Transcript	TC031545_001	protein_coding											3762	1						TC031545_001			
+CSQ=G	intron_variant	MODIFIER		TC031539	Transcript	TC031539_001	protein_coding		4/10										1						TC031539_001			
+CSQ=C	intron_variant	MODIFIER		TC010857	Transcript	TC010857_001	protein_coding		1/10										-1						TC010857_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC004606	Transcript	TC004606_001	protein_coding											2537	-1						TC004606_001			
+G	intron_variant	MODIFIER		TC004769	Transcript	TC004769_001	protein_coding		2/5										1						TC004769_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC001699	Transcript	TC001699_001	protein_coding											1774	1						TC001699_001			
+G	splice_region_variant&intron_variant	LOW		TC001771	Transcript	TC001771_001	protein_coding		6/9										-1						TC001771_001			
+G	splice_region_variant&intron_variant	LOW		TC001771	Transcript	TC001771_002	protein_coding		1/4										-1						TC001771_002			
+G	splice_region_variant&intron_variant	LOW		TC001771	Transcript	TC001771_003	protein_coding		1/5										-1						TC001771_003			
+G	downstream_gene_variant	MODIFIER		TC001771	Transcript	TC001771_004	protein_coding											442	-1						TC001771_004			
+G	upstream_gene_variant	MODIFIER		TC001772	Transcript	TC001772_001	protein_coding											874	-1						TC001772_001			
+G	upstream_gene_variant	MODIFIER		TC001773	Transcript	TC001773_001	protein_coding											3574	-1						TC001773_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC001700	Transcript	TC001700_001	protein_coding											2825	1						TC001700_001			
+A	upstream_gene_variant	MODIFIER		TC001770	Transcript	TC001770_001	protein_coding											297	-1						TC001770_001			
+A	downstream_gene_variant	MODIFIER		TC031579	Transcript	TC031579_001	protein_coding											3753	-1						TC031579_001			
+A	downstream_gene_variant	MODIFIER		TC031579	Transcript	TC031579_002	protein_coding											3753	-1						TC031579_002			
+A	3_prime_UTR_variant	MODIFIER		TC031580	Transcript	TC031580_001	protein_coding	4/4				673							-1						TC031580_001			
+CSQ=C	upstream_gene_variant	MODIFIER		TC031576	Transcript	TC031576_001	protein_coding											2258	1						TC031576_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC001752	Transcript	TC001752_001	protein_coding											3620	-1						TC001752_001			
+G	downstream_gene_variant	MODIFIER		TC001753	Transcript	TC001753_001	protein_coding											94	-1						TC001753_001			
+G	upstream_gene_variant	MODIFIER		TC001754	Transcript	TC001754_001	protein_coding											3272	-1						TC001754_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC001750	Transcript	TC001750_001	protein_coding											4704	-1						TC001750_001			
+A	downstream_gene_variant	MODIFIER		TC001751	Transcript	TC001751_001	protein_coding											1952	-1						TC001751_001			
+A	upstream_gene_variant	MODIFIER		TC001752	Transcript	TC001752_001	protein_coding											431	-1						TC001752_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC031574	Transcript	TC031574_001	protein_coding											3057	-1						TC031574_001			
+T	intron_variant	MODIFIER		TC031574	Transcript	TC031574_002	protein_coding		8/14										-1						TC031574_002			
+T	intron_variant	MODIFIER		TC031574	Transcript	TC031574_003	protein_coding		8/10										-1						TC031574_003			
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=G	intergenic_variant	MODIFIER																										
+CSQ=A	intron_variant	MODIFIER		TC001722	Transcript	TC001722_001	protein_coding		5/5										1						TC001722_001			
+CSQ=A	intergenic_variant	MODIFIER																										
+CSQ=A	downstream_gene_variant	MODIFIER		TC016168	Transcript	TC016168_001	protein_coding											1676	1						TC016168_001			
+A	upstream_gene_variant	MODIFIER		TC031979	Transcript	TC031979_001	protein_coding											1934	-1						TC031979_001			
+CSQ=A	intron_variant	MODIFIER		TC004987	Transcript	TC004987_001	protein_coding		1/3										-1						TC004987_001			
+CSQ=T	intergenic_variant	MODIFIER																										
+CSQ=G	intergenic_variant	MODIFIER																										
+CSQ=C	intron_variant	MODIFIER		TC010230	Transcript	TC010230_001	protein_coding		1/7										1						TC010230_001			
+C	intron_variant	MODIFIER		TC010230	Transcript	TC010230_002	protein_coding		1/6										1						TC010230_002			
+C	intron_variant	MODIFIER		TC010230	Transcript	TC010230_003	protein_coding		1/6										1						TC010230_003			
+CSQ=A	intron_variant	MODIFIER		TC032973	Transcript	TC032973_001	protein_coding		13/13										1						TC032973_001			
+CSQ=C	intron_variant	MODIFIER		TC005233	Transcript	TC005233_001	protein_coding		3/7										1						TC005233_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC032006	Transcript	TC032006_001	protein_coding											3755	1						TC032006_001			
+G	upstream_gene_variant	MODIFIER		TC032006	Transcript	TC032006_002	protein_coding											3755	1						TC032006_002			
+CSQ=G	downstream_gene_variant	MODIFIER		TC004563	Transcript	TC004563_001	protein_coding											3058	-1						TC004563_001			
+G	upstream_gene_variant	MODIFIER		TC004564	Transcript	TC004564_001	protein_coding											3723	-1						TC004564_001			
+G	intron_variant	MODIFIER		TC004819	Transcript	TC004819_001	protein_coding		1/2										1						TC004819_001			
+G	intron_variant	MODIFIER		TC004819	Transcript	TC004819_002	protein_coding		1/1										1						TC004819_002			
+CSQ=C	intron_variant	MODIFIER		TC004824	Transcript	TC004824_001	protein_coding		5/6										1						TC004824_001			
+C	upstream_gene_variant	MODIFIER		TC004825	Transcript	TC004825_001	protein_coding											4431	1						TC004825_001			
+C	upstream_gene_variant	MODIFIER		TC004825	Transcript	TC004825_002	protein_coding											4431	1						TC004825_002			
+C	downstream_gene_variant	MODIFIER		TC031962	Transcript	TC031962_001	protein_coding											4644	1						TC031962_001			
+CSQ=A	intron_variant	MODIFIER		TC031960	Transcript	TC031960_001	protein_coding		3/13										-1						TC031960_001			
+CSQ=A	intron_variant	MODIFIER		TC031990	Transcript	TC031990_001	protein_coding		1/30										-1						TC031990_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC004498	Transcript	TC004498_001	protein_coding											1478	-1						TC004498_001			
+T	intron_variant	MODIFIER		TC004499	Transcript	TC004499_001	protein_coding		1/9										-1						TC004499_001			
+T	upstream_gene_variant	MODIFIER		TC004885	Transcript	TC004885_001	protein_coding											1770	1						TC004885_001			
+CSQ=A	intron_variant	MODIFIER		TC032014	Transcript	TC032014_001	protein_coding		2/3										-1						TC032014_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC004469	Transcript	TC004469_001	protein_coding											1607	-1						TC004469_001			
+T	splice_region_variant&intron_variant	LOW		TC004918	Transcript	TC004918_001	protein_coding		3/3										1						TC004918_001			
+T	upstream_gene_variant	MODIFIER		TC004919	Transcript	TC004919_001	protein_coding											563	1						TC004919_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC032020	Transcript	TC032020_001	protein_coding											4906	1						TC032020_001			
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=T	downstream_gene_variant	MODIFIER		TC000836	Transcript	TC000836_001	protein_coding											2630	1						TC000836_001			
+T	upstream_gene_variant	MODIFIER		TC000837	Transcript	TC000837_001	protein_coding											935	1						TC000837_001			
+CSQ=G	intron_variant	MODIFIER		TC032076	Transcript	TC032076_001	protein_coding		1/1										1						TC032076_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC000876	Transcript	TC000876_001	protein_coding											2081	1						TC000876_001			
+G	intron_variant	MODIFIER		TC032094	Transcript	TC032094_001	protein_coding		2/16										-1						TC032094_001			
+G	intron_variant	MODIFIER		TC032094	Transcript	TC032094_002	protein_coding		2/15										-1						TC032094_002			
+G	intron_variant	MODIFIER		TC032094	Transcript	TC032094_003	protein_coding		2/14										-1						TC032094_003			
+G	downstream_gene_variant	MODIFIER		TC032095	Transcript	TC032095_001	protein_coding											3913	-1						TC032095_001			
+CSQ=T	intergenic_variant	MODIFIER																										
+CSQ=T	intron_variant	MODIFIER	ABD-A	TC000894	Transcript	TC000894_001	protein_coding		3/3										1		Uniprot_gn				TC000894_001			
+CSQ=T	intron_variant	MODIFIER		TC000916	Transcript	TC000916_001	protein_coding		2/4										1						TC000916_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC000593	Transcript	TC000593_001	protein_coding											3239	-1						TC000593_001			
+A	downstream_gene_variant	MODIFIER		TC000595	Transcript	TC000595_001	protein_coding											2216	-1						TC000595_001			
+A	downstream_gene_variant	MODIFIER		TC000596	Transcript	TC000596_001	protein_coding											84	-1						TC000596_001			
+A	upstream_gene_variant	MODIFIER		TC000597	Transcript	TC000597_001	protein_coding											2779	-1						TC000597_001			
+A	downstream_gene_variant	MODIFIER		TC000982	Transcript	TC000982_001	protein_coding											1143	1						TC000982_001			
+CSQ=T	intron_variant	MODIFIER		TC030997	Transcript	TC030997_001	protein_coding		1/20										1						TC030997_001			
+CSQ=G	intron_variant	MODIFIER		TC001082	Transcript	TC001082_001	protein_coding		2/2										1						TC001082_001			
+G	upstream_gene_variant	MODIFIER		TC001083	Transcript	TC001083_001	protein_coding											4021	1						TC001083_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC000470	Transcript	TC000470_001	protein_coding											463	-1						TC000470_001			
+C	upstream_gene_variant	MODIFIER		TC000471	Transcript	TC000471_001	protein_coding											575	-1						TC000471_001			
+C	upstream_gene_variant	MODIFIER		TC000472	Transcript	TC000472_001	protein_coding											3676	-1						TC000472_001			
+C	downstream_gene_variant	MODIFIER		TC032166	Transcript	TC032166_001	protein_coding											3828	1						TC032166_001			
+C	upstream_gene_variant	MODIFIER		TC032167	Transcript	TC032167_001	protein_coding											93	-1						TC032167_001			
+CSQ=T	intron_variant	MODIFIER		TC032190	Transcript	TC032190_001	protein_coding		2/10										-1						TC032190_001			
+T	intron_variant	MODIFIER		TC032190	Transcript	TC032190_002	protein_coding		2/9										-1						TC032190_002			
+CSQ=A	downstream_gene_variant	MODIFIER		TC000333	Transcript	TC000333_001	protein_coding											2736	-1						TC000333_001			
+A	synonymous_variant	LOW		TC000334	Transcript	TC000334_001	protein_coding	2/5				520	372	124	N	aaC/aaT			-1						TC000334_001			
+A	downstream_gene_variant	MODIFIER		TC001226	Transcript	TC001226_001	protein_coding											1199	1						TC001226_001			
+A	downstream_gene_variant	MODIFIER		TC032217	Transcript	TC032217_001	protein_coding											4668	-1						TC032217_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC000295	Transcript	TC000295_001	protein_coding											34	-1						TC000295_001			
+T	intron_variant	MODIFIER		TC000296	Transcript	TC000296_001	protein_coding		1/5										-1						TC000296_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC000274	Transcript	TC000274_001	protein_coding											1512	-1						TC000274_001			
+T	intron_variant	MODIFIER		TC000275	Transcript	TC000275_001	protein_coding		1/4										-1						TC000275_001			
+CSQ=C	intron_variant	MODIFIER		TC000269	Transcript	TC000269_001	protein_coding		3/6										-1						TC000269_001			
+C	downstream_gene_variant	MODIFIER		TC001283	Transcript	TC001283_001	protein_coding											4348	1						TC001283_001			
+C	upstream_gene_variant	MODIFIER		TC001284	Transcript	TC001284_001	protein_coding											4007	1						TC001284_001			
+CSQ=A	intron_variant	MODIFIER		TC000221	Transcript	TC000221_001	protein_coding		2/22										-1						TC000221_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC003167	Transcript	TC003167_001	protein_coding											856	-1						TC003167_001			
+G	upstream_gene_variant	MODIFIER		TC003168	Transcript	TC003168_001	protein_coding											4533	-1						TC003168_001			
+G	downstream_gene_variant	MODIFIER		TC003292	Transcript	TC003292_001	protein_coding											4774	1						TC003292_001			
+G	synonymous_variant	LOW		TC003293	Transcript	TC003293_001	protein_coding	2/7				690	498	166	G	ggA/ggG			1						TC003293_001			
+CSQ=T	intron_variant	MODIFIER		TC003297	Transcript	TC003297_001	protein_coding		1/1										1						TC003297_001			
+CSQ=T	intron_variant	MODIFIER		TC003162	Transcript	TC003162_001	protein_coding		1/1										-1						TC003162_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC003152	Transcript	TC003152_001	protein_coding											4765	-1						TC003152_001			
+T	3_prime_UTR_variant	MODIFIER		TC003153	Transcript	TC003153_001	protein_coding	5/5				3229							-1						TC003153_001			
+T	upstream_gene_variant	MODIFIER		TC003154	Transcript	TC003154_001	protein_coding											77	-1						TC003154_001			
+T	downstream_gene_variant	MODIFIER		TC003311	Transcript	TC003311_001	protein_coding											3217	1						TC003311_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC003341	Transcript	TC003341_001	protein_coding											891	1						TC003341_001			
+C	intron_variant	MODIFIER		TC003342	Transcript	TC003342_001	protein_coding		2/20										1						TC003342_001			
+C	intron_variant	MODIFIER		TC003342	Transcript	TC003342_002	protein_coding		5/23										1						TC003342_002			
+CSQ=G	synonymous_variant	LOW		TC032339	Transcript	TC032339_001	protein_coding	4/9				648	574	192	L	Ttg/Ctg			-1						TC032339_001			
+CSQ=A	intron_variant	MODIFIER		TC003063	Transcript	TC003063_001	protein_coding		9/15										-1						TC003063_001			
+A	intron_variant	MODIFIER		TC003063	Transcript	TC003063_002	protein_coding		9/27										-1						TC003063_002			
+A	intron_variant	MODIFIER		TC003063	Transcript	TC003063_003	protein_coding		10/16										-1						TC003063_003			
+CSQ=A	intron_variant	MODIFIER		TC001548	Transcript	TC001548_001	protein_coding		1/1										1						TC001548_001			
+CSQ=T	intron_variant	MODIFIER		TC031029	Transcript	TC031029_001	protein_coding		5/14										1						TC031029_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC003024	Transcript	TC003024_001	protein_coding											4442	-1						TC003024_001			
+C	downstream_gene_variant	MODIFIER		TC003024	Transcript	TC003024_002	protein_coding											4442	-1						TC003024_002			
+C	downstream_gene_variant	MODIFIER		TC003024	Transcript	TC003024_003	protein_coding											4442	-1						TC003024_003			
+C	intron_variant	MODIFIER		TC003025	Transcript	TC003025_001	protein_coding		3/3										-1						TC003025_001			
+C	downstream_gene_variant	MODIFIER		TC003396	Transcript	TC003396_001	protein_coding											3974	1						TC003396_001			
+CSQ=A	intron_variant	MODIFIER		TC003413	Transcript	TC003413_001	protein_coding		1/2										1						TC003413_001			
+CSQ=A	intron_variant	MODIFIER		TC032368	Transcript	TC032368_001	protein_coding		1/4										1						TC032368_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC003478	Transcript	TC003478_001	protein_coding											931	1						TC003478_001			
+C	intron_variant	MODIFIER		TC032392	Transcript	TC032392_001	protein_coding		33/33										-1						TC032392_001			
+C	intron_variant	MODIFIER		TC032392	Transcript	TC032392_002	protein_coding		33/33										-1						TC032392_002			
+C	intron_variant	MODIFIER		TC032392	Transcript	TC032392_003	protein_coding		34/34										-1						TC032392_003			
+CSQ=G	intron_variant	MODIFIER		TC034588	Transcript	TC034588_001	protein_coding		3/5										-1						TC034588_001			
+G	intron_variant	MODIFIER		TC034588	Transcript	TC034588_002	protein_coding		3/7										-1						TC034588_002			
+G	intron_variant	MODIFIER		TC034588	Transcript	TC034588_003	protein_coding		3/6										-1						TC034588_003			
+CSQ=T	intergenic_variant	MODIFIER																										
+CSQ=C	intron_variant	MODIFIER		TC034590	Transcript	TC034590_001	protein_coding		1/3										1						TC034590_001			
+CSQ=T	intergenic_variant	MODIFIER																										
+CSQ=A	downstream_gene_variant	MODIFIER		TC002894	Transcript	TC002894_001	protein_coding											121	-1						TC002894_001			
+A	upstream_gene_variant	MODIFIER		TC002895	Transcript	TC002895_001	protein_coding											352	-1						TC002895_001			
+A	missense_variant	MODERATE		TC003546	Transcript	TC003546_001	protein_coding	1/1				229	229	77	V/I	Gtt/Att			1						TC003546_001			
+A	upstream_gene_variant	MODIFIER		TC032408	Transcript	TC032408_001	protein_coding											1380	1						TC032408_001			
+CSQ=C	upstream_gene_variant	MODIFIER		TC003551	Transcript	TC003551_001	protein_coding											4246	1						TC003551_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC002888	Transcript	TC002888_001	protein_coding											3784	-1						TC002888_001			
+A	upstream_gene_variant	MODIFIER		TC002889	Transcript	TC002889_001	protein_coding											459	-1						TC002889_001			
+A	5_prime_UTR_variant	MODIFIER		TC003554	Transcript	TC003554_001	protein_coding	1/11				158							1						TC003554_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC003571	Transcript	TC003571_001	protein_coding											4390	1						TC003571_001			
+T	intron_variant	MODIFIER		TC003572	Transcript	TC003572_001	protein_coding		4/10										1						TC003572_001			
+T	upstream_gene_variant	MODIFIER		TC032416	Transcript	TC032416_001	protein_coding											1619	-1						TC032416_001			
+CSQ=G	downstream_gene_variant	MODIFIER	tRNA-Pro	ENSRNA022734986	Transcript	ENSRNA022734986-T1	tRNA											157	1		TRNASCAN_SE							
+G	downstream_gene_variant	MODIFIER	tRNA-Pro	ENSRNA022734993	Transcript	ENSRNA022734993-T1	tRNA											715	1		TRNASCAN_SE							
+G	downstream_gene_variant	MODIFIER	tRNA-Pro	ENSRNA022735003	Transcript	ENSRNA022735003-T1	tRNA											1417	1		TRNASCAN_SE							
+G	downstream_gene_variant	MODIFIER	tRNA-Pro	ENSRNA022735010	Transcript	ENSRNA022735010-T1	tRNA											2051	1		TRNASCAN_SE							
+G	downstream_gene_variant	MODIFIER	tRNA-Pro	ENSRNA022735020	Transcript	ENSRNA022735020-T1	tRNA											2749	1		TRNASCAN_SE							
+G	downstream_gene_variant	MODIFIER	tRNA-Pro	ENSRNA022735026	Transcript	ENSRNA022735026-T1	tRNA											3383	1		TRNASCAN_SE							
+G	downstream_gene_variant	MODIFIER	tRNA-Pro	ENSRNA022735035	Transcript	ENSRNA022735035-T1	tRNA											4037	1		TRNASCAN_SE							
+CSQ=A	intron_variant	MODIFIER		TC031034	Transcript	TC031034_001	protein_coding		2/10										-1						TC031034_001			
+CSQ=A	upstream_gene_variant	MODIFIER	tRNA-Ile	ENSRNA022734747	Transcript	ENSRNA022734747-T1	tRNA											1821	-1		TRNASCAN_SE							
+A	downstream_gene_variant	MODIFIER		TC002796	Transcript	TC002796_001	protein_coding											4524	-1						TC002796_001			
+CSQ=G	intergenic_variant	MODIFIER																										
+CSQ=C	downstream_gene_variant	MODIFIER		TC000039	Transcript	TC000039_001	protein_coding											3242	1						TC000039_001			
+C	splice_region_variant&intron_variant	LOW		TC000140	Transcript	TC000140_001	protein_coding		9/15										-1						TC000140_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC000040	Transcript	TC000040_001	protein_coding											4042	1						TC000040_001			
+A	intron_variant	MODIFIER		TC000140	Transcript	TC000140_001	protein_coding		7/15										-1						TC000140_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC000044	Transcript	TC000044_001	protein_coding											3179	1						TC000044_001			
+A	intron_variant	MODIFIER		TC000045	Transcript	TC000045_001	protein_coding		2/7										1						TC000045_001			
+CSQ=A	intron_variant	MODIFIER		TC002774	Transcript	TC002774_001	protein_coding		1/2										-1						TC002774_001			
+CSQ=G	intergenic_variant	MODIFIER																										
+CSQ=G	intergenic_variant	MODIFIER																										
+CSQ=T	intergenic_variant	MODIFIER																										
+CSQ=A	intron_variant	MODIFIER		TC032491	Transcript	TC032491_001	protein_coding		3/6										-1						TC032491_001			
+CSQ=C	intron_variant	MODIFIER		TC003710	Transcript	TC003710_001	protein_coding		2/2										1						TC003710_001			
+C	upstream_gene_variant	MODIFIER		TC034603	Transcript	TC034603_001	protein_coding											1732	-1						TC034603_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC002697	Transcript	TC002697_001	protein_coding											430	-1						TC002697_001			
+A	downstream_gene_variant	MODIFIER		TC002697	Transcript	TC002697_002	protein_coding											430	-1						TC002697_002			
+A	3_prime_UTR_variant	MODIFIER		TC003733	Transcript	TC003733_001	protein_coding	4/4				1434							1						TC003733_001			
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=T	intergenic_variant	MODIFIER																										
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=G	intron_variant	MODIFIER		TC032516	Transcript	TC032516_001	protein_coding		3/10										1						TC032516_001			
+G	intron_variant	MODIFIER		TC032516	Transcript	TC032516_002	protein_coding		3/10										1						TC032516_002			
+CSQ=T	downstream_gene_variant	MODIFIER		TC010508	Transcript	TC010508_001	protein_coding											1993	-1						TC010508_001			
+T	downstream_gene_variant	MODIFIER		TC010545	Transcript	TC010545_001	protein_coding											552	1						TC010545_001			
+T	downstream_gene_variant	MODIFIER		TC010545	Transcript	TC010545_002	protein_coding											552	1						TC010545_002			
+T	downstream_gene_variant	MODIFIER		TC010545	Transcript	TC010545_003	protein_coding											552	1						TC010545_003			
+T	downstream_gene_variant	MODIFIER		TC010545	Transcript	TC010545_004	protein_coding											552	1						TC010545_004			
+CSQ=C	intron_variant	MODIFIER		TC010549	Transcript	TC010549_001	protein_coding		1/9										1						TC010549_001			
+CSQ=G	intron_variant	MODIFIER		TC000029	Transcript	TC000029_001	protein_coding		3/5										-1						TC000029_001			
+CSQ=T	intergenic_variant	MODIFIER																										
+CSQ=G	intergenic_variant	MODIFIER																										
+CSQ=G	intergenic_variant	MODIFIER																										
+CSQ=T	intron_variant	MODIFIER		TC032553	Transcript	TC032553_001	protein_coding		8/11										-1						TC032553_001			
+T	intron_variant	MODIFIER		TC032553	Transcript	TC032553_002	protein_coding		9/12										-1						TC032553_002			
+CSQ=T	intron_variant	MODIFIER		TC003754	Transcript	TC003754_001	protein_coding		2/5										-1						TC003754_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC012887	Transcript	TC012887_001	protein_coding											174	1						TC012887_001			
+T	downstream_gene_variant	MODIFIER		TC012899	Transcript	TC012899_001	protein_coding											2918	-1						TC012899_001			
+T	upstream_gene_variant	MODIFIER		TC012900	Transcript	TC012900_001	protein_coding											248	-1						TC012900_001			
+CSQ=T	intergenic_variant	MODIFIER																										
+CSQ=T	downstream_gene_variant	MODIFIER		TC011190	Transcript	TC011190_001	protein_coding											167	1						TC011190_001			
+T	upstream_gene_variant	MODIFIER		TC011191	Transcript	TC011191_001	protein_coding											2184	1						TC011191_001			
+CSQ=C	intron_variant	MODIFIER		TC034615	Transcript	TC034615_001	protein_coding		7/7										1						TC034615_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC004407	Transcript	TC004407_001	protein_coding											3253	1						TC004407_001			
+A	intron_variant	MODIFIER		TC032600	Transcript	TC032600_001	protein_coding		1/5										-1						TC032600_001			
+CSQ=T	intron_variant	MODIFIER		TC002636	Transcript	TC002636_001	protein_coding		6/8										-1						TC002636_001			
+T	intron_variant	MODIFIER		TC002636	Transcript	TC002636_002	protein_coding		6/6										-1						TC002636_002			
+T	intron_variant	MODIFIER		TC002636	Transcript	TC002636_003	protein_coding		6/7										-1						TC002636_003			
+CSQ=A	intron_variant	MODIFIER		TC002636	Transcript	TC002636_001	protein_coding		1/8										-1						TC002636_001			
+A	intron_variant	MODIFIER		TC002636	Transcript	TC002636_002	protein_coding		1/6										-1						TC002636_002			
+A	intron_variant	MODIFIER		TC002636	Transcript	TC002636_003	protein_coding		1/7										-1						TC002636_003			
+CSQ=A	intron_variant	MODIFIER		TC003823	Transcript	TC003823_001	protein_coding		1/3										1						TC003823_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC002581	Transcript	TC002581_001	protein_coding											3732	-1						TC002581_001			
+A	upstream_gene_variant	MODIFIER		TC002582	Transcript	TC002582_001	protein_coding											971	-1						TC002582_001			
+A	downstream_gene_variant	MODIFIER		TC002582	Transcript	TC002582_002	protein_coding											954	-1						TC002582_002			
+A	downstream_gene_variant	MODIFIER		TC002582	Transcript	TC002582_003	protein_coding											954	-1						TC002582_003			
+A	intron_variant	MODIFIER		TC002582	Transcript	TC002582_004	protein_coding		4/5										-1						TC002582_004			
+A	downstream_gene_variant	MODIFIER		TC003842	Transcript	TC003842_001	protein_coding											1023	1						TC003842_001			
+A	upstream_gene_variant	MODIFIER		TC032574	Transcript	TC032574_001	protein_coding											4931	1						TC032574_001			
+A	upstream_gene_variant	MODIFIER		TC032574	Transcript	TC032574_002	protein_coding											4931	1						TC032574_002			
+A	upstream_gene_variant	MODIFIER		TC032574	Transcript	TC032574_003	protein_coding											4931	1						TC032574_003			
+CSQ=A	upstream_gene_variant	MODIFIER		TC002566	Transcript	TC002566_001	protein_coding											4520	-1						TC002566_001			
+A	intron_variant	MODIFIER		TC032576	Transcript	TC032576_001	protein_coding		2/15										-1						TC032576_001			
+A	intron_variant	MODIFIER		TC032576	Transcript	TC032576_002	protein_coding		2/15										-1						TC032576_002			
+A	intron_variant	MODIFIER		TC032576	Transcript	TC032576_003	protein_coding		2/14										-1						TC032576_003			
+A	intron_variant	MODIFIER		TC032576	Transcript	TC032576_004	protein_coding		2/13										-1						TC032576_004			
+CSQ=A	intron_variant	MODIFIER		TC032576	Transcript	TC032576_001	protein_coding		2/15										-1						TC032576_001			
+A	intron_variant	MODIFIER		TC032576	Transcript	TC032576_002	protein_coding		2/15										-1						TC032576_002			
+A	intron_variant	MODIFIER		TC032576	Transcript	TC032576_003	protein_coding		2/14										-1						TC032576_003			
+A	intron_variant	MODIFIER		TC032576	Transcript	TC032576_004	protein_coding		2/13										-1						TC032576_004			
+CSQ=C	intron_variant	MODIFIER		TC032576	Transcript	TC032576_001	protein_coding		1/15										-1						TC032576_001			
+C	intron_variant	MODIFIER		TC032576	Transcript	TC032576_002	protein_coding		1/15										-1						TC032576_002			
+C	intron_variant	MODIFIER		TC032576	Transcript	TC032576_003	protein_coding		1/14										-1						TC032576_003			
+C	intron_variant	MODIFIER		TC032576	Transcript	TC032576_004	protein_coding		1/13										-1						TC032576_004			
+CSQ=A	intron_variant	MODIFIER		TC002562	Transcript	TC002562_001	protein_coding		1/5										-1						TC002562_001			
+A	upstream_gene_variant	MODIFIER		TC003857	Transcript	TC003857_001	protein_coding											1410	1						TC003857_001			
+CSQ=C	intron_variant	MODIFIER		TC002561	Transcript	TC002561_001	protein_coding		1/10										-1						TC002561_001			
+C	intron_variant	MODIFIER		TC002561	Transcript	TC002561_002	protein_coding		1/10										-1						TC002561_002			
+CSQ=G	upstream_gene_variant	MODIFIER		TC002555	Transcript	TC002555_001	protein_coding											97	-1						TC002555_001			
+G	downstream_gene_variant	MODIFIER		TC034625	Transcript	TC034625_001	protein_coding											4195	-1						TC034625_001			
+CSQ=C	intron_variant	MODIFIER		TC003870	Transcript	TC003870_001	protein_coding		9/10										1						TC003870_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC010364	Transcript	TC010364_001	protein_coding											3641	1						TC010364_001			
+T	downstream_gene_variant	MODIFIER		TC010365	Transcript	TC010365_001	protein_coding											923	1						TC010365_001			
+T	downstream_gene_variant	MODIFIER		TC032588	Transcript	TC032588_001	protein_coding											801	-1						TC032588_001			
+CSQ=G	intron_variant	MODIFIER		TC032593	Transcript	TC032593_001	protein_coding		9/12										1						TC032593_001			
+CSQ=C	intron_variant	MODIFIER		TC010338	Transcript	TC010338_001	protein_coding		1/2										-1						TC010338_001			
+CSQ=A	intron_variant	MODIFIER		TC010331	Transcript	TC010331_001	protein_coding		3/4										-1						TC010331_001			
+A	downstream_gene_variant	MODIFIER		TC010380	Transcript	TC010380_001	protein_coding											4574	1						TC010380_001			
+A	upstream_gene_variant	MODIFIER		TC010381	Transcript	TC010381_001	protein_coding											3083	1						TC010381_001			
+A	upstream_gene_variant	MODIFIER		TC010381	Transcript	TC010381_002	protein_coding											3083	1						TC010381_002			
+A	upstream_gene_variant	MODIFIER		TC010381	Transcript	TC010381_003	protein_coding											3083	1						TC010381_003			
+CSQ=T	intron_variant	MODIFIER		TC032596	Transcript	TC032596_001	protein_coding		2/3										1						TC032596_001			
+T	intron_variant	MODIFIER		TC032596	Transcript	TC032596_002	protein_coding		2/3										1						TC032596_002			
+T	upstream_gene_variant	MODIFIER		TC034626	Transcript	TC034626_001	protein_coding											2104	1						TC034626_001			
+CSQ=T	intron_variant	MODIFIER		TC010322	Transcript	TC010322_001	protein_coding		2/9										-1						TC010322_001			
+T	downstream_gene_variant	MODIFIER		TC010389	Transcript	TC010389_001	protein_coding											1772	1						TC010389_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC032621	Transcript	TC032621_001	protein_coding											2067	-1						TC032621_001			
+CSQ=A	intron_variant	MODIFIER		TC003916	Transcript	TC003916_001	protein_coding		5/8										1						TC003916_001			
+A	5_prime_UTR_variant	MODIFIER		TC003916	Transcript	TC003916_002	protein_coding	1/6				102							1						TC003916_002			
+A	downstream_gene_variant	MODIFIER		TC003916	Transcript	TC003916_003	protein_coding											816	1						TC003916_003			
+CSQ=A	intron_variant	MODIFIER		TC003918	Transcript	TC003918_001	protein_coding		1/26										1						TC003918_001			
+CSQ=T	intron_variant	MODIFIER		TC003918	Transcript	TC003918_001	protein_coding		3/26										1						TC003918_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC030380	Transcript	TC030380_001	protein_coding											2421	-1						TC030380_001			
+A	synonymous_variant	LOW		TC030381	Transcript	TC030381_001	protein_coding	2/7				96	96	32	V	gtT/gtA			1						TC030381_001			
+CSQ=C	intron_variant	MODIFIER		TC032642	Transcript	TC032642_001	protein_coding		3/9										1						TC032642_001			
+C	intron_variant	MODIFIER		TC032642	Transcript	TC032642_002	protein_coding		3/11										1						TC032642_002			
+CSQ=A	intron_variant	MODIFIER		TC032642	Transcript	TC032642_001	protein_coding		3/9										1						TC032642_001			
+A	intron_variant	MODIFIER		TC032642	Transcript	TC032642_002	protein_coding		3/11										1						TC032642_002			
+CSQ=C	intron_variant	MODIFIER		TC034634	Transcript	TC034634_001	protein_coding		1/10										-1						TC034634_001			
+C	intron_variant	MODIFIER		TC034634	Transcript	TC034634_002	protein_coding		1/10										-1						TC034634_002			
+CSQ=T	intron_variant	MODIFIER		TC032650	Transcript	TC032650_001	protein_coding		13/19										1						TC032650_001			
+CSQ=G	missense_variant	MODERATE		TC034635	Transcript	TC034635_001	protein_coding	21/32				17180	17093	5698	K/R	aAa/aGa			1						TC034635_001			
+G	missense_variant	MODERATE		TC034635	Transcript	TC034635_002	protein_coding	21/31				17180	17093	5698	K/R	aAa/aGa			1						TC034635_002			
+G	missense_variant	MODERATE		TC034635	Transcript	TC034635_003	protein_coding	20/31				17162	17075	5692	K/R	aAa/aGa			1						TC034635_003			
+G	missense_variant	MODERATE		TC034635	Transcript	TC034635_004	protein_coding	22/33				17758	17585	5862	K/R	aAa/aGa			1						TC034635_004			
+CSQ=G	upstream_gene_variant	MODIFIER		TC010263	Transcript	TC010263_001	protein_coding											464	1						TC010263_001			
+CSQ=A	intron_variant	MODIFIER		TC007720	Transcript	TC007720_001	protein_coding		1/2										1						TC007720_001			
+A	intron_variant	MODIFIER		TC007720	Transcript	TC007720_002	protein_coding		1/3										1						TC007720_002			
+A	downstream_gene_variant	MODIFIER		TC007776	Transcript	TC007776_001	protein_coding											3062	-1						TC007776_001			
+A	upstream_gene_variant	MODIFIER		TC007777	Transcript	TC007777_001	protein_coding											1719	-1						TC007777_001			
+CSQ=A	intron_variant	MODIFIER		TC032747	Transcript	TC032747_002	protein_coding		5/25										1						TC032747_002			
+A	intron_variant	MODIFIER		TC032747	Transcript	TC032747_003	protein_coding		5/10										1						TC032747_003			
+A	intron_variant	MODIFIER		TC032747	Transcript	TC032747_004	protein_coding		5/10										1						TC032747_004			
+A	intron_variant	MODIFIER		TC032747	Transcript	TC032747_005	protein_coding		5/10										1						TC032747_005			
+CSQ=A	synonymous_variant	LOW		TC007635	Transcript	TC007635_001	protein_coding	6/7				1301	993	331	D	gaC/gaT			-1						TC007635_001			
+A	upstream_gene_variant	MODIFIER		TC007636	Transcript	TC007636_001	protein_coding											2121	-1						TC007636_001			
+A	downstream_gene_variant	MODIFIER		TC007870	Transcript	TC007870_001	protein_coding											2782	1						TC007870_001			
+A	downstream_gene_variant	MODIFIER		TC007871	Transcript	TC007871_001	protein_coding											877	1						TC007871_001			
+A	downstream_gene_variant	MODIFIER		TC032756	Transcript	TC032756_001	protein_coding											3342	-1						TC032756_001			
+A	downstream_gene_variant	MODIFIER		TC032756	Transcript	TC032756_002	protein_coding											3342	-1						TC032756_002			
+CSQ=T	upstream_gene_variant	MODIFIER		TC007554	Transcript	TC007554_001	protein_coding											315	-1						TC007554_001			
+T	upstream_gene_variant	MODIFIER		TC007948	Transcript	TC007948_001	protein_coding											1837	1						TC007948_001			
+T	upstream_gene_variant	MODIFIER		TC007949	Transcript	TC007949_001	protein_coding											3557	1						TC007949_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC007951	Transcript	TC007951_001	protein_coding											2539	1						TC007951_001			
+T	downstream_gene_variant	MODIFIER		TC007952	Transcript	TC007952_001	protein_coding											1017	1						TC007952_001			
+T	synonymous_variant	LOW		TC032775	Transcript	TC032775_001	protein_coding	9/9				9015	9006	3002	R	cgG/cgA			-1						TC032775_001			
+T	synonymous_variant	LOW		TC032775	Transcript	TC032775_002	protein_coding	9/9				9695	9678	3226	R	cgG/cgA			-1						TC032775_002			
+CSQ=A	intron_variant	MODIFIER		TC032790	Transcript	TC032790_001	protein_coding		4/12										-1						TC032790_001			
+A	intron_variant	MODIFIER		TC032790	Transcript	TC032790_002	protein_coding		4/14										-1						TC032790_002			
+A	intron_variant	MODIFIER		TC032790	Transcript	TC032790_003	protein_coding		4/13										-1						TC032790_003			
+A	intron_variant	MODIFIER		TC032790	Transcript	TC032790_004	protein_coding		4/12										-1						TC032790_004			
+CSQ=T	intron_variant	MODIFIER		TC032790	Transcript	TC032790_001	protein_coding		4/12										-1						TC032790_001			
+T	intron_variant	MODIFIER		TC032790	Transcript	TC032790_002	protein_coding		4/14										-1						TC032790_002			
+T	intron_variant	MODIFIER		TC032790	Transcript	TC032790_003	protein_coding		4/13										-1						TC032790_003			
+T	intron_variant	MODIFIER		TC032790	Transcript	TC032790_004	protein_coding		4/12										-1						TC032790_004			
+CSQ=C	upstream_gene_variant	MODIFIER		TC007497	Transcript	TC007497_001	protein_coding											4707	-1						TC007497_001			
+C	intron_variant	MODIFIER		TC008001	Transcript	TC008001_001	protein_coding		3/9										1						TC008001_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC007494	Transcript	TC007494_001	protein_coding											4436	-1						TC007494_001			
+A	intron_variant	MODIFIER		TC032794	Transcript	TC032794_001	protein_coding		1/2										-1						TC032794_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC007486	Transcript	TC007486_001	protein_coding											1511	-1						TC007486_001			
+A	upstream_gene_variant	MODIFIER		TC008009	Transcript	TC008009_001	protein_coding											471	1						TC008009_001			
+A	upstream_gene_variant	MODIFIER		TC008009	Transcript	TC008009_002	protein_coding											471	1						TC008009_002			
+A	downstream_gene_variant	MODIFIER		TC032797	Transcript	TC032797_001	protein_coding											4916	-1						TC032797_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC007472	Transcript	TC007472_001	protein_coding											167	-1						TC007472_001			
+A	upstream_gene_variant	MODIFIER		TC007473	Transcript	TC007473_001	protein_coding											2336	-1						TC007473_001			
+A	downstream_gene_variant	MODIFIER		TC008019	Transcript	TC008019_001	protein_coding											3710	1						TC008019_001			
+A	3_prime_UTR_variant	MODIFIER		TC008020	Transcript	TC008020_001	protein_coding	5/5				1846							1						TC008020_001			
+A	synonymous_variant	LOW		TC008020	Transcript	TC008020_002	protein_coding	6/7				1808	1515	505	A	gcG/gcA			1						TC008020_002			
+A	upstream_gene_variant	MODIFIER		TC008021	Transcript	TC008021_001	protein_coding											1176	1						TC008021_001			
+A	upstream_gene_variant	MODIFIER		TC008022	Transcript	TC008022_001	protein_coding											4586	1						TC008022_001			
+CSQ=A	intron_variant	MODIFIER		TC007470	Transcript	TC007470_001	protein_coding		1/10										-1						TC007470_001			
+A	upstream_gene_variant	MODIFIER		TC008024	Transcript	TC008024_001	protein_coding											3746	1						TC008024_001			
+CSQ=C	intron_variant	MODIFIER		TC007427	Transcript	TC007427_001	protein_coding		1/5										-1						TC007427_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC007409	Transcript	TC007409_001	protein_coding											3999	-1						TC007409_001			
+T	upstream_gene_variant	MODIFIER		TC007409	Transcript	TC007409_002	protein_coding											3999	-1						TC007409_002			
+CSQ=A	upstream_gene_variant	MODIFIER		TC007409	Transcript	TC007409_001	protein_coding											4223	-1						TC007409_001			
+A	upstream_gene_variant	MODIFIER		TC007409	Transcript	TC007409_002	protein_coding											4223	-1						TC007409_002			
+CSQ=A	intergenic_variant	MODIFIER																										
+CSQ=T	synonymous_variant	LOW		TC007333	Transcript	TC007333_001	protein_coding	6/7				2320	2301	767	K	aaG/aaA			-1						TC007333_001			
+T	downstream_gene_variant	MODIFIER		TC008170	Transcript	TC008170_001	protein_coding											4066	1						TC008170_001			
+CSQ=T	intron_variant	MODIFIER		TC032830	Transcript	TC032830_001	protein_coding		4/4										1						TC032830_001			
+T	intron_variant	MODIFIER		TC032830	Transcript	TC032830_002	protein_coding		4/4										1						TC032830_002			
+CSQ=C	intron_variant	MODIFIER		TC007327	Transcript	TC007327_001	protein_coding		6/6										-1						TC007327_001			
+C	intron_variant	MODIFIER		TC007327	Transcript	TC007327_002	protein_coding		6/6										-1						TC007327_002			
+C	upstream_gene_variant	MODIFIER		TC008177	Transcript	TC008177_001	protein_coding											3148	1						TC008177_001			
+C	downstream_gene_variant	MODIFIER		TC032832	Transcript	TC032832_001	protein_coding											1048	1						TC032832_001			
+CSQ=C	intron_variant	MODIFIER		TC007327	Transcript	TC007327_001	protein_coding		1/6										-1						TC007327_001			
+C	5_prime_UTR_variant	MODIFIER		TC007327	Transcript	TC007327_002	protein_coding	1/7				126							-1						TC007327_002			
+C	upstream_gene_variant	MODIFIER		TC008177	Transcript	TC008177_001	protein_coding											1487	1						TC008177_001			
+C	upstream_gene_variant	MODIFIER		TC031105	Transcript	TC031105_001	protein_coding											3617	1						TC031105_001			
+C	upstream_gene_variant	MODIFIER		TC031105	Transcript	TC031105_002	protein_coding											3617	1						TC031105_002			
+C	downstream_gene_variant	MODIFIER		TC032832	Transcript	TC032832_001	protein_coding											2709	1						TC032832_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC007307	Transcript	TC007307_001	protein_coding											4475	-1						TC007307_001			
+A	upstream_gene_variant	MODIFIER		TC007308	Transcript	TC007308_001	protein_coding											1304	-1						TC007308_001			
+A	upstream_gene_variant	MODIFIER		TC008186	Transcript	TC008186_001	protein_coding											788	1						TC008186_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC032892	Transcript	TC032892_001	protein_coding											4562	-1						TC032892_001			
+T	downstream_gene_variant	MODIFIER		TC032893	Transcript	TC032893_001	protein_coding											228	-1						TC032893_001			
+T	downstream_gene_variant	MODIFIER		TC032893	Transcript	TC032893_002	protein_coding											228	-1						TC032893_002			
+T	downstream_gene_variant	MODIFIER		TC032893	Transcript	TC032893_003	protein_coding											228	-1						TC032893_003			
+CSQ=T	downstream_gene_variant	MODIFIER		TC032895	Transcript	TC032895_001	protein_coding											497	1						TC032895_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC008433	Transcript	TC008433_001	protein_coding											3599	1						TC008433_001			
+G	downstream_gene_variant	MODIFIER		TC008434	Transcript	TC008434_001	protein_coding											748	1						TC008434_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC007014	Transcript	TC007014_001	protein_coding											1120	-1						TC007014_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC002241	Transcript	TC002241_001	protein_coding											3735	1						TC002241_001			
+CSQ=A	intron_variant	MODIFIER		TC010952	Transcript	TC010952_001	protein_coding		4/10										1						TC010952_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC013835	Transcript	TC013835_001	protein_coding											386	-1						TC013835_001			
+A	downstream_gene_variant	MODIFIER		TC013975	Transcript	TC013975_001	protein_coding											3590	1						TC013975_001			
+A	downstream_gene_variant	MODIFIER		TC030468	Transcript	TC030468_001	protein_coding											1928	-1						TC030468_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC013828	Transcript	TC013828_001	protein_coding											1076	-1						TC013828_001			
+T	downstream_gene_variant	MODIFIER		TC013988	Transcript	TC013988_001	protein_coding											4425	1						TC013988_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC013816	Transcript	TC013816_001	protein_coding											3230	-1						TC013816_001			
+G	upstream_gene_variant	MODIFIER		TC013817	Transcript	TC013817_001	protein_coding											2300	-1						TC013817_001			
+G	upstream_gene_variant	MODIFIER		TC013990	Transcript	TC013990_001	protein_coding											407	1						TC013990_001			
+CSQ=T	intron_variant	MODIFIER		TC013799	Transcript	TC013799_001	protein_coding		1/5										-1						TC013799_001			
+CSQ=T	intron_variant	MODIFIER		TC033046	Transcript	TC033046_001	protein_coding		11/17										1						TC033046_001			
+CSQ=T	intron_variant	MODIFIER		TC013782	Transcript	TC013782_001	protein_coding		4/10										-1						TC013782_001			
+T	intron_variant	MODIFIER		TC013782	Transcript	TC013782_002	protein_coding		6/12										-1						TC013782_002			
+T	downstream_gene_variant	MODIFIER		TC013782	Transcript	TC013782_003	protein_coding											3088	-1						TC013782_003			
+T	downstream_gene_variant	MODIFIER		TC014013	Transcript	TC014013_001	protein_coding											3392	1						TC014013_001			
+CSQ=C	5_prime_UTR_variant	MODIFIER		TC013779	Transcript	TC013779_001	protein_coding	1/6				18							-1						TC013779_001			
+CSQ=T	intron_variant	MODIFIER		TC031140	Transcript	TC031140_001	protein_coding		1/7										-1						TC031140_001			
+T	intron_variant	MODIFIER		TC031140	Transcript	TC031140_002	protein_coding		1/7										-1						TC031140_002			
+CSQ=A	intron_variant	MODIFIER		TC033077	Transcript	TC033077_0011	protein_coding		1/15										1						TC033077_0011			
+A	intron_variant	MODIFIER		TC033077	Transcript	TC033077_003	protein_coding		1/14										1						TC033077_003			
+A	intron_variant	MODIFIER		TC033077	Transcript	TC033077_006	protein_coding		1/9										1						TC033077_006			
+A	intron_variant	MODIFIER		TC033077	Transcript	TC033077_008	protein_coding		1/38										1						TC033077_008			
+CSQ=C	downstream_gene_variant	MODIFIER		TC033078	Transcript	TC033078_001	protein_coding											3303	1						TC033078_001			
+C	intron_variant	MODIFIER		TC033079	Transcript	TC033079_001	protein_coding		1/3										1						TC033079_001			
+CSQ=C	intron_variant	MODIFIER		TC013418	Transcript	TC013418_001	protein_coding		1/2										-1						TC013418_001			
+CSQ=G	intron_variant	MODIFIER		TC033149	Transcript	TC033149_001	protein_coding		10/12										-1						TC033149_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC013310	Transcript	TC013310_001	protein_coding											2104	-1						TC013310_001			
+C	upstream_gene_variant	MODIFIER		TC013311	Transcript	TC013311_001	protein_coding											276	-1						TC013311_001			
+C	upstream_gene_variant	MODIFIER		TC013312	Transcript	TC013312_001	protein_coding											4300	-1						TC013312_001			
+CSQ=A	downstream_gene_variant	MODIFIER	tRNA-Asp	ENSRNA022736559	Transcript	ENSRNA022736559-T1	tRNA											198	-1		TRNASCAN_SE							
+A	downstream_gene_variant	MODIFIER	tRNA-Arg	ENSRNA022736572	Transcript	ENSRNA022736572-T1	tRNA											1636	-1		TRNASCAN_SE							
+A	upstream_gene_variant	MODIFIER		TC033181	Transcript	TC033181_001	protein_coding											701	-1						TC033181_001			
+A	upstream_gene_variant	MODIFIER		TC033181	Transcript	TC033181_002	protein_coding											701	-1						TC033181_002			
+A	downstream_gene_variant	MODIFIER		TC033182	Transcript	TC033182_001	protein_coding											879	-1						TC033182_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC013224	Transcript	TC013224_001	protein_coding											2174	-1						TC013224_001			
+T	intron_variant	MODIFIER		TC033193	Transcript	TC033193_001	protein_coding		10/22										-1						TC033193_001			
+T	intron_variant	MODIFIER		TC033193	Transcript	TC033193_002	protein_coding		10/23										-1						TC033193_002			
+CSQ=G	intron_variant	MODIFIER		TC014600	Transcript	TC014600_001	protein_coding		21/23										1						TC014600_001			
+G	intron_variant	MODIFIER		TC014600	Transcript	TC014600_002	protein_coding		19/21										1						TC014600_002			
+G	upstream_gene_variant	MODIFIER		TC014601	Transcript	TC014601_001	protein_coding											1940	1						TC014601_001			
+G	upstream_gene_variant	MODIFIER		TC014602	Transcript	TC014602_001	protein_coding											4610	1						TC014602_001			
+CSQ=G	intron_variant	MODIFIER		TC013208	Transcript	TC013208_001	protein_coding		1/1										-1						TC013208_001			
+G	upstream_gene_variant	MODIFIER		TC014604	Transcript	TC014604_001	protein_coding											248	1						TC014604_001			
+G	upstream_gene_variant	MODIFIER		TC014604	Transcript	TC014604_002	protein_coding											248	1						TC014604_002			
+G	upstream_gene_variant	MODIFIER		TC014604	Transcript	TC014604_003	protein_coding											248	1						TC014604_003			
+CSQ=G	downstream_gene_variant	MODIFIER		TC014616	Transcript	TC014616_001	protein_coding											3674	1						TC014616_001			
+CSQ=A	intron_variant	MODIFIER		TC014672	Transcript	TC014672_001	protein_coding		1/5										1						TC014672_001			
+CSQ=T	intron_variant	MODIFIER		TC033221	Transcript	TC033221_001	protein_coding		10/12										1						TC033221_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC013125	Transcript	TC013125_001	protein_coding											3365	-1						TC013125_001			
+G	upstream_gene_variant	MODIFIER		TC014688	Transcript	TC014688_001	protein_coding											680	1						TC014688_001			
+G	upstream_gene_variant	MODIFIER		TC014689	Transcript	TC014689_001	protein_coding											1690	1						TC014689_001			
+G	downstream_gene_variant	MODIFIER		TC030001	Transcript	TC030001_001	protein_coding											4725	-1						TC030001_001			
+G	upstream_gene_variant	MODIFIER		TC033231	Transcript	TC033231_001	protein_coding											3832	-1						TC033231_001			
+CSQ=C	intron_variant	MODIFIER		TC014703	Transcript	TC014703_001	protein_coding		1/3										1						TC014703_001			
+C	intron_variant	MODIFIER		TC014703	Transcript	TC014703_002	protein_coding		3/5										1						TC014703_002			
+CSQ=G	downstream_gene_variant	MODIFIER		TC014712	Transcript	TC014712_001	protein_coding											3350	1						TC014712_001			
+G	upstream_gene_variant	MODIFIER		TC033236	Transcript	TC033236_001	protein_coding											241	1						TC033236_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC015312	Transcript	TC015312_001	protein_coding											2134	-1						TC015312_001			
+A	upstream_gene_variant	MODIFIER		TC015313	Transcript	TC015313_001	protein_coding											4854	-1						TC015313_001			
+A	upstream_gene_variant	MODIFIER		TC015419	Transcript	TC015419_001	protein_coding											1848	1						TC015419_001			
+CSQ=T	intron_variant	MODIFIER		TC030896	Transcript	TC030896_001	protein_coding		2/14										-1						TC030896_001			
+CSQ=T	intron_variant	MODIFIER		TC015207	Transcript	TC015207_001	protein_coding		1/5										-1						TC015207_001			
+CSQ=G	intron_variant	MODIFIER		TC015164	Transcript	TC015164_001	protein_coding		3/8										-1						TC015164_001			
+G	upstream_gene_variant	MODIFIER		TC015165	Transcript	TC015165_001	protein_coding											3858	-1						TC015165_001			
+CSQ=A	intron_variant	MODIFIER		TC034735	Transcript	TC034735_001	protein_coding		2/5										-1						TC034735_001			
+CSQ=A	intron_variant	MODIFIER		TC033395	Transcript	TC033395_001	protein_coding		1/2										-1						TC033395_001			
+CSQ=T	intron_variant	MODIFIER		TC033401	Transcript	TC033401_001	protein_coding		4/8										1						TC033401_001			
+T	intron_variant	MODIFIER		TC033401	Transcript	TC033401_002	protein_coding		4/9										1						TC033401_002			
+CSQ=G	upstream_gene_variant	MODIFIER		TC015107	Transcript	TC015107_001	protein_coding											2976	-1						TC015107_001			
+G	intron_variant	MODIFIER		TC030906	Transcript	TC030906_001	protein_coding		6/6										-1						TC030906_001			
+G	downstream_gene_variant	MODIFIER		TC033401	Transcript	TC033401_001	protein_coding											4716	1						TC033401_001			
+G	downstream_gene_variant	MODIFIER		TC033401	Transcript	TC033401_002	protein_coding											4716	1						TC033401_002			
+CSQ=A	upstream_gene_variant	MODIFIER		TC015107	Transcript	TC015107_001	protein_coding											4931	-1						TC015107_001			
+A	intron_variant	MODIFIER		TC030906	Transcript	TC030906_001	protein_coding		6/6										-1						TC030906_001			
+CSQ=A	intergenic_variant	MODIFIER																										
+CSQ=A	downstream_gene_variant	MODIFIER		TC015005	Transcript	TC015005_001	protein_coding											2206	1						TC015005_001			
+A	missense_variant	MODERATE		TC015006	Transcript	TC015006_001	protein_coding	2/4				336	289	97	G/S	Ggt/Agt			1						TC015006_001			
+A	upstream_gene_variant	MODIFIER		TC015007	Transcript	TC015007_001	protein_coding											2162	1						TC015007_001			
+A	upstream_gene_variant	MODIFIER		TC015008	Transcript	TC015008_001	protein_coding											3942	1						TC015008_001			
+A	downstream_gene_variant	MODIFIER		TC015681	Transcript	TC015681_001	protein_coding											4665	-1						TC015681_001			
+A	downstream_gene_variant	MODIFIER		TC015682	Transcript	TC015682_001	protein_coding											3292	-1						TC015682_001			
+CSQ=T	synonymous_variant	LOW		TC014986	Transcript	TC014986_001	protein_coding	4/9				1583	1116	372	K	aaG/aaA			-1						TC014986_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC015712	Transcript	TC015712_001	protein_coding											877	1						TC015712_001			
+A	intron_variant	MODIFIER		TC033429	Transcript	TC033429_001	protein_coding		1/5										1						TC033429_001			
+CSQ=C	intron_variant	MODIFIER		TC014960	Transcript	TC014960_001	protein_coding		1/3										-1						TC014960_001			
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=G	intron_variant	MODIFIER		TC014942	Transcript	TC014942_001	protein_coding		1/6										-1						TC014942_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC033449	Transcript	TC033449_001	protein_coding											46	1						TC033449_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC014887	Transcript	TC014887_001	protein_coding											866	-1						TC014887_001			
+C	intron_variant	MODIFIER		TC014888	Transcript	TC014888_001	protein_coding		1/2										-1						TC014888_001			
+C	upstream_gene_variant	MODIFIER		TC014889	Transcript	TC014889_001	protein_coding											2125	-1						TC014889_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC033466	Transcript	TC033466_001	protein_coding											3047	1						TC033466_001			
+G	upstream_gene_variant	MODIFIER		TC033467	Transcript	TC033467_001	protein_coding											156	1						TC033467_001			
+CSQ=G	synonymous_variant	LOW		TC033471	Transcript	TC033471_001	protein_coding	4/13				611	528	176	N	aaT/aaC			-1						TC033471_001			
+G	synonymous_variant	LOW		TC033471	Transcript	TC033471_002	protein_coding	4/13				611	528	176	N	aaT/aaC			-1						TC033471_002			
+G	synonymous_variant	LOW		TC033471	Transcript	TC033471_003	protein_coding	4/13				611	528	176	N	aaT/aaC			-1						TC033471_003			
+G	synonymous_variant	LOW		TC033471	Transcript	TC033471_004	protein_coding	4/13				611	528	176	N	aaT/aaC			-1						TC033471_004			
+CSQ=G	3_prime_UTR_variant	MODIFIER		TC033478	Transcript	TC033478_001	protein_coding	2/2				494							-1						TC033478_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC014838	Transcript	TC014838_001	protein_coding											797	-1						TC014838_001			
+C	upstream_gene_variant	MODIFIER		TC014839	Transcript	TC014839_001	protein_coding											4353	-1						TC014839_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC009354	Transcript	TC009354_001	protein_coding											1840	1						TC009354_001			
+C	upstream_gene_variant	MODIFIER		TC009355	Transcript	TC009355_001	protein_coding											4083	1						TC009355_001			
+C	downstream_gene_variant	MODIFIER		TC033531	Transcript	TC033531_001	protein_coding											2211	-1						TC033531_001			
+C	intron_variant	MODIFIER		TC033532	Transcript	TC033532_001	protein_coding		1/2										-1						TC033532_001			
+CSQ=A	upstream_gene_variant	MODIFIER	mir-190	ENSRNA022721998	Transcript	ENSRNA022721998-T1	pre_miRNA											4622	1		RFAM							
+A	intron_variant	MODIFIER		TC033529	Transcript	TC033529_001	protein_coding		11/17										1						TC033529_001			
+CSQ=G	upstream_gene_variant	MODIFIER	mir-190	ENSRNA022721998	Transcript	ENSRNA022721998-T1	pre_miRNA											2190	1		RFAM							
+G	intron_variant	MODIFIER		TC033529	Transcript	TC033529_001	protein_coding		14/17										1						TC033529_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC009452	Transcript	TC009452_001	protein_coding											2112	-1						TC009452_001			
+C	intron_variant	MODIFIER		TC030257	Transcript	TC030257_001	protein_coding		2/7										1						TC030257_001			
+CSQ=T	intron_variant	MODIFIER		TC009450	Transcript	TC009450_001	protein_coding		5/10										-1						TC009450_001			
+T	upstream_gene_variant	MODIFIER		TC009451	Transcript	TC009451_001	protein_coding											1575	-1						TC009451_001			
+CSQ=C	intron_variant	MODIFIER		TC031184	Transcript	TC031184_001	protein_coding		3/14										1						TC031184_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC015921	Transcript	TC015921_001	protein_coding											2675	1						TC015921_001			
+A	upstream_gene_variant	MODIFIER		TC015929	Transcript	TC015929_001	protein_coding											4056	-1						TC015929_001			
+A	intron_variant	MODIFIER		TC034777	Transcript	TC034777_001	protein_coding		1/7										1						TC034777_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC009706	Transcript	TC009706_001	protein_coding											3710	1						TC009706_001			
+C	intron_variant	MODIFIER		TC009707	Transcript	TC009707_001	protein_coding		2/9										1						TC009707_001			
+C	upstream_gene_variant	MODIFIER		TC033636	Transcript	TC033636_001	protein_coding											786	-1						TC033636_001			
+C	downstream_gene_variant	MODIFIER		TC033637	Transcript	TC033637_001	protein_coding											3367	-1						TC033637_001			
+CSQ=C	intron_variant	MODIFIER		TC010585	Transcript	TC010585_001	protein_coding		1/1										1						TC010585_001			
+CSQ=G	upstream_gene_variant	MODIFIER	tRNA-Tyr	ENSRNA022736896	Transcript	ENSRNA022736896-T1	tRNA											3326	-1		TRNASCAN_SE							
+G	intron_variant	MODIFIER		TC014537	Transcript	TC014537_001	protein_coding		3/14										-1						TC014537_001			
+G	intron_variant	MODIFIER		TC014537	Transcript	TC014537_002	protein_coding		3/14										-1						TC014537_002			
+G	intron_variant	MODIFIER		TC014537	Transcript	TC014537_003	protein_coding		4/15										-1						TC014537_003			
+CSQ=C	upstream_gene_variant	MODIFIER		TC013292	Transcript	TC013292_001	protein_coding											3159	1						TC013292_001			
+C	upstream_gene_variant	MODIFIER		TC013292	Transcript	TC013292_002	protein_coding											2569	1						TC013292_002			
+C	downstream_gene_variant	MODIFIER		TC014520	Transcript	TC014520_001	protein_coding											181	-1						TC014520_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC016340	Transcript	TC016340_001	protein_coding											1482	1						TC016340_001			
+T	downstream_gene_variant	MODIFIER		TC016385	Transcript	TC016385_001	protein_coding											3894	-1						TC016385_001			
+T	upstream_gene_variant	MODIFIER		TC016387	Transcript	TC016387_001	protein_coding											4347	-1						TC016387_001			
+T	intron_variant	MODIFIER		TC033673	Transcript	TC033673_001	protein_coding		8/13										-1						TC033673_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC016345	Transcript	TC016345_001	protein_coding											4229	1						TC016345_001			
+T	downstream_gene_variant	MODIFIER		TC016346	Transcript	TC016346_001	protein_coding											1271	1						TC016346_001			
+T	downstream_gene_variant	MODIFIER		TC016347	Transcript	TC016347_001	protein_coding											305	1						TC016347_001			
+T	upstream_gene_variant	MODIFIER		TC016348	Transcript	TC016348_001	protein_coding											870	1						TC016348_001			
+CSQ=A	intron_variant	MODIFIER		TC009743	Transcript	TC009743_001	protein_coding		3/11										1						TC009743_001			
+A	intron_variant	MODIFIER		TC009743	Transcript	TC009743_002	protein_coding		3/12										1						TC009743_002			
+A	intron_variant	MODIFIER		TC009743	Transcript	TC009743_003	protein_coding		3/12										1						TC009743_003			
+CSQ=T	intron_variant	MODIFIER		TC009753	Transcript	TC009753_001	protein_coding		1/6										1						TC009753_001			
+T	downstream_gene_variant	MODIFIER		TC033681	Transcript	TC033681_001	protein_coding											4386	1						TC033681_001			
+CSQ=A	intron_variant	MODIFIER		TC033687	Transcript	TC033687_001	protein_coding		5/14										-1						TC033687_001			
+A	intron_variant	MODIFIER		TC033687	Transcript	TC033687_002	protein_coding		5/14										-1						TC033687_002			
+A	intron_variant	MODIFIER		TC033687	Transcript	TC033687_003	protein_coding		5/13										-1						TC033687_003			
+CSQ=G	intergenic_variant	MODIFIER																										
+CSQ=T	upstream_gene_variant	MODIFIER		TC009793	Transcript	TC009793_001	protein_coding											3576	1						TC009793_001			
+T	intron_variant	MODIFIER		TC031200	Transcript	TC031200_001	protein_coding		3/5										1						TC031200_001			
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=T	synonymous_variant	LOW		TC009013	Transcript	TC009013_001	protein_coding	19/42				4122	4020	1340	V	gtG/gtA			-1						TC009013_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC009002	Transcript	TC009002_001	protein_coding											2080	-1						TC009002_001			
+C	intron_variant	MODIFIER		TC033708	Transcript	TC033708_001	protein_coding		5/6										1						TC033708_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC008757	Transcript	TC008757_001	protein_coding											3507	1						TC008757_001			
+A	upstream_gene_variant	MODIFIER		TC008758	Transcript	TC008758_001	protein_coding											1349	1						TC008758_001			
+A	downstream_gene_variant	MODIFIER		TC010062	Transcript	TC010062_001	protein_coding											4582	-1						TC010062_001			
+A	upstream_gene_variant	MODIFIER		TC010063	Transcript	TC010063_001	protein_coding											1124	-1						TC010063_001			
+CSQ=C	5_prime_UTR_variant	MODIFIER		TC008796	Transcript	TC008796_001	protein_coding	1/2				102							1						TC008796_001			
+C	upstream_gene_variant	MODIFIER		TC008797	Transcript	TC008797_001	protein_coding											4989	1						TC008797_001			
+C	upstream_gene_variant	MODIFIER		TC030656	Transcript	TC030656_001	protein_coding											553	-1						TC030656_001			
+C	downstream_gene_variant	MODIFIER		TC030736	Transcript	TC030736_001	protein_coding											4135	1						TC030736_001			
+C	upstream_gene_variant	MODIFIER		TC030782	Transcript	TC030782_001	protein_coding											1613	-1						TC030782_001			
+C	downstream_gene_variant	MODIFIER		TC034798	Transcript	TC034798_001	protein_coding											1324	-1						TC034798_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC010020	Transcript	TC010020_001	protein_coding											3704	-1						TC010020_001			
+G	intron_variant	MODIFIER		TC033802	Transcript	TC033802_001	protein_coding		1/3										-1						TC033802_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC008915	Transcript	TC008915_001	protein_coding											4232	1						TC008915_001			
+T	upstream_gene_variant	MODIFIER		TC008916	Transcript	TC008916_001	protein_coding											656	1						TC008916_001			
+T	upstream_gene_variant	MODIFIER		TC009921	Transcript	TC009921_001	protein_coding											2026	-1						TC009921_001			
+T	downstream_gene_variant	MODIFIER		TC033751	Transcript	TC033751_001	protein_coding											323	-1						TC033751_001			
+CSQ=C	upstream_gene_variant	MODIFIER	tRNA-Lys	ENSRNA022737045	Transcript	ENSRNA022737045-T1	tRNA											1240	-1		TRNASCAN_SE							
+C	downstream_gene_variant	MODIFIER	tRNA-Thr	ENSRNA022737055	Transcript	ENSRNA022737055-T1	tRNA											2422	-1		TRNASCAN_SE							
+C	upstream_gene_variant	MODIFIER		TC010199	Transcript	TC010199_001	protein_coding											3004	-1						TC010199_001			
+C	downstream_gene_variant	MODIFIER		TC033835	Transcript	TC033835_001	protein_coding											3938	1						TC033835_001			
+C	intron_variant	MODIFIER		TC033836	Transcript	TC033836_001	protein_coding		5/11										-1						TC033836_001			
+CSQ=C	upstream_gene_variant	MODIFIER		TC008644	Transcript	TC008644_001	protein_coding											393	1						TC008644_001			
+C	upstream_gene_variant	MODIFIER		TC008645	Transcript	TC008645_001	protein_coding											1493	1						TC008645_001			
+C	upstream_gene_variant	MODIFIER		TC008646	Transcript	TC008646_001	protein_coding											4923	1						TC008646_001			
+C	downstream_gene_variant	MODIFIER		TC010174	Transcript	TC010174_001	protein_coding											1911	-1						TC010174_001			
+C	downstream_gene_variant	MODIFIER		TC033845	Transcript	TC033845_001	protein_coding											1229	1						TC033845_001			
+CSQ=A	intron_variant	MODIFIER		TC033868	Transcript	TC033868_001	protein_coding		1/6										1						TC033868_001			
+A	intron_variant	MODIFIER		TC033868	Transcript	TC033868_002	protein_coding		1/6										1						TC033868_002			
+CSQ=T	downstream_gene_variant	MODIFIER		TC008735	Transcript	TC008735_001	protein_coding											3791	1						TC008735_001			
+T	upstream_gene_variant	MODIFIER		TC008736	Transcript	TC008736_001	protein_coding											3594	1						TC008736_001			
+T	upstream_gene_variant	MODIFIER		TC033873	Transcript	TC033873_001	protein_coding											127	-1						TC033873_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC010204	Transcript	TC010204_001	protein_coding											663	-1						TC010204_001			
+G	missense_variant	MODERATE		TC030220	Transcript	TC030220_001	protein_coding	2/2				1114	1114	372	I/V	Ata/Gta			1						TC030220_001			
+G	upstream_gene_variant	MODIFIER		TC030221	Transcript	TC030221_001	protein_coding											3439	1						TC030221_001			
+G	downstream_gene_variant	MODIFIER		TC033884	Transcript	TC033884_001	protein_coding											2265	1						TC033884_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC008599	Transcript	TC008599_001	protein_coding											3189	-1						TC008599_001			
+G	downstream_gene_variant	MODIFIER		TC031215	Transcript	TC031215_001	protein_coding											881	1						TC031215_001			
+G	downstream_gene_variant	MODIFIER		TC031215	Transcript	TC031215_002	protein_coding											881	1						TC031215_002			
+G	intron_variant	MODIFIER		TC033886	Transcript	TC033886_001	protein_coding		1/2										-1						TC033886_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC015981	Transcript	TC015981_001	protein_coding											1782	-1						TC015981_001			
+T	upstream_gene_variant	MODIFIER		TC033934	Transcript	TC033934_001	protein_coding											3499	-1						TC033934_001			
+CSQ=C	intron_variant	MODIFIER		TC005088	Transcript	TC005088_001	protein_coding		1/8										-1						TC005088_001			
+C	intron_variant	MODIFIER		TC005088	Transcript	TC005088_002	protein_coding		1/7										-1						TC005088_002			
+CSQ=C	intron_variant	MODIFIER		TC006062	Transcript	TC006062_001	protein_coding		5/8										-1						TC006062_001			
+C	intron_variant	MODIFIER		TC006062	Transcript	TC006062_002	protein_coding		5/9										-1						TC006062_002			
+CSQ=C	intron_variant	MODIFIER		TC006114	Transcript	TC006114_001	protein_coding		5/5										1						TC006114_001			
+C	upstream_gene_variant	MODIFIER		TC034818	Transcript	TC034818_001	protein_coding											3163	-1						TC034818_001			
+C	downstream_gene_variant	MODIFIER		TC034819	Transcript	TC034819_001	protein_coding											1602	-1						TC034819_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC005971	Transcript	TC005971_001	protein_coding											1376	-1						TC005971_001			
+T	downstream_gene_variant	MODIFIER		TC006180	Transcript	TC006180_001	protein_coding											3406	1						TC006180_001			
+CSQ=C	intron_variant	MODIFIER		TC033993	Transcript	TC033993_001	protein_coding		2/5										1						TC033993_001			
+CSQ=G	intron_variant	MODIFIER		TC033993	Transcript	TC033993_001	protein_coding		5/5										1						TC033993_001			
+CSQ=T	intron_variant	MODIFIER		TC033995	Transcript	TC033995_001	protein_coding		2/6										-1						TC033995_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC033998	Transcript	TC033998_001	protein_coding											284	1						TC033998_001			
+A	upstream_gene_variant	MODIFIER		TC033998	Transcript	TC033998_002	protein_coding											284	1						TC033998_002			
+CSQ=A	downstream_gene_variant	MODIFIER		TC006282	Transcript	TC006282_001	protein_coding											3500	1						TC006282_001			
+A	downstream_gene_variant	MODIFIER		TC006283	Transcript	TC006283_001	protein_coding											2263	1						TC006283_001			
+A	upstream_gene_variant	MODIFIER		TC006284	Transcript	TC006284_001	protein_coding											1148	1						TC006284_001			
+A	upstream_gene_variant	MODIFIER		TC034022	Transcript	TC034022_001	protein_coding											4614	-1						TC034022_001			
+CSQ=G	intron_variant	MODIFIER		TC034035	Transcript	TC034035_001	protein_coding		1/1										-1						TC034035_001			
+CSQ=C	intron_variant	MODIFIER		TC034036	Transcript	TC034036_003	protein_coding		1/1										1						TC034036_003			
+CSQ=G	intron_variant	MODIFIER		TC034831	Transcript	TC034831_001	protein_coding		3/3										-1						TC034831_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC034059	Transcript	TC034059_001	protein_coding											2840	-1						TC034059_001			
+A	intron_variant	MODIFIER		TC034060	Transcript	TC034060_001	protein_coding		5/7										-1						TC034060_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC005727	Transcript	TC005727_001	protein_coding											1888	-1						TC005727_001			
+T	upstream_gene_variant	MODIFIER		TC005728	Transcript	TC005728_001	protein_coding											3586	-1						TC005728_001			
+T	downstream_gene_variant	MODIFIER		TC006397	Transcript	TC006397_001	protein_coding											3316	1						TC006397_001			
+T	downstream_gene_variant	MODIFIER		TC006398	Transcript	TC006398_001	protein_coding											664	1						TC006398_001			
+T	3_prime_UTR_variant	MODIFIER		TC006399	Transcript	TC006399_001	protein_coding	3/3				493							1						TC006399_001			
+T	upstream_gene_variant	MODIFIER		TC006400	Transcript	TC006400_001	protein_coding											4605	1						TC006400_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC005727	Transcript	TC005727_001	protein_coding											1765	-1						TC005727_001			
+A	upstream_gene_variant	MODIFIER		TC005728	Transcript	TC005728_001	protein_coding											3709	-1						TC005728_001			
+A	downstream_gene_variant	MODIFIER		TC006397	Transcript	TC006397_001	protein_coding											3439	1						TC006397_001			
+A	downstream_gene_variant	MODIFIER		TC006398	Transcript	TC006398_001	protein_coding											787	1						TC006398_001			
+A	3_prime_UTR_variant	MODIFIER		TC006399	Transcript	TC006399_001	protein_coding	3/3				616							1						TC006399_001			
+A	upstream_gene_variant	MODIFIER		TC006400	Transcript	TC006400_001	protein_coding											4482	1						TC006400_001			
+CSQ=G	intergenic_variant	MODIFIER																										
+CSQ=T	missense_variant	MODERATE		TC015446	Transcript	TC015446_001	protein_coding	3/3				1302	1162	388	E/K	Gaa/Aaa			-1						TC015446_001			
+T	upstream_gene_variant	MODIFIER		TC030163	Transcript	TC030163_001	protein_coding											2635	1						TC030163_001			
+CSQ=A	intron_variant	MODIFIER		TC006478	Transcript	TC006478_001	protein_coding		4/4										1						TC006478_001			
+CSQ=T	intron_variant	MODIFIER		TC006527	Transcript	TC006527_001	protein_coding		2/3										1						TC006527_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC005578	Transcript	TC005578_001	protein_coding											669	-1						TC005578_001			
+CSQ=G	intron_variant	MODIFIER		TC005576	Transcript	TC005576_001	protein_coding		7/7										-1						TC005576_001			
+G	downstream_gene_variant	MODIFIER		TC006532	Transcript	TC006532_001	protein_coding											4186	1						TC006532_001			
+CSQ=C	intron_variant	MODIFIER		TC006587	Transcript	TC006587_001	protein_coding		2/3										1						TC006587_001			
+C	upstream_gene_variant	MODIFIER		TC006588	Transcript	TC006588_001	protein_coding											4009	1						TC006588_001			
+CSQ=C	5_prime_UTR_variant	MODIFIER		TC006706	Transcript	TC006706_001	protein_coding	1/6				364							1						TC006706_001			
+C	downstream_gene_variant	MODIFIER		TC034168	Transcript	TC034168_001	protein_coding											2937	1						TC034168_001			
+CSQ=A	synonymous_variant	LOW		TC005436	Transcript	TC005436_001	protein_coding	2/7				529	201	67	D	gaC/gaT			-1						TC005436_001			
+A	upstream_gene_variant	MODIFIER		TC005437	Transcript	TC005437_001	protein_coding											3152	-1						TC005437_001			
+A	upstream_gene_variant	MODIFIER		TC006709	Transcript	TC006709_001	protein_coding											3265	1						TC006709_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC006721	Transcript	TC006721_001	protein_coding											892	1						TC006721_001			
+T	upstream_gene_variant	MODIFIER		TC006722	Transcript	TC006722_001	protein_coding											1636	1						TC006722_001			
+T	upstream_gene_variant	MODIFIER		TC006723	Transcript	TC006723_001	protein_coding											1674	1						TC006723_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC005411	Transcript	TC005411_001	protein_coding											3395	-1						TC005411_001			
+T	downstream_gene_variant	MODIFIER		TC005412	Transcript	TC005412_001	protein_coding											696	-1						TC005412_001			
+T	missense_variant	MODERATE		TC005413	Transcript	TC005413_001	protein_coding	3/11				534	469	157	A/T	Gca/Aca			-1						TC005413_001			
+T	downstream_gene_variant	MODIFIER		TC006734	Transcript	TC006734_001	protein_coding											4562	1						TC006734_001			
+CSQ=C	intron_variant	MODIFIER		TC005388	Transcript	TC005388_001	protein_coding		1/6										-1						TC005388_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC005369	Transcript	TC005369_001	protein_coding											1448	-1						TC005369_001			
+A	synonymous_variant	LOW		TC006771	Transcript	TC006771_001	protein_coding	3/4				1164	840	280	P	ccG/ccA			1						TC006771_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC005331	Transcript	TC005331_001	protein_coding											794	-1						TC005331_001			
+G	upstream_gene_variant	MODIFIER		TC005332	Transcript	TC005332_001	protein_coding											910	-1						TC005332_001			
+G	5_prime_UTR_variant	MODIFIER		TC006800	Transcript	TC006800_001	protein_coding	1/1				109							1						TC006800_001			
+G	upstream_gene_variant	MODIFIER		TC006801	Transcript	TC006801_001	protein_coding											1812	1						TC006801_001			
+G	downstream_gene_variant	MODIFIER		TC034195	Transcript	TC034195_001	protein_coding											164	1						TC034195_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC015881	Transcript	TC015881_001	protein_coding											2895	-1						TC015881_001			
+A	intron_variant	MODIFIER		TC015882	Transcript	TC015882_001	protein_coding		1/10										-1						TC015882_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC015881	Transcript	TC015881_001	protein_coding											4571	-1						TC015881_001			
+T	intron_variant	MODIFIER		TC015882	Transcript	TC015882_001	protein_coding		1/10										-1						TC015882_001			
+CSQ=A	intron_variant	MODIFIER		TC034263	Transcript	TC034263_002	protein_coding		5/20										1						TC034263_002			
+A	intron_variant	MODIFIER		TC034263	Transcript	TC034263_003	protein_coding		5/6										1						TC034263_003			
+A	intron_variant	MODIFIER		TC034263	Transcript	TC034263_004	protein_coding		5/7										1						TC034263_004			
+CSQ=A	intergenic_variant	MODIFIER																										
+CSQ=G	intron_variant	MODIFIER		TC004311	Transcript	TC004311_001	protein_coding		6/9										1						TC004311_001			
+CSQ=T	intron_variant	MODIFIER		TC001937	Transcript	TC001937_001	protein_coding		22/22										1						TC001937_001			
+CSQ=G	intron_variant	MODIFIER		TC001925	Transcript	TC001925_001	protein_coding		1/2										-1						TC001925_001			
+CSQ=A	intergenic_variant	MODIFIER																										
+CSQ=A	intron_variant	MODIFIER		TC005215	Transcript	TC005215_001	protein_coding		1/3										-1						TC005215_001			
+CSQ=G	intron_variant	MODIFIER		TC034283	Transcript	TC034283_001	protein_coding		2/9										1						TC034283_001			
+CSQ=G	intron_variant	MODIFIER		TC034284	Transcript	TC034284_001	protein_coding		2/3										-1						TC034284_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC005213	Transcript	TC005213_001	protein_coding											4806	-1						TC005213_001			
+T	downstream_gene_variant	MODIFIER		TC034286	Transcript	TC034286_001	protein_coding											2026	1						TC034286_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC010960	Transcript	TC010960_001	protein_coding											4310	-1						TC010960_001			
+A	upstream_gene_variant	MODIFIER		TC010961	Transcript	TC010961_001	protein_coding											1382	-1						TC010961_001			
+A	downstream_gene_variant	MODIFIER		TC034280	Transcript	TC034280_001	protein_coding											210	1						TC034280_001			
+CSQ=C	synonymous_variant	LOW		TC012273	Transcript	TC012273_001	protein_coding	2/3				960	960	320	V	gtT/gtC			1						TC012273_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC012193	Transcript	TC012193_001	protein_coding											3619	-1						TC012193_001			
+T	downstream_gene_variant	MODIFIER		TC030304	Transcript	TC030304_001	protein_coding											1224	1						TC030304_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC012182	Transcript	TC012182_001	protein_coding											3436	-1						TC012182_001			
+T	intron_variant	MODIFIER		TC012280	Transcript	TC012280_001	protein_coding		3/5										1						TC012280_001			
+T	intron_variant	MODIFIER		TC012280	Transcript	TC012280_002	protein_coding		4/6										1						TC012280_002			
+CSQ=T	intron_variant	MODIFIER		TC012322	Transcript	TC012322_001	protein_coding		1/2										1						TC012322_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC034864	Transcript	TC034864_001	protein_coding											3898	-1						TC034864_001			
+CSQ=A	intergenic_variant	MODIFIER																										
+CSQ=C	3_prime_UTR_variant	MODIFIER		TC012214	Transcript	TC012214_001	protein_coding	9/9				2690							1						TC012214_001			
+C	upstream_gene_variant	MODIFIER		TC012215	Transcript	TC012215_001	protein_coding											342	1						TC012215_001			
+C	downstream_gene_variant	MODIFIER		TC012251	Transcript	TC012251_001	protein_coding											836	-1						TC012251_001			
+C	upstream_gene_variant	MODIFIER		TC012252	Transcript	TC012252_001	protein_coding											4140	-1						TC012252_001			
+C	upstream_gene_variant	MODIFIER		TC034228	Transcript	TC034228_002	protein_coding											1936	1						TC034228_002			
+CSQ=A	5_prime_UTR_variant	MODIFIER		TC012124	Transcript	TC012124_001	protein_coding	2/2				699							-1						TC012124_001			
+A	upstream_gene_variant	MODIFIER		TC034300	Transcript	TC034300_001	protein_coding											3431	-1						TC034300_001			
+CSQ=T	intron_variant	MODIFIER		TC034307	Transcript	TC034307_001	protein_coding		1/2										-1						TC034307_001			
+CSQ=T	intron_variant	MODIFIER		TC034318	Transcript	TC034318_001	protein_coding		7/17										-1						TC034318_001			
+T	intron_variant	MODIFIER		TC034318	Transcript	TC034318_002	protein_coding		8/18										-1						TC034318_002			
+T	intron_variant	MODIFIER		TC034318	Transcript	TC034318_003	protein_coding		8/18										-1						TC034318_003			
+T	intron_variant	MODIFIER		TC034318	Transcript	TC034318_004	protein_coding		8/18										-1						TC034318_004			
+T	intron_variant	MODIFIER		TC034318	Transcript	TC034318_005	protein_coding		8/17										-1						TC034318_005			
+CSQ=T	upstream_gene_variant	MODIFIER		TC012080	Transcript	TC012080_001	protein_coding											1986	-1						TC012080_001			
+CSQ=A	intergenic_variant	MODIFIER																										
+CSQ=G	intron_variant	MODIFIER		TC012042	Transcript	TC012042_001	protein_coding		8/17										-1						TC012042_001			
+CSQ=G	synonymous_variant	LOW		TC012042	Transcript	TC012042_001	protein_coding	6/18				2117	1830	610	P	ccT/ccC			-1						TC012042_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC012036	Transcript	TC012036_001	protein_coding											1398	-1						TC012036_001			
+C	downstream_gene_variant	MODIFIER		TC012434	Transcript	TC012434_001	protein_coding											4611	1						TC012434_001			
+C	downstream_gene_variant	MODIFIER		TC012435	Transcript	TC012435_001	protein_coding											3091	1						TC012435_001			
+C	downstream_gene_variant	MODIFIER		TC034333	Transcript	TC034333_001	protein_coding											889	-1						TC034333_001			
+CSQ=G	intron_variant	MODIFIER		TC010679	Transcript	TC010679_001	protein_coding		2/6										-1						TC010679_001			
+G	intron_variant	MODIFIER		TC010679	Transcript	TC010679_002	protein_coding		2/6										-1						TC010679_002			
+G	intron_variant	MODIFIER		TC010679	Transcript	TC010679_003	protein_coding		2/5										-1						TC010679_003			
+CSQ=T	downstream_gene_variant	MODIFIER		TC010673	Transcript	TC010673_001	protein_coding											3106	-1						TC010673_001			
+T	upstream_gene_variant	MODIFIER		TC010674	Transcript	TC010674_001	protein_coding											1845	-1						TC010674_001			
+T	intron_variant	MODIFIER		TC034352	Transcript	TC034352_002	protein_coding		1/4										1						TC034352_002			
+T	intron_variant	MODIFIER		TC034352	Transcript	TC034352_003	protein_coding		1/3										1						TC034352_003			
+CSQ=T	intron_variant	MODIFIER		TC034352	Transcript	TC034352_002	protein_coding		2/4										1						TC034352_002			
+T	intron_variant	MODIFIER		TC034352	Transcript	TC034352_003	protein_coding		2/3										1						TC034352_003			
+CSQ=G	downstream_gene_variant	MODIFIER		TC012480	Transcript	TC012480_001	protein_coding											546	1						TC012480_001			
+G	intron_variant	MODIFIER		TC034357	Transcript	TC034357_001	protein_coding		1/21										-1						TC034357_001			
+G	intron_variant	MODIFIER		TC034357	Transcript	TC034357_002	protein_coding		1/23										-1						TC034357_002			
+CSQ=G	downstream_gene_variant	MODIFIER		TC016261	Transcript	TC016261_001	protein_coding											4261	1						TC016261_001			
+G	intron_variant	MODIFIER		TC034370	Transcript	TC034370_001	protein_coding		12/12										-1						TC034370_001			
+G	intron_variant	MODIFIER		TC034370	Transcript	TC034370_002	protein_coding		12/12										-1						TC034370_002			
+G	intron_variant	MODIFIER		TC034370	Transcript	TC034370_003	protein_coding		13/13										-1						TC034370_003			
+G	downstream_gene_variant	MODIFIER		TC034879	Transcript	TC034879_001	protein_coding											3498	1						TC034879_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC016267	Transcript	TC016267_001	protein_coding											3204	1						TC016267_001			
+CSQ=C	intron_variant	MODIFIER		TC016278	Transcript	TC016278_002	protein_coding		1/6										1						TC016278_002			
+C	intron_variant	MODIFIER		TC034366	Transcript	TC034366_001	protein_coding		1/1										1						TC034366_001			
+CSQ=T	intron_variant	MODIFIER		TC011960	Transcript	TC011960_001	protein_coding		1/8										-1						TC011960_001			
+T	intron_variant	MODIFIER		TC012513	Transcript	TC012513_001	protein_coding		1/1										1						TC012513_001			
+CSQ=A	intron_variant	MODIFIER		TC011960	Transcript	TC011960_001	protein_coding		1/8										-1						TC011960_001			
+A	intron_variant	MODIFIER		TC012513	Transcript	TC012513_001	protein_coding		1/1										1						TC012513_001			
+CSQ=A	intron_variant	MODIFIER		TC011960	Transcript	TC011960_001	protein_coding		1/8										-1						TC011960_001			
+A	intron_variant	MODIFIER		TC012513	Transcript	TC012513_001	protein_coding		1/1										1						TC012513_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC011938	Transcript	TC011938_001	protein_coding											3566	-1						TC011938_001			
+C	downstream_gene_variant	MODIFIER		TC012552	Transcript	TC012552_001	protein_coding											340	1						TC012552_001			
+C	upstream_gene_variant	MODIFIER		TC012553	Transcript	TC012553_001	protein_coding											711	1						TC012553_001			
+C	3_prime_UTR_variant	MODIFIER		TC030554	Transcript	TC030554_001	protein_coding	2/2				557							-1						TC030554_001			
+CSQ=G	upstream_gene_variant	MODIFIER	tRNA-Asp	ENSRNA022736430	Transcript	ENSRNA022736430-T1	tRNA											1432	1		TRNASCAN_SE							
+G	downstream_gene_variant	MODIFIER		TC012554	Transcript	TC012554_001	protein_coding											2628	1						TC012554_001			
+G	intron_variant	MODIFIER		TC031246	Transcript	TC031246_001	protein_coding		11/13										-1						TC031246_001			
+CSQ=G	downstream_gene_variant	MODIFIER	tRNA-Asp	ENSRNA022736430	Transcript	ENSRNA022736430-T1	tRNA											307	1		TRNASCAN_SE							
+G	downstream_gene_variant	MODIFIER		TC012554	Transcript	TC012554_001	protein_coding											4438	1						TC012554_001			
+G	intron_variant	MODIFIER		TC031246	Transcript	TC031246_001	protein_coding		6/13										-1						TC031246_001			
+CSQ=G	intron_variant	MODIFIER		TC012567	Transcript	TC012567_001	protein_coding		1/8										1						TC012567_001			
+G	upstream_gene_variant	MODIFIER		TC034392	Transcript	TC034392_001	protein_coding											4985	-1						TC034392_001			
+G	upstream_gene_variant	MODIFIER		TC034393	Transcript	TC034393_001	protein_coding											1945	-1						TC034393_001			
+CSQ=C	intron_variant	MODIFIER		TC034417	Transcript	TC034417_001	protein_coding		1/1										-1						TC034417_001			
+C	intron_variant	MODIFIER		TC034887	Transcript	TC034887_001	protein_coding		1/1										1						TC034887_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC012640	Transcript	TC012640_001	protein_coding											4962	1						TC012640_001			
+T	downstream_gene_variant	MODIFIER		TC034421	Transcript	TC034421_001	protein_coding											1675	1						TC034421_001			
+T	intron_variant	MODIFIER		TC034421	Transcript	TC034421_002	protein_coding		6/22										1						TC034421_002			
+T	upstream_gene_variant	MODIFIER		TC034421	Transcript	TC034421_003	protein_coding											291	1						TC034421_003			
+CSQ=A	synonymous_variant	LOW		TC012648	Transcript	TC012648_001	protein_coding	4/4				894	894	298	L	ttG/ttA			1						TC012648_001			
+A	upstream_gene_variant	MODIFIER		TC012649	Transcript	TC012649_001	protein_coding											2492	1						TC012649_001			
+CSQ=A	intron_variant	MODIFIER		TC012671	Transcript	TC012671_001	protein_coding		6/10										1						TC012671_001			
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=C	downstream_gene_variant	MODIFIER		TC011806	Transcript	TC011806_001	protein_coding											1834	-1						TC011806_001			
+C	synonymous_variant	LOW		TC011807	Transcript	TC011807_001	protein_coding	4/5				651	573	191	T	acA/acG			-1						TC011807_001			
+C	upstream_gene_variant	MODIFIER		TC012697	Transcript	TC012697_001	protein_coding											885	1						TC012697_001			
+C	downstream_gene_variant	MODIFIER		TC031248	Transcript	TC031248_001	protein_coding											2639	1						TC031248_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC011781	Transcript	TC011781_001	protein_coding											1966	-1						TC011781_001			
+C	intron_variant	MODIFIER		TC034442	Transcript	TC034442_001	protein_coding		2/6										1						TC034442_001			
+CSQ=G	3_prime_UTR_variant	MODIFIER		TC011732	Transcript	TC011732_001	protein_coding	8/8				1306							-1						TC011732_001			
+G	3_prime_UTR_variant	MODIFIER		TC011732	Transcript	TC011732_002	protein_coding	7/7				1437							-1						TC011732_002			
+G	3_prime_UTR_variant	MODIFIER		TC011732	Transcript	TC011732_003	protein_coding	7/7				1443							-1						TC011732_003			
+G	downstream_gene_variant	MODIFIER		TC012754	Transcript	TC012754_001	protein_coding											1328	1						TC012754_001			
+CSQ=T	intron_variant	MODIFIER		TC034457	Transcript	TC034457_001	protein_coding		1/5										1						TC034457_001			
+CSQ=T	intron_variant	MODIFIER		TC034457	Transcript	TC034457_001	protein_coding		1/5										1						TC034457_001			
+CSQ=A	intron_variant	MODIFIER		TC034478	Transcript	TC034478_001	protein_coding		5/13										-1						TC034478_001			
+CSQ=C	intron_variant	MODIFIER		TC011652	Transcript	TC011652_001	protein_coding		3/9										1						TC011652_001			
+CSQ=C	intron_variant	MODIFIER		TC031333	Transcript	TC031333_001	protein_coding		5/11										1						TC031333_001			
+CSQ=A	intron_variant	MODIFIER		TC011226	Transcript	TC011226_001	protein_coding		11/33										-1						TC011226_001			
+A	intron_variant	MODIFIER		TC011226	Transcript	TC011226_002	protein_coding		11/32										-1						TC011226_002			
+A	intron_variant	MODIFIER		TC011226	Transcript	TC011226_003	protein_coding		11/34										-1						TC011226_003			
+A	intron_variant	MODIFIER		TC011226	Transcript	TC011226_004	protein_coding		11/34										-1						TC011226_004			
+A	intron_variant	MODIFIER		TC011226	Transcript	TC011226_005	protein_coding		11/35										-1						TC011226_005			
+A	intron_variant	MODIFIER		TC011226	Transcript	TC011226_006	protein_coding		11/35										-1						TC011226_006			
+A	intron_variant	MODIFIER		TC011226	Transcript	TC011226_007	protein_coding		11/36										-1						TC011226_007			
+CSQ=G	intron_variant	MODIFIER		TC031335	Transcript	TC031335_001	protein_coding		2/12										-1						TC031335_001			
+CSQ=G	intron_variant	MODIFIER		TC031339	Transcript	TC031339_001	protein_coding		5/11										-1						TC031339_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC011216	Transcript	TC011216_001	protein_coding											433	-1						TC011216_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC011216	Transcript	TC011216_001	protein_coding											925	-1						TC011216_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC011208	Transcript	TC011208_001	protein_coding											2096	-1						TC011208_001			
+A	intron_variant	MODIFIER		TC011288	Transcript	TC011288_001	protein_coding		22/22										1						TC011288_001			
+A	intron_variant	MODIFIER		TC011288	Transcript	TC011288_002	protein_coding		23/23										1						TC011288_002			
+A	intron_variant	MODIFIER		TC011288	Transcript	TC011288_003	protein_coding		24/24										1						TC011288_003			
+A	intron_variant	MODIFIER		TC011288	Transcript	TC011288_004	protein_coding		23/23										1						TC011288_004			
+A	intron_variant	MODIFIER		TC011288	Transcript	TC011288_005	protein_coding		25/25										1						TC011288_005			
+CSQ=G	intron_variant	MODIFIER		TC001539	Transcript	TC001539_001	protein_coding		1/2										-1						TC001539_001			
+G	intron_variant	MODIFIER		TC031942	Transcript	TC031942_001	protein_coding		1/2										1						TC031942_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC011321	Transcript	TC011321_001	protein_coding											1075	1						TC011321_001			
+T	upstream_gene_variant	MODIFIER		TC011322	Transcript	TC011322_001	protein_coding											1481	1						TC011322_001			
+CSQ=T	intergenic_variant	MODIFIER																										
+CSQ=A	intergenic_variant	MODIFIER																										
+CSQ=A	upstream_gene_variant	MODIFIER		TC011444	Transcript	TC011444_001	protein_coding											3133	-1						TC011444_001			
+A	upstream_gene_variant	MODIFIER		TC011445	Transcript	TC011445_001	protein_coding											3081	-1						TC011445_001			
+A	3_prime_UTR_variant	MODIFIER		TC031412	Transcript	TC031412_001	protein_coding	4/4				1374							-1						TC031412_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC011442	Transcript	TC011442_001	protein_coding											1762	-1						TC011442_001			
+T	upstream_gene_variant	MODIFIER		TC011443	Transcript	TC011443_001	protein_coding											4362	-1						TC011443_001			
+T	intron_variant	MODIFIER		TC031411	Transcript	TC031411_001	protein_coding		3/8										-1						TC031411_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC011058	Transcript	TC011058_001	protein_coding											2251	1						TC011058_001			
+G	intron_variant	MODIFIER		TC011059	Transcript	TC011059_001	protein_coding		4/5										1						TC011059_001			
+G	upstream_gene_variant	MODIFIER		TC011418	Transcript	TC011418_001	protein_coding											1347	-1						TC011418_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC011406	Transcript	TC011406_001	protein_coding											1962	-1						TC011406_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC011077	Transcript	TC011077_001	protein_coding											1589	1						TC011077_001			
+C	intron_variant	MODIFIER		TC011078	Transcript	TC011078_001	protein_coding		1/7										1						TC011078_001			
+CSQ=C	intron_variant	MODIFIER		TC031633	Transcript	TC031633_001	protein_coding		1/2										1						TC031633_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC002068	Transcript	TC002068_001	protein_coding											4002	1						TC002068_001			
+C	upstream_gene_variant	MODIFIER		TC002084	Transcript	TC002084_001	protein_coding											2756	-1						TC002084_001			
+C	upstream_gene_variant	MODIFIER		TC031629	Transcript	TC031629_001	protein_coding											136	1						TC031629_001			
+C	downstream_gene_variant	MODIFIER		TC031630	Transcript	TC031630_001	protein_coding											1173	1						TC031630_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC002071	Transcript	TC002071_001	protein_coding											1140	1						TC002071_001			
+G	intron_variant	MODIFIER		TC002080	Transcript	TC002080_001	protein_coding		3/4										-1						TC002080_001			
+G	upstream_gene_variant	MODIFIER		TC002081	Transcript	TC002081_001	protein_coding											4642	-1						TC002081_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC002075	Transcript	TC002075_001	protein_coding											4701	1						TC002075_001			
+G	intron_variant	MODIFIER		TC002076	Transcript	TC002076_001	protein_coding		1/4										1						TC002076_001			
+G	upstream_gene_variant	MODIFIER		TC002078	Transcript	TC002078_001	protein_coding											2840	-1						TC002078_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC002075	Transcript	TC002075_001	protein_coding											4862	1						TC002075_001			
+G	splice_region_variant&intron_variant	LOW		TC002076	Transcript	TC002076_001	protein_coding		1/4										1						TC002076_001			
+G	upstream_gene_variant	MODIFIER		TC002078	Transcript	TC002078_001	protein_coding											3001	-1						TC002078_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC011008	Transcript	TC011008_001	protein_coding											3968	-1						TC011008_001			
+T	downstream_gene_variant	MODIFIER		TC011472	Transcript	TC011472_001	protein_coding											3549	1						TC011472_001			
+T	upstream_gene_variant	MODIFIER		TC011474	Transcript	TC011474_001	protein_coding											4420	1						TC011474_001			
+T	upstream_gene_variant	MODIFIER		TC030579	Transcript	TC030579_001	protein_coding											2231	1						TC030579_001			
+T	synonymous_variant	LOW		TC030737	Transcript	TC030737_001	protein_coding	4/7				920	876	292	N	aaC/aaT			1						TC030737_001			
+CSQ=T	intron_variant	MODIFIER		TC004369	Transcript	TC004369_001	protein_coding		6/9										-1						TC004369_001			
+T	upstream_gene_variant	MODIFIER		TC004370	Transcript	TC004370_001	protein_coding											4443	-1						TC004370_001			
+CSQ=A	synonymous_variant	LOW		TC001866	Transcript	TC001866_001	protein_coding	7/7				1372	1213	405	L	Ctg/Ttg			-1						TC001866_001			
+A	upstream_gene_variant	MODIFIER		TC001867	Transcript	TC001867_001	protein_coding											1767	-1						TC001867_001			
+CSQ=C	intron_variant	MODIFIER		TC004659	Transcript	TC004659_001	protein_coding		1/8										1						TC004659_001			
+CSQ=A	intron_variant	MODIFIER		TC013567	Transcript	TC013567_001	protein_coding		3/4										-1						TC013567_001			
+A	intron_variant	MODIFIER		TC013567	Transcript	TC013567_002	protein_coding		4/5										-1						TC013567_002			
+A	downstream_gene_variant	MODIFIER		TC014241	Transcript	TC014241_001	protein_coding											3353	1						TC014241_001			
+A	downstream_gene_variant	MODIFIER		TC014241	Transcript	TC014241_002	protein_coding											3353	1						TC014241_002			
+A	downstream_gene_variant	MODIFIER		TC014242	Transcript	TC014242_001	protein_coding											754	1						TC014242_001			
+A	upstream_gene_variant	MODIFIER		TC014243	Transcript	TC014243_001	protein_coding											4699	1						TC014243_001			
+CSQ=A	synonymous_variant	LOW		TC010877	Transcript	TC010877_001	protein_coding	3/6				385	306	102	C	tgC/tgT			-1						TC010877_001			
+A	upstream_gene_variant	MODIFIER		TC010878	Transcript	TC010878_001	protein_coding											918	-1						TC010878_001			
+A	upstream_gene_variant	MODIFIER		TC010878	Transcript	TC010878_002	protein_coding											918	-1						TC010878_002			
+CSQ=C	3_prime_UTR_variant	MODIFIER		TC001706	Transcript	TC001706_001	protein_coding	1/1				1700							1						TC001706_001			
+C	synonymous_variant	LOW		TC001707	Transcript	TC001707_001	protein_coding	1/1				151	151	51	L	Ttg/Ctg			1						TC001707_001			
+C	upstream_gene_variant	MODIFIER		TC001708	Transcript	TC001708_001	protein_coding											711	1						TC001708_001			
+C	upstream_gene_variant	MODIFIER		TC001758	Transcript	TC001758_001	protein_coding											1791	-1						TC001758_001			
+CSQ=C	intron_variant	MODIFIER		TC031972	Transcript	TC031972_001	protein_coding		4/11										1						TC031972_001			
+CSQ=T	intron_variant	MODIFIER		TC004992	Transcript	TC004992_001	protein_coding		3/12										-1						TC004992_001			
+CSQ=C	upstream_gene_variant	MODIFIER		TC004988	Transcript	TC004988_001	protein_coding											1498	-1						TC004988_001			
+C	upstream_gene_variant	MODIFIER		TC005012	Transcript	TC005012_001	protein_coding											4025	1						TC005012_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC004575	Transcript	TC004575_001	protein_coding											1030	-1						TC004575_001			
+T	upstream_gene_variant	MODIFIER		TC004810	Transcript	TC004810_001	protein_coding											3003	1						TC004810_001			
+T	upstream_gene_variant	MODIFIER		TC031970	Transcript	TC031970_001	protein_coding											42	1						TC031970_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC004575	Transcript	TC004575_001	protein_coding											849	-1						TC004575_001			
+A	upstream_gene_variant	MODIFIER		TC004810	Transcript	TC004810_001	protein_coding											2822	1						TC004810_001			
+A	intron_variant	MODIFIER		TC031970	Transcript	TC031970_001	protein_coding		1/3										1						TC031970_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC004570	Transcript	TC004570_001	protein_coding											438	-1						TC004570_001			
+T	upstream_gene_variant	MODIFIER		TC004812	Transcript	TC004812_001	protein_coding											973	1						TC004812_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC004570	Transcript	TC004570_001	protein_coding											746	-1						TC004570_001			
+A	upstream_gene_variant	MODIFIER		TC004812	Transcript	TC004812_001	protein_coding											665	1						TC004812_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC004564	Transcript	TC004564_001	protein_coding											966	-1						TC004564_001			
+A	upstream_gene_variant	MODIFIER		TC004819	Transcript	TC004819_001	protein_coding											1721	1						TC004819_001			
+A	upstream_gene_variant	MODIFIER		TC004819	Transcript	TC004819_002	protein_coding											1721	1						TC004819_002			
+CSQ=A	downstream_gene_variant	MODIFIER		TC004550	Transcript	TC004550_001	protein_coding											4009	-1						TC004550_001			
+A	synonymous_variant	LOW		TC004839	Transcript	TC004839_001	protein_coding	4/9				1621	1506	502	T	acG/acA			1						TC004839_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC032015	Transcript	TC032015_001	protein_coding											1880	-1						TC032015_001			
+C	downstream_gene_variant	MODIFIER		TC034545	Transcript	TC034545_001	protein_coding											4474	-1						TC034545_001			
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=A	intergenic_variant	MODIFIER																										
+CSQ=A	downstream_gene_variant	MODIFIER		TC000803	Transcript	TC000803_001	protein_coding											2480	1						TC000803_001			
+A	synonymous_variant	LOW		TC000804	Transcript	TC000804_001	protein_coding	1/10				31	9	3	V	gtC/gtA			1						TC000804_001			
+A	downstream_gene_variant	MODIFIER		TC032046	Transcript	TC032046_001	protein_coding											3275	-1						TC032046_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC000840	Transcript	TC000840_001	protein_coding											3855	1						TC000840_001			
+T	intron_variant	MODIFIER		TC030081	Transcript	TC030081_001	protein_coding		2/2										-1						TC030081_001			
+T	intron_variant	MODIFIER		TC030989	Transcript	TC030989_001	protein_coding		4/6										1						TC030989_001			
+CSQ=C	intron_variant	MODIFIER		TC000663	Transcript	TC000663_001	protein_coding		1/4										-1						TC000663_001			
+C	upstream_gene_variant	MODIFIER		TC000889	Transcript	TC000889_001	protein_coding											3145	1						TC000889_001			
+C	upstream_gene_variant	MODIFIER		TC000889	Transcript	TC000889_002	protein_coding											455	1						TC000889_002			
+C	upstream_gene_variant	MODIFIER		TC000889	Transcript	TC000889_003	protein_coding											455	1						TC000889_003			
+CSQ=A	3_prime_UTR_variant	MODIFIER		TC032174	Transcript	TC032174_001	protein_coding	5/5				2033							1						TC032174_001			
+A	upstream_gene_variant	MODIFIER		TC032175	Transcript	TC032175_001	protein_coding											447	1						TC032175_001			
+CSQ=G	synonymous_variant	LOW		TC001244	Transcript	TC001244_001	protein_coding	1/1				300	300	100	A	gcA/gcG			1						TC001244_001			
+G	intron_variant	MODIFIER		TC032222	Transcript	TC032222_001	protein_coding		3/7										-1						TC032222_001			
+CSQ=A	intron_variant	MODIFIER		TC032333	Transcript	TC032333_001	protein_coding		1/1										-1						TC032333_001			
+CSQ=G	intron_variant	MODIFIER		TC003078	Transcript	TC003078_001	protein_coding		8/14										-1						TC003078_001			
+G	downstream_gene_variant	MODIFIER		TC003366	Transcript	TC003366_001	protein_coding											2274	1						TC003366_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC003367	Transcript	TC003367_001	protein_coding											213	1						TC003367_001			
+G	upstream_gene_variant	MODIFIER		TC032340	Transcript	TC032340_001	protein_coding											4267	-1						TC032340_001			
+G	intron_variant	MODIFIER		TC032341	Transcript	TC032341_001	protein_coding		11/11										-1						TC032341_001			
+G	3_prime_UTR_variant	MODIFIER		TC032341	Transcript	TC032341_002	protein_coding	11/11				2939							-1						TC032341_002			
+G	3_prime_UTR_variant	MODIFIER		TC032341	Transcript	TC032341_003	protein_coding	13/13				2811							-1						TC032341_003			
+CSQ=G	downstream_gene_variant	MODIFIER		TC001556	Transcript	TC001556_001	protein_coding											2596	1						TC001556_001			
+G	intron_variant	MODIFIER		TC001557	Transcript	TC001557_001	protein_coding		3/5										1						TC001557_001			
+G	downstream_gene_variant	MODIFIER		TC001575	Transcript	TC001575_001	protein_coding											2806	-1						TC001575_001			
+G	downstream_gene_variant	MODIFIER		TC001576	Transcript	TC001576_001	protein_coding											1576	-1						TC001576_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC011528	Transcript	TC011528_001	protein_coding											1552	-1						TC011528_001			
+G	downstream_gene_variant	MODIFIER		TC011539	Transcript	TC011539_001	protein_coding											3977	1						TC011539_001			
+G	intron_variant	MODIFIER		TC011540	Transcript	TC011540_001	protein_coding		5/6										1						TC011540_001			
+G	upstream_gene_variant	MODIFIER		TC011541	Transcript	TC011541_001	protein_coding											4705	1						TC011541_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC002997	Transcript	TC002997_001	protein_coding											361	-1						TC002997_001			
+CSQ=G	intergenic_variant	MODIFIER																										
+CSQ=T	downstream_gene_variant	MODIFIER		TC002915	Transcript	TC002915_001	protein_coding											117	-1						TC002915_001			
+T	intron_variant	MODIFIER		TC003531	Transcript	TC003531_001	protein_coding		3/3										1						TC003531_001			
+T	upstream_gene_variant	MODIFIER		TC003532	Transcript	TC003532_001	protein_coding											2676	1						TC003532_001			
+CSQ=G	intron_variant	MODIFIER		TC003536	Transcript	TC003536_001	protein_coding		1/2										1						TC003536_001			
+CSQ=A	intergenic_variant	MODIFIER																										
+CSQ=C	downstream_gene_variant	MODIFIER		TC003551	Transcript	TC003551_001	protein_coding											430	1						TC003551_001			
+C	upstream_gene_variant	MODIFIER		TC032413	Transcript	TC032413_001	protein_coding											4699	1						TC032413_001			
+CSQ=T	intergenic_variant	MODIFIER																										
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=T	intron_variant	MODIFIER		TC003630	Transcript	TC003630_001	protein_coding		4/7										1						TC003630_001			
+T	intron_variant	MODIFIER		TC003630	Transcript	TC003630_002	protein_coding		4/6										1						TC003630_002			
+T	downstream_gene_variant	MODIFIER		TC032448	Transcript	TC032448_001	protein_coding											4431	-1						TC032448_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC000143	Transcript	TC000143_001	protein_coding											4543	-1						TC000143_001			
+G	upstream_gene_variant	MODIFIER		TC032476	Transcript	TC032476_001	protein_coding											2199	1						TC032476_001			
+G	downstream_gene_variant	MODIFIER		TC034596	Transcript	TC034596_001	protein_coding											349	1						TC034596_001			
+CSQ=G	intron_variant	MODIFIER		TC032479	Transcript	TC032479_001	protein_coding		26/35										-1						TC032479_001			
+G	intron_variant	MODIFIER		TC032479	Transcript	TC032479_002	protein_coding		26/35										-1						TC032479_002			
+G	intron_variant	MODIFIER		TC032479	Transcript	TC032479_003	protein_coding		25/34										-1						TC032479_003			
+G	intron_variant	MODIFIER		TC032479	Transcript	TC032479_004	protein_coding		27/36										-1						TC032479_004			
+G	intron_variant	MODIFIER		TC032479	Transcript	TC032479_005	protein_coding		26/38										-1						TC032479_005			
+G	intron_variant	MODIFIER		TC032479	Transcript	TC032479_006	protein_coding		26/38										-1						TC032479_006			
+G	intron_variant	MODIFIER		TC032479	Transcript	TC032479_007	protein_coding		26/38										-1						TC032479_007			
+G	intron_variant	MODIFIER		TC032479	Transcript	TC032479_008	protein_coding		26/38										-1						TC032479_008			
+CSQ=T	downstream_gene_variant	MODIFIER		TC003706	Transcript	TC003706_001	protein_coding											1195	1						TC003706_001			
+T	5_prime_UTR_variant	MODIFIER		TC032492	Transcript	TC032492_001	protein_coding	2/3				92							-1						TC032492_001			
+CSQ=T	intron_variant	MODIFIER		TC002721	Transcript	TC002721_001	protein_coding		4/11										-1						TC002721_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC002719	Transcript	TC002719_001	protein_coding											2335	-1						TC002719_001			
+C	upstream_gene_variant	MODIFIER		TC002720	Transcript	TC002720_001	protein_coding											565	-1						TC002720_001			
+C	downstream_gene_variant	MODIFIER		TC003709	Transcript	TC003709_001	protein_coding											3118	1						TC003709_001			
+C	upstream_gene_variant	MODIFIER		TC032494	Transcript	TC032494_001	protein_coding											1617	1						TC032494_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC002719	Transcript	TC002719_001	protein_coding											2069	-1						TC002719_001			
+A	upstream_gene_variant	MODIFIER		TC002720	Transcript	TC002720_001	protein_coding											831	-1						TC002720_001			
+A	downstream_gene_variant	MODIFIER		TC003709	Transcript	TC003709_001	protein_coding											3384	1						TC003709_001			
+A	upstream_gene_variant	MODIFIER		TC032494	Transcript	TC032494_001	protein_coding											1351	1						TC032494_001			
+CSQ=A	intergenic_variant	MODIFIER																										
+CSQ=A	intron_variant	MODIFIER		TC000029	Transcript	TC000029_001	protein_coding		3/5										-1						TC000029_001			
+CSQ=T	intron_variant	MODIFIER		TC032533	Transcript	TC032533_001	protein_coding		1/1										-1						TC032533_001			
+CSQ=T	intron_variant	MODIFIER		TC000021	Transcript	TC000021_001	protein_coding		6/8										-1						TC000021_001			
+CSQ=G	intron_variant	MODIFIER		TC002650	Transcript	TC002650_001	protein_coding		2/2										1						TC002650_001			
+G	intron_variant	MODIFIER		TC003793	Transcript	TC003793_001	protein_coding		1/2										-1						TC003793_001			
+CSQ=G	intron_variant	MODIFIER		TC002650	Transcript	TC002650_001	protein_coding		2/2										1						TC002650_001			
+G	intron_variant	MODIFIER		TC003793	Transcript	TC003793_001	protein_coding		1/2										-1						TC003793_001			
+CSQ=T	intron_variant	MODIFIER		TC032545	Transcript	TC032545_001	protein_coding		3/15										-1						TC032545_001			
+T	intron_variant	MODIFIER		TC032545	Transcript	TC032545_002	protein_coding		3/16										-1						TC032545_002			
+CSQ=C	upstream_gene_variant	MODIFIER		TC001963	Transcript	TC001963_001	protein_coding											779	-1						TC001963_001			
+CSQ=T	intron_variant	MODIFIER		TC011198	Transcript	TC011198_001	protein_coding		1/8										1						TC011198_001			
+CSQ=G	intron_variant	MODIFIER		TC011198	Transcript	TC011198_001	protein_coding		1/8										1						TC011198_001			
+CSQ=T	intron_variant	MODIFIER		TC032615	Transcript	TC032615_001	protein_coding		2/3										1						TC032615_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC034620	Transcript	TC034620_001	protein_coding											4397	1						TC034620_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC010359	Transcript	TC010359_001	protein_coding											2555	1						TC010359_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC010359	Transcript	TC010359_001	protein_coding											4707	1						TC010359_001			
+T	downstream_gene_variant	MODIFIER		TC032583	Transcript	TC032583_001	protein_coding											918	-1						TC032583_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC010372	Transcript	TC010372_001	protein_coding											495	1						TC010372_001			
+C	upstream_gene_variant	MODIFIER		TC010373	Transcript	TC010373_001	protein_coding											64	1						TC010373_001			
+CSQ=A	intron_variant	MODIFIER		TC032593	Transcript	TC032593_001	protein_coding		5/12										1						TC032593_001			
+CSQ=T	intron_variant	MODIFIER		TC010338	Transcript	TC010338_001	protein_coding		2/2										-1						TC010338_001			
+CSQ=A	intron_variant	MODIFIER		TC003876	Transcript	TC003876_001	protein_coding		11/16										1						TC003876_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC002527	Transcript	TC002527_001	protein_coding											395	-1						TC002527_001			
+C	intron_variant	MODIFIER		TC032619	Transcript	TC032619_001	protein_coding		1/1										-1						TC032619_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC002524	Transcript	TC002524_001	protein_coding											3038	-1						TC002524_001			
+C	upstream_gene_variant	MODIFIER		TC002527	Transcript	TC002527_001	protein_coding											1621	-1						TC002527_001			
+C	missense_variant	MODERATE		TC032620	Transcript	TC032620_001	protein_coding	4/4				1005	992	331	V/A	gTt/gCt			1						TC032620_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC003916	Transcript	TC003916_001	protein_coding											1783	1						TC003916_001			
+T	downstream_gene_variant	MODIFIER		TC003916	Transcript	TC003916_002	protein_coding											1783	1						TC003916_002			
+T	intron_variant	MODIFIER		TC003917	Transcript	TC003917_001	protein_coding		2/8										1						TC003917_001			
+CSQ=A	intron_variant	MODIFIER		TC010266	Transcript	TC010266_001	protein_coding		7/9										1						TC010266_001			
+CSQ=T	intron_variant	MODIFIER		TC032667	Transcript	TC032667_001	protein_coding		12/18										-1						TC032667_001			
+CSQ=G	intron_variant	MODIFIER		TC031071	Transcript	TC031071_001	protein_coding		3/7										-1						TC031071_001			
+CSQ=T	intron_variant	MODIFIER		TC007778	Transcript	TC007778_001	protein_coding		6/6										-1						TC007778_001			
+CSQ=C	intron_variant	MODIFIER		TC007806	Transcript	TC007806_001	protein_coding		3/3										1						TC007806_001			
+C	upstream_gene_variant	MODIFIER		TC032735	Transcript	TC032735_001	protein_coding											3749	-1						TC032735_001			
+C	downstream_gene_variant	MODIFIER		TC032736	Transcript	TC032736_001	protein_coding											1588	-1						TC032736_001			
+CSQ=A	intron_variant	MODIFIER		TC031097	Transcript	TC031097_001	protein_coding		1/1										-1						TC031097_001			
+A	intron_variant	MODIFIER		TC032747	Transcript	TC032747_002	protein_coding		5/25										1						TC032747_002			
+A	intron_variant	MODIFIER		TC032747	Transcript	TC032747_003	protein_coding		5/10										1						TC032747_003			
+A	intron_variant	MODIFIER		TC032747	Transcript	TC032747_004	protein_coding		5/10										1						TC032747_004			
+A	intron_variant	MODIFIER		TC032747	Transcript	TC032747_005	protein_coding		5/10										1						TC032747_005			
+CSQ=T	intron_variant	MODIFIER		TC032803	Transcript	TC032803_001	protein_coding		4/10										1						TC032803_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC008041	Transcript	TC008041_001	protein_coding											3772	1						TC008041_001			
+T	intron_variant	MODIFIER		TC032803	Transcript	TC032803_001	protein_coding		5/10										1						TC032803_001			
+CSQ=A	intron_variant	MODIFIER		TC007197	Transcript	TC007197_001	protein_coding		3/9										-1						TC007197_001			
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=G	upstream_gene_variant	MODIFIER		TC007176	Transcript	TC007176_001	protein_coding											1074	-1						TC007176_001			
+G	downstream_gene_variant	MODIFIER		TC008294	Transcript	TC008294_001	protein_coding											2358	1						TC008294_001			
+G	upstream_gene_variant	MODIFIER		TC008295	Transcript	TC008295_001	protein_coding											216	1						TC008295_001			
+G	upstream_gene_variant	MODIFIER		TC030419	Transcript	TC030419_001	protein_coding											3906	1						TC030419_001			
+G	downstream_gene_variant	MODIFIER		TC032880	Transcript	TC032880_001	protein_coding											229	-1						TC032880_001			
+G	downstream_gene_variant	MODIFIER		TC032880	Transcript	TC032880_002	protein_coding											229	-1						TC032880_002			
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=G	upstream_gene_variant	MODIFIER		TC007086	Transcript	TC007086_001	protein_coding											2956	-1						TC007086_001			
+G	synonymous_variant	LOW		TC008405	Transcript	TC008405_001	protein_coding	7/7				1402	1278	426	E	gaA/gaG			1						TC008405_001			
+G	upstream_gene_variant	MODIFIER		TC008406	Transcript	TC008406_001	protein_coding											246	1						TC008406_001			
+G	upstream_gene_variant	MODIFIER		TC008406	Transcript	TC008406_002	protein_coding											246	1						TC008406_002			
+CSQ=A	downstream_gene_variant	MODIFIER		TC008406	Transcript	TC008406_001	protein_coding											4050	1						TC008406_001			
+A	downstream_gene_variant	MODIFIER		TC008406	Transcript	TC008406_002	protein_coding											4050	1						TC008406_002			
+A	intron_variant	MODIFIER		TC008407	Transcript	TC008407_001	protein_coding		5/9										1						TC008407_001			
+A	upstream_gene_variant	MODIFIER		TC008408	Transcript	TC008408_001	protein_coding											4942	1						TC008408_001			
+CSQ=C	upstream_gene_variant	MODIFIER		TC007053	Transcript	TC007053_001	protein_coding											1978	-1						TC007053_001			
+CSQ=A	intron_variant	MODIFIER		TC032951	Transcript	TC032951_001	protein_coding		1/7										1						TC032951_001			
+CSQ=G	intron_variant	MODIFIER		TC031117	Transcript	TC031117_001	protein_coding		26/52										-1						TC031117_001			
+CSQ=C	intron_variant	MODIFIER		TC031117	Transcript	TC031117_001	protein_coding		19/52										-1						TC031117_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC002241	Transcript	TC002241_001	protein_coding											3956	1						TC002241_001			
+C	intron_variant	MODIFIER		TC002242	Transcript	TC002242_001	protein_coding		1/2										1						TC002242_001			
+CSQ=T	intergenic_variant	MODIFIER																										
+CSQ=G	intron_variant	MODIFIER		TC010953	Transcript	TC010953_001	protein_coding		9/9										1						TC010953_001			
+G	downstream_gene_variant	MODIFIER		TC033005	Transcript	TC033005_001	protein_coding											3555	-1						TC033005_001			
+CSQ=C	intron_variant	MODIFIER		TC013915	Transcript	TC013915_001	protein_coding		6/9										-1						TC013915_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC013872	Transcript	TC013872_001	protein_coding											2060	-1						TC013872_001			
+T	downstream_gene_variant	MODIFIER		TC013939	Transcript	TC013939_001	protein_coding											1081	1						TC013939_001			
+T	upstream_gene_variant	MODIFIER		TC013940	Transcript	TC013940_001	protein_coding											722	1						TC013940_001			
+T	upstream_gene_variant	MODIFIER		TC013941	Transcript	TC013941_001	protein_coding											3613	1						TC013941_001			
+CSQ=T	intron_variant	MODIFIER		TC033024	Transcript	TC033024_001	protein_coding		2/2										-1						TC033024_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC013815	Transcript	TC013815_001	protein_coding											4814	-1						TC013815_001			
+G	downstream_gene_variant	MODIFIER		TC013816	Transcript	TC013816_001	protein_coding											1348	-1						TC013816_001			
+G	upstream_gene_variant	MODIFIER		TC013817	Transcript	TC013817_001	protein_coding											4182	-1						TC013817_001			
+G	downstream_gene_variant	MODIFIER		TC013990	Transcript	TC013990_001	protein_coding											710	1						TC013990_001			
+G	upstream_gene_variant	MODIFIER		TC013991	Transcript	TC013991_001	protein_coding											3624	1						TC013991_001			
+CSQ=A	intron_variant	MODIFIER		TC013812	Transcript	TC013812_001	protein_coding		3/3										-1						TC013812_001			
+CSQ=C	upstream_gene_variant	MODIFIER		TC014084	Transcript	TC014084_001	protein_coding											4853	1						TC014084_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC014162	Transcript	TC014162_001	protein_coding											1140	1						TC014162_001			
+CSQ=C	intron_variant	MODIFIER		TC014162	Transcript	TC014162_001	protein_coding		2/8										1						TC014162_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC013563	Transcript	TC013563_001	protein_coding											1893	-1						TC013563_001			
+G	upstream_gene_variant	MODIFIER		TC013564	Transcript	TC013564_001	protein_coding											935	-1						TC013564_001			
+G	synonymous_variant	LOW		TC014247	Transcript	TC014247_001	protein_coding	3/11				699	519	173	V	gtT/gtG			1						TC014247_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC013559	Transcript	TC013559_001	protein_coding											3023	-1						TC013559_001			
+A	synonymous_variant	LOW		TC033106	Transcript	TC033106_001	protein_coding	2/5				272	132	44	L	ttG/ttA			1						TC033106_001			
+CSQ=C	upstream_gene_variant	MODIFIER		TC013553	Transcript	TC013553_001	protein_coding											4314	-1						TC013553_001			
+CSQ=G	intron_variant	MODIFIER		TC013528	Transcript	TC013528_001	protein_coding		2/5										-1						TC013528_001			
+G	downstream_gene_variant	MODIFIER		TC014284	Transcript	TC014284_001	protein_coding											3742	1						TC014284_001			
+G	downstream_gene_variant	MODIFIER		TC033116	Transcript	TC033116_001	protein_coding											2301	-1						TC033116_001			
+G	downstream_gene_variant	MODIFIER		TC033117	Transcript	TC033117_001	protein_coding											4559	-1						TC033117_001			
+CSQ=C	intron_variant	MODIFIER		TC013480	Transcript	TC013480_001	protein_coding		4/5										-1						TC013480_001			
+C	downstream_gene_variant	MODIFIER		TC014316	Transcript	TC014316_001	protein_coding											4213	1						TC014316_001			
+C	downstream_gene_variant	MODIFIER		TC014317	Transcript	TC014317_001	protein_coding											1941	1						TC014317_001			
+C	upstream_gene_variant	MODIFIER		TC033128	Transcript	TC033128_001	protein_coding											3385	1						TC033128_001			
+CSQ=T	intron_variant	MODIFIER		TC014600	Transcript	TC014600_001	protein_coding		4/23										1						TC014600_001			
+T	intron_variant	MODIFIER		TC014600	Transcript	TC014600_002	protein_coding		2/21										1						TC014600_002			
+CSQ=T	upstream_gene_variant	MODIFIER		TC013201	Transcript	TC013201_001	protein_coding											1851	-1						TC013201_001			
+T	downstream_gene_variant	MODIFIER		TC014609	Transcript	TC014609_001	protein_coding											3948	1						TC014609_001			
+T	downstream_gene_variant	MODIFIER		TC014609	Transcript	TC014609_002	protein_coding											3948	1						TC014609_002			
+T	intron_variant	MODIFIER		TC014610	Transcript	TC014610_001	protein_coding		3/3										1						TC014610_001			
+T	upstream_gene_variant	MODIFIER		TC014611	Transcript	TC014611_001	protein_coding											3311	1						TC014611_001			
+T	upstream_gene_variant	MODIFIER		TC014612	Transcript	TC014612_001	protein_coding											4231	1						TC014612_001			
+T	downstream_gene_variant	MODIFIER		TC034704	Transcript	TC034704_001	protein_coding											1828	-1						TC034704_001			
+CSQ=T	intron_variant	MODIFIER		TC013166	Transcript	TC013166_001	protein_coding		1/2										-1						TC013166_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC013166	Transcript	TC013166_001	protein_coding											4834	-1						TC013166_001			
+CSQ=G	intergenic_variant	MODIFIER																										
+CSQ=T	downstream_gene_variant	MODIFIER		TC013142	Transcript	TC013142_001	protein_coding											4220	-1						TC013142_001			
+T	downstream_gene_variant	MODIFIER		TC013143	Transcript	TC013143_001	protein_coding											13	-1						TC013143_001			
+T	upstream_gene_variant	MODIFIER		TC014676	Transcript	TC014676_001	protein_coding											2889	1						TC014676_001			
+T	downstream_gene_variant	MODIFIER		TC033221	Transcript	TC033221_001	protein_coding											2087	1						TC033221_001			
+CSQ=A	intron_variant	MODIFIER		TC033243	Transcript	TC033243_001	protein_coding		3/10										-1						TC033243_001			
+A	intron_variant	MODIFIER		TC033243	Transcript	TC033243_002	protein_coding		5/12										-1						TC033243_002			
+CSQ=T	intron_variant	MODIFIER		TC013055	Transcript	TC013055_001	protein_coding		14/15										-1						TC013055_001			
+T	upstream_gene_variant	MODIFIER		TC013056	Transcript	TC013056_001	protein_coding											2402	-1						TC013056_001			
+T	upstream_gene_variant	MODIFIER		TC013057	Transcript	TC013057_001	protein_coding											4752	-1						TC013057_001			
+CSQ=G	missense_variant	MODERATE		TC033335	Transcript	TC033335_001	protein_coding	7/42				1580	1573	525	A/P	Gcc/Ccc			-1						TC033335_001			
+CSQ=A	intron_variant	MODIFIER		TC030896	Transcript	TC030896_001	protein_coding		11/14										-1						TC030896_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC015186	Transcript	TC015186_001	protein_coding											677	-1						TC015186_001			
+A	intron_variant	MODIFIER		TC033357	Transcript	TC033357_001	protein_coding		1/1										1						TC033357_001			
+CSQ=T	intron_variant	MODIFIER		TC033414	Transcript	TC033414_001	protein_coding		7/14										-1						TC033414_001			
+T	intron_variant	MODIFIER		TC033414	Transcript	TC033414_002	protein_coding		7/14										-1						TC033414_002			
+T	intron_variant	MODIFIER		TC033414	Transcript	TC033414_003	protein_coding		7/14										-1						TC033414_003			
+T	intron_variant	MODIFIER		TC033414	Transcript	TC033414_004	protein_coding		7/14										-1						TC033414_004			
+CSQ=C	upstream_gene_variant	MODIFIER		TC014994	Transcript	TC014994_001	protein_coding											3725	1						TC014994_001			
+CSQ=T	intron_variant	MODIFIER		TC030588	Transcript	TC030588_001	protein_coding		4/4										-1						TC030588_001			
+T	downstream_gene_variant	MODIFIER		TC030588	Transcript	TC030588_002	protein_coding											1161	-1						TC030588_002			
+T	intron_variant	MODIFIER		TC030588	Transcript	TC030588_003	protein_coding		2/2										-1						TC030588_003			
+CSQ=A	intron_variant	MODIFIER		TC014979	Transcript	TC014979_001	protein_coding		2/2										-1						TC014979_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC015718	Transcript	TC015718_001	protein_coding											3836	1						TC015718_001			
+C	upstream_gene_variant	MODIFIER		TC015719	Transcript	TC015719_001	protein_coding											2348	1						TC015719_001			
+CSQ=A	intron_variant	MODIFIER		TC014960	Transcript	TC014960_001	protein_coding		1/3										-1						TC014960_001			
+CSQ=C	intron_variant	MODIFIER		TC014942	Transcript	TC014942_001	protein_coding		1/6										-1						TC014942_001			
+CSQ=T	intron_variant	MODIFIER		TC033450	Transcript	TC033450_001	protein_coding		1/8										1						TC033450_001			
+T	intron_variant	MODIFIER		TC033450	Transcript	TC033450_002	protein_coding		1/7										1						TC033450_002			
+CSQ=C	intron_variant	MODIFIER		TC033450	Transcript	TC033450_001	protein_coding		2/8										1						TC033450_001			
+C	intron_variant	MODIFIER		TC033450	Transcript	TC033450_002	protein_coding		2/7										1						TC033450_002			
+CSQ=C	intron_variant	MODIFIER		TC015855	Transcript	TC015855_001	protein_coding		1/3										1						TC015855_001			
+CSQ=A	intron_variant	MODIFIER		TC014860	Transcript	TC014860_001	protein_coding		5/5										-1						TC014860_001			
+A	upstream_gene_variant	MODIFIER		TC014861	Transcript	TC014861_001	protein_coding											4053	-1						TC014861_001			
+CSQ=C	upstream_gene_variant	MODIFIER		TC009461	Transcript	TC009461_001	protein_coding											1496	-1						TC009461_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC009454	Transcript	TC009454_001	protein_coding											3084	-1						TC009454_001			
+G	intron_variant	MODIFIER		TC033530	Transcript	TC033530_001	protein_coding		1/2										1						TC033530_001			
+CSQ=G	3_prime_UTR_variant	MODIFIER		TC031177	Transcript	TC031177_001	protein_coding	2/2				1954							-1						TC031177_001			
+G	upstream_gene_variant	MODIFIER		TC033526	Transcript	TC033526_001	protein_coding											758	-1						TC033526_001			
+G	downstream_gene_variant	MODIFIER		TC033527	Transcript	TC033527_001	protein_coding											4359	1						TC033527_001			
+G	downstream_gene_variant	MODIFIER		TC034759	Transcript	TC034759_001	protein_coding											2570	1						TC034759_001			
+G	5_prime_UTR_variant	MODIFIER		TC034760	Transcript	TC034760_001	protein_coding	2/2				578							1						TC034760_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC030007	Transcript	TC030007_001	protein_coding											3297	-1						TC030007_001			
+G	downstream_gene_variant	MODIFIER		TC030007	Transcript	TC030007_002	protein_coding											3297	-1						TC030007_002			
+G	synonymous_variant	LOW		TC033516	Transcript	TC033516_001	protein_coding	2/14				461	82	28	L	Tta/Cta			-1						TC033516_001			
+G	synonymous_variant	LOW		TC033516	Transcript	TC033516_002	protein_coding	3/15				425	127	43	L	Tta/Cta			-1						TC033516_002			
+CSQ=C	intron_variant	MODIFIER		TC009270	Transcript	TC009270_001	protein_coding		4/8										-1						TC009270_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC015958	Transcript	TC015958_001	protein_coding											3323	-1						TC015958_001			
+G	upstream_gene_variant	MODIFIER		TC015958	Transcript	TC015958_002	protein_coding											3323	-1						TC015958_002			
+CSQ=G	downstream_gene_variant	MODIFIER		TC009682	Transcript	TC009682_001	protein_coding											3349	1						TC009682_001			
+G	synonymous_variant	LOW		TC009683	Transcript	TC009683_001	protein_coding	2/2				844	822	274	Q	caA/caG			1						TC009683_001			
+CSQ=C	upstream_gene_variant	MODIFIER		TC013292	Transcript	TC013292_001	protein_coding											4957	1						TC013292_001			
+C	upstream_gene_variant	MODIFIER		TC013292	Transcript	TC013292_002	protein_coding											4367	1						TC013292_002			
+C	downstream_gene_variant	MODIFIER		TC014520	Transcript	TC014520_001	protein_coding											1979	-1						TC014520_001			
+CSQ=C	intron_variant	MODIFIER		TC033673	Transcript	TC033673_001	protein_coding		1/13										-1						TC033673_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC008806	Transcript	TC008806_001	protein_coding											1312	1						TC008806_001			
+T	upstream_gene_variant	MODIFIER		TC008807	Transcript	TC008807_001	protein_coding											1168	1						TC008807_001			
+T	upstream_gene_variant	MODIFIER		TC008808	Transcript	TC008808_001	protein_coding											2618	1						TC008808_001			
+T	upstream_gene_variant	MODIFIER		TC033801	Transcript	TC033801_001	protein_coding											2534	-1						TC033801_001			
+CSQ=G	intron_variant	MODIFIER		TC008856	Transcript	TC008856_001	protein_coding		3/9										1						TC008856_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC033746	Transcript	TC033746_001	protein_coding											1062	1						TC033746_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC015974	Transcript	TC015974_001	protein_coding											3294	-1						TC015974_001			
+G	upstream_gene_variant	MODIFIER		TC015993	Transcript	TC015993_001	protein_coding											4632	1						TC015993_001			
+CSQ=C	intron_variant	MODIFIER		TC006047	Transcript	TC006047_001	protein_coding		5/6										-1						TC006047_001			
+C	downstream_gene_variant	MODIFIER		TC033953	Transcript	TC033953_001	protein_coding											4090	-1						TC033953_001			
+C	downstream_gene_variant	MODIFIER		TC033953	Transcript	TC033953_002	protein_coding											4090	-1						TC033953_002			
+C	downstream_gene_variant	MODIFIER		TC033953	Transcript	TC033953_003	protein_coding											4090	-1						TC033953_003			
+CSQ=G	intron_variant	MODIFIER		TC006034	Transcript	TC006034_001	protein_coding		5/6										-1						TC006034_001			
+G	downstream_gene_variant	MODIFIER		TC033955	Transcript	TC033955_001	protein_coding											2298	1						TC033955_001			
+CSQ=A	intron_variant	MODIFIER		TC033963	Transcript	TC033963_001	protein_coding		1/8										-1						TC033963_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC005998	Transcript	TC005998_001	protein_coding											41	-1						TC005998_001			
+T	downstream_gene_variant	MODIFIER		TC005998	Transcript	TC005998_002	protein_coding											4381	-1						TC005998_002			
+T	downstream_gene_variant	MODIFIER		TC005998	Transcript	TC005998_003	protein_coding											41	-1						TC005998_003			
+T	intron_variant	MODIFIER		TC031272	Transcript	TC031272_001	protein_coding		7/7										1						TC031272_001			
+CSQ=C	synonymous_variant	LOW		TC006201	Transcript	TC006201_001	protein_coding	9/10				2905	2817	939	Y	taT/taC			1						TC006201_001			
+C	upstream_gene_variant	MODIFIER		TC006202	Transcript	TC006202_001	protein_coding											4667	1						TC006202_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC006229	Transcript	TC006229_001	protein_coding											2529	1						TC006229_001			
+A	downstream_gene_variant	MODIFIER		TC033999	Transcript	TC033999_001	protein_coding											510	1						TC033999_001			
+CSQ=T	intron_variant	MODIFIER		TC034005	Transcript	TC034005_001	protein_coding		2/2										1						TC034005_001			
+CSQ=C	intron_variant	MODIFIER		TC034005	Transcript	TC034005_001	protein_coding		2/2										1						TC034005_001			
+CSQ=C	synonymous_variant	LOW		TC006253	Transcript	TC006253_001	protein_coding	9/18				1881	1794	598	I	atT/atC			1						TC006253_001			
+C	synonymous_variant	LOW		TC006253	Transcript	TC006253_002	protein_coding	9/18				1881	1794	598	I	atT/atC			1						TC006253_002			
+CSQ=G	upstream_gene_variant	MODIFIER		TC005884	Transcript	TC005884_001	protein_coding											1348	-1						TC005884_001			
+G	5_prime_UTR_variant	MODIFIER		TC034015	Transcript	TC034015_001	protein_coding	1/8				27							1						TC034015_001			
+CSQ=C	intron_variant	MODIFIER		TC034831	Transcript	TC034831_001	protein_coding		3/3										-1						TC034831_001			
+CSQ=T	intron_variant	MODIFIER		TC015238	Transcript	TC015238_001	protein_coding		1/4										1						TC015238_001			
+T	upstream_gene_variant	MODIFIER		TC015239	Transcript	TC015239_001	protein_coding											3655	1						TC015239_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC015245	Transcript	TC015245_001	protein_coding											2886	1						TC015245_001			
+T	downstream_gene_variant	MODIFIER		TC015245	Transcript	TC015245_002	protein_coding											2886	1						TC015245_002			
+T	synonymous_variant	LOW		TC015246	Transcript	TC015246_001	protein_coding	1/1				781	720	240	V	gtC/gtT			1						TC015246_001			
+T	upstream_gene_variant	MODIFIER		TC015247	Transcript	TC015247_001	protein_coding											3130	1						TC015247_001			
+T	downstream_gene_variant	MODIFIER		TC015474	Transcript	TC015474_001	protein_coding											3811	-1						TC015474_001			
+T	downstream_gene_variant	MODIFIER		TC015475	Transcript	TC015475_001	protein_coding											2389	-1						TC015475_001			
+T	upstream_gene_variant	MODIFIER		TC015476	Transcript	TC015476_001	protein_coding											872	-1						TC015476_001			
+T	downstream_gene_variant	MODIFIER		TC033346	Transcript	TC033346_001	protein_coding											1563	1						TC033346_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC005658	Transcript	TC005658_001	protein_coding											11	-1						TC005658_001			
+A	downstream_gene_variant	MODIFIER		TC006465	Transcript	TC006465_001	protein_coding											3682	1						TC006465_001			
+A	upstream_gene_variant	MODIFIER		TC006466	Transcript	TC006466_001	protein_coding											4627	1						TC006466_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC005379	Transcript	TC005379_001	protein_coding											905	-1						TC005379_001			
+T	upstream_gene_variant	MODIFIER		TC005381	Transcript	TC005381_001	protein_coding											3087	-1						TC005381_001			
+T	intron_variant	MODIFIER		TC034183	Transcript	TC034183_001	protein_coding		2/2										-1						TC034183_001			
+T	downstream_gene_variant	MODIFIER		TC034850	Transcript	TC034850_001	protein_coding											241	1						TC034850_001			
+CSQ=C	intron_variant	MODIFIER		TC001916	Transcript	TC001916_001	protein_coding		3/7										-1						TC001916_001			
+C	missense_variant	MODERATE		TC001948	Transcript	TC001948_001	protein_coding	1/1				503	503	168	H/P	cAc/cCc			1						TC001948_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC010967	Transcript	TC010967_001	protein_coding											878	-1						TC010967_001			
+C	downstream_gene_variant	MODIFIER		TC010990	Transcript	TC010990_001	protein_coding											1063	1						TC010990_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC034236	Transcript	TC034236_001	protein_coding											4267	-1						TC034236_001			
+T	synonymous_variant	LOW		TC034237	Transcript	TC034237_001	protein_coding	2/2				305	87	29	Q	caG/caA			-1						TC034237_001			
+CSQ=T	intron_variant	MODIFIER		TC012274	Transcript	TC012274_001	protein_coding		1/4										1						TC012274_001			
+CSQ=G	intron_variant	MODIFIER		TC012322	Transcript	TC012322_001	protein_coding		1/2										1						TC012322_001			
+G	intron_variant	MODIFIER		TC031232	Transcript	TC031232_001	protein_coding		2/2										-1						TC031232_001			
+G	downstream_gene_variant	MODIFIER		TC034863	Transcript	TC034863_001	protein_coding											2440	1						TC034863_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC010640	Transcript	TC010640_001	protein_coding											1830	1						TC010640_001			
+A	synonymous_variant	LOW		TC010675	Transcript	TC010675_001	protein_coding	8/9				2430	2430	810	V	gtC/gtT			-1						TC010675_001			
+A	synonymous_variant	LOW		TC010675	Transcript	TC010675_002	protein_coding	2/3				1233	1089	363	V	gtC/gtT			-1						TC010675_002			
+A	downstream_gene_variant	MODIFIER		TC010675	Transcript	TC010675_003	protein_coding											2315	-1						TC010675_003			
+CSQ=G	synonymous_variant	LOW		TC034357	Transcript	TC034357_001	protein_coding	13/22				3441	3172	1058	L	Ttg/Ctg			-1						TC034357_001			
+G	synonymous_variant	LOW		TC034357	Transcript	TC034357_002	protein_coding	15/24				3624	3355	1119	L	Ttg/Ctg			-1						TC034357_002			
+CSQ=T	intron_variant	MODIFIER		TC012480	Transcript	TC012480_001	protein_coding		2/2										1						TC012480_001			
+T	intron_variant	MODIFIER		TC034357	Transcript	TC034357_001	protein_coding		1/21										-1						TC034357_001			
+T	intron_variant	MODIFIER		TC034357	Transcript	TC034357_002	protein_coding		1/23										-1						TC034357_002			
+CSQ=C	downstream_gene_variant	MODIFIER		TC011846	Transcript	TC011846_001	protein_coding											1903	-1						TC011846_001			
+C	upstream_gene_variant	MODIFIER		TC011847	Transcript	TC011847_001	protein_coding											717	-1						TC011847_001			
+C	upstream_gene_variant	MODIFIER		TC011848	Transcript	TC011848_001	protein_coding											4537	-1						TC011848_001			
+CSQ=A	intron_variant	MODIFIER		TC034428	Transcript	TC034428_001	protein_coding		1/1										-1						TC034428_001			
+CSQ=G	intron_variant	MODIFIER		TC034432	Transcript	TC034432_001	protein_coding		3/5										1						TC034432_001			
+G	intron_variant	MODIFIER		TC034432	Transcript	TC034432_002	protein_coding		3/7										1						TC034432_002			
+CSQ=T	downstream_gene_variant	MODIFIER		TC011788	Transcript	TC011788_001	protein_coding											4549	-1						TC011788_001			
+T	downstream_gene_variant	MODIFIER		TC011789	Transcript	TC011789_001	protein_coding											3218	-1						TC011789_001			
+T	synonymous_variant	LOW		TC011790	Transcript	TC011790_001	protein_coding	3/3				2742	2628	876	S	tcG/tcA			-1						TC011790_001			
+T	upstream_gene_variant	MODIFIER		TC011791	Transcript	TC011791_001	protein_coding											556	-1						TC011791_001			
+T	upstream_gene_variant	MODIFIER		TC034440	Transcript	TC034440_001	protein_coding											3546	-1						TC034440_001			
+CSQ=G	intron_variant	MODIFIER		TC011724	Transcript	TC011724_001	protein_coding		1/4										-1						TC011724_001			
+G	upstream_gene_variant	MODIFIER		TC012767	Transcript	TC012767_001	protein_coding											4597	1						TC012767_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC011675	Transcript	TC011675_001	protein_coding											1174	-1						TC011675_001			
+T	upstream_gene_variant	MODIFIER		TC011676	Transcript	TC011676_001	protein_coding											2854	-1						TC011676_001			
+T	upstream_gene_variant	MODIFIER		TC011676	Transcript	TC011676_002	protein_coding											4964	-1						TC011676_002			
+T	upstream_gene_variant	MODIFIER		TC031251	Transcript	TC031251_001	protein_coding											268	1						TC031251_001			
+CSQ=C	splice_region_variant&intron_variant	LOW		TC031329	Transcript	TC031329_001	protein_coding		2/3										1						TC031329_001			
+C	splice_region_variant&intron_variant	LOW		TC031329	Transcript	TC031329_002	protein_coding		2/3										1						TC031329_002			
+C	upstream_gene_variant	MODIFIER		TC031330	Transcript	TC031330_001	protein_coding											2995	1						TC031330_001			
+C	upstream_gene_variant	MODIFIER		TC031330	Transcript	TC031330_002	protein_coding											2995	1						TC031330_002			
+CSQ=C	downstream_gene_variant	MODIFIER		TC031329	Transcript	TC031329_001	protein_coding											2712	1						TC031329_001			
+C	downstream_gene_variant	MODIFIER		TC031329	Transcript	TC031329_002	protein_coding											2712	1						TC031329_002			
+C	intron_variant	MODIFIER		TC031330	Transcript	TC031330_001	protein_coding		1/3										1						TC031330_001			
+C	intron_variant	MODIFIER		TC031330	Transcript	TC031330_002	protein_coding		1/3										1						TC031330_002			
+CSQ=C	downstream_gene_variant	MODIFIER		TC011234	Transcript	TC011234_001	protein_coding											2993	-1						TC011234_001			
+C	upstream_gene_variant	MODIFIER		TC011235	Transcript	TC011235_001	protein_coding											1156	-1						TC011235_001			
+C	upstream_gene_variant	MODIFIER		TC011249	Transcript	TC011249_001	protein_coding											3962	1						TC011249_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC011232	Transcript	TC011232_001	protein_coding											102	-1						TC011232_001			
+A	downstream_gene_variant	MODIFIER		TC011255	Transcript	TC011255_001	protein_coding											2917	1						TC011255_001			
+A	intron_variant	MODIFIER		TC011256	Transcript	TC011256_001	protein_coding		3/6										1						TC011256_001			
+CSQ=G	intron_variant	MODIFIER		TC011257	Transcript	TC011257_001	protein_coding		2/5										1						TC011257_001			
+G	intron_variant	MODIFIER		TC011257	Transcript	TC011257_002	protein_coding		2/5										1						TC011257_002			
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=T	intron_variant	MODIFIER		TC011204	Transcript	TC011204_001	protein_coding		4/4										-1						TC011204_001			
+T	upstream_gene_variant	MODIFIER		TC031357	Transcript	TC031357_001	protein_coding											1066	1						TC031357_001			
+CSQ=A	intergenic_variant	MODIFIER																										
+CSQ=A	intron_variant	MODIFIER		TC011156	Transcript	TC011156_001	protein_coding		1/3										-1						TC011156_001			
+A	intron_variant	MODIFIER		TC011156	Transcript	TC011156_002	protein_coding		1/3										-1						TC011156_002			
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=T	upstream_gene_variant	MODIFIER		TC011058	Transcript	TC011058_001	protein_coding											2548	1						TC011058_001			
+T	intron_variant	MODIFIER		TC011419	Transcript	TC011419_001	protein_coding		1/3										-1						TC011419_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC000286	Transcript	TC000286_001	protein_coding											801	-1						TC000286_001			
+CSQ=A	intron_variant	MODIFIER		TC003000	Transcript	TC003000_001	protein_coding		1/11										-1						TC003000_001			
+CSQ=C	upstream_gene_variant	MODIFIER		TC034605	Transcript	TC034605_001	protein_coding											1369	-1						TC034605_001			
+CSQ=T	intron_variant	MODIFIER		TC000026	Transcript	TC000026_001	protein_coding		3/6										-1						TC000026_001			
+CSQ=G	intron_variant	MODIFIER		TC032553	Transcript	TC032553_001	protein_coding		1/11										-1						TC032553_001			
+G	intron_variant	MODIFIER		TC032553	Transcript	TC032553_002	protein_coding		2/12										-1						TC032553_002			
+CSQ=G	intron_variant	MODIFIER		TC001958	Transcript	TC001958_001	protein_coding		2/6										1						TC001958_001			
+CSQ=T	intergenic_variant	MODIFIER																										
+CSQ=G	downstream_gene_variant	MODIFIER		TC005387	Transcript	TC005387_001	protein_coding											542	-1						TC005387_001			
+G	missense_variant	MODERATE		TC034179	Transcript	TC034179_001	protein_coding	4/5				1821	1794	598	D/E	gaC/gaG			1						TC034179_001			
+CSQ=C	synonymous_variant	LOW		TC011881	Transcript	TC011881_001	protein_coding	2/6				607	591	197	A	gcT/gcG			-1						TC011881_001			
+C	upstream_gene_variant	MODIFIER		TC011882	Transcript	TC011882_001	protein_coding											1357	-1						TC011882_001			
+C	upstream_gene_variant	MODIFIER		TC011883	Transcript	TC011883_001	protein_coding											3377	-1						TC011883_001			
+C	upstream_gene_variant	MODIFIER		TC012629	Transcript	TC012629_001	protein_coding											4337	1						TC012629_001			
+C	upstream_gene_variant	MODIFIER		TC034410	Transcript	TC034410_001	protein_coding											3377	-1						TC034410_001			
+C	downstream_gene_variant	MODIFIER		TC034886	Transcript	TC034886_001	protein_coding											731	-1						TC034886_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC004140	Transcript	TC004140_001	protein_coding											2773	1						TC004140_001			
+CSQ=T	intron_variant	MODIFIER		TC004121	Transcript	TC004121_001	protein_coding		2/3										-1						TC004121_001			
+T	downstream_gene_variant	MODIFIER		TC004152	Transcript	TC004152_001	protein_coding											2508	1						TC004152_001			
+T	upstream_gene_variant	MODIFIER		TC004153	Transcript	TC004153_001	protein_coding											2998	1						TC004153_001			
+CSQ=G	intron_variant	MODIFIER		TC004118	Transcript	TC004118_001	protein_coding		1/3										-1						TC004118_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC004113	Transcript	TC004113_001	protein_coding											739	-1						TC004113_001			
+G	upstream_gene_variant	MODIFIER		TC004114	Transcript	TC004114_001	protein_coding											2985	-1						TC004114_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC014197	Transcript	TC014197_001	protein_coding											1841	1						TC014197_001			
+A	downstream_gene_variant	MODIFIER		TC014198	Transcript	TC014198_001	protein_coding											359	1						TC014198_001			
+A	downstream_gene_variant	MODIFIER		TC030880	Transcript	TC030880_001	protein_coding											4133	-1						TC030880_001			
+A	downstream_gene_variant	MODIFIER		TC030880	Transcript	TC030880_002	protein_coding											4133	-1						TC030880_002			
+CSQ=A	downstream_gene_variant	MODIFIER		TC013615	Transcript	TC013615_001	protein_coding											418	-1						TC013615_001			
+A	upstream_gene_variant	MODIFIER		TC014200	Transcript	TC014200_001	protein_coding											474	1						TC014200_001			
+A	upstream_gene_variant	MODIFIER		TC014200	Transcript	TC014200_002	protein_coding											474	1						TC014200_002			
+A	intron_variant	MODIFIER		TC030880	Transcript	TC030880_002	protein_coding		1/1										-1						TC030880_002			
+CSQ=G	intron_variant	MODIFIER		TC004646	Transcript	TC004646_001	protein_coding		1/2										1						TC004646_001			
+G	downstream_gene_variant	MODIFIER		TC004721	Transcript	TC004721_001	protein_coding											2681	-1						TC004721_001			
+G	downstream_gene_variant	MODIFIER		TC004721	Transcript	TC004721_002	protein_coding											2681	-1						TC004721_002			
+G	downstream_gene_variant	MODIFIER		TC031516	Transcript	TC031516_001	protein_coding											1160	1						TC031516_001			
+G	downstream_gene_variant	MODIFIER		TC031516	Transcript	TC031516_002	protein_coding											1160	1						TC031516_002			
+CSQ=C	downstream_gene_variant	MODIFIER		TC010763	Transcript	TC010763_001	protein_coding											2617	1						TC010763_001			
+C	downstream_gene_variant	MODIFIER		TC010763	Transcript	TC010763_002	protein_coding											2617	1						TC010763_002			
+C	downstream_gene_variant	MODIFIER		TC010763	Transcript	TC010763_003	protein_coding											2617	1						TC010763_003			
+C	downstream_gene_variant	MODIFIER		TC010763	Transcript	TC010763_004	protein_coding											2617	1						TC010763_004			
+C	downstream_gene_variant	MODIFIER		TC010763	Transcript	TC010763_005	protein_coding											2617	1						TC010763_005			
+C	upstream_gene_variant	MODIFIER		TC010764	Transcript	TC010764_001	protein_coding											2412	1						TC010764_001			
+C	upstream_gene_variant	MODIFIER		TC031546	Transcript	TC031546_001	protein_coding											4452	1						TC031546_001			
+C	synonymous_variant	LOW		TC031547	Transcript	TC031547_001	protein_coding	3/3				2040	1959	653	V	gtC/gtG			-1						TC031547_001			
+C	upstream_gene_variant	MODIFIER		TC031548	Transcript	TC031548_001	protein_coding											150	-1						TC031548_001			
+CSQ=A	intergenic_variant	MODIFIER																										
+CSQ=G	intron_variant	MODIFIER		TC004910	Transcript	TC004910_001	protein_coding		4/4										1						TC004910_001			
+CSQ=C	intron_variant	MODIFIER		TC004470	Transcript	TC004470_001	protein_coding		1/6										-1						TC004470_001			
+C	upstream_gene_variant	MODIFIER		TC004917	Transcript	TC004917_001	protein_coding											3545	1						TC004917_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC032026	Transcript	TC032026_001	protein_coding											4675	-1						TC032026_001			
+T	upstream_gene_variant	MODIFIER		TC032026	Transcript	TC032026_002	protein_coding											4675	-1						TC032026_002			
+CSQ=C	missense_variant	MODERATE		TC032040	Transcript	TC032040_001	protein_coding	15/18				2629	2564	855	E/A	gAa/gCa			1						TC032040_001			
+C	downstream_gene_variant	MODIFIER		TC032041	Transcript	TC032041_001	protein_coding											802	-1						TC032041_001			
+C	upstream_gene_variant	MODIFIER		TC034549	Transcript	TC034549_001	protein_coding											4491	1						TC034549_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC000675	Transcript	TC000675_001	protein_coding											4659	-1						TC000675_001			
+T	downstream_gene_variant	MODIFIER		TC000676	Transcript	TC000676_001	protein_coding											1101	-1						TC000676_001			
+T	downstream_gene_variant	MODIFIER		TC000676	Transcript	TC000676_002	protein_coding											2705	-1						TC000676_002			
+T	downstream_gene_variant	MODIFIER		TC000676	Transcript	TC000676_003	protein_coding											1101	-1						TC000676_003			
+T	intron_variant	MODIFIER		TC000677	Transcript	TC000677_001	protein_coding		1/12										-1						TC000677_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC000973	Transcript	TC000973_001	protein_coding											697	1						TC000973_001			
+A	upstream_gene_variant	MODIFIER		TC000973	Transcript	TC000973_002	protein_coding											697	1						TC000973_002			
+CSQ=A	5_prime_UTR_variant	MODIFIER		TC000603	Transcript	TC000603_001	protein_coding	1/5				110							-1						TC000603_001			
+A	upstream_gene_variant	MODIFIER		TC000604	Transcript	TC000604_001	protein_coding											2591	-1						TC000604_001			
+A	upstream_gene_variant	MODIFIER		TC000604	Transcript	TC000604_002	protein_coding											2591	-1						TC000604_002			
+A	upstream_gene_variant	MODIFIER		TC030731	Transcript	TC030731_001	protein_coding											211	1						TC030731_001			
+CSQ=A	synonymous_variant	LOW		TC000544	Transcript	TC000544_001	protein_coding	22/26				3330	3279	1093	V	gtC/gtT			-1						TC000544_001			
+A	upstream_gene_variant	MODIFIER		TC000545	Transcript	TC000545_001	protein_coding											3444	-1						TC000545_001			
+A	upstream_gene_variant	MODIFIER		TC000546	Transcript	TC000546_001	protein_coding											4964	-1						TC000546_001			
+A	upstream_gene_variant	MODIFIER		TC000546	Transcript	TC000546_002	protein_coding											4964	-1						TC000546_002			
+A	downstream_gene_variant	MODIFIER		TC001023	Transcript	TC001023_001	protein_coding											698	1						TC001023_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC000521	Transcript	TC000521_001	protein_coding											578	-1						TC000521_001			
+C	upstream_gene_variant	MODIFIER		TC000522	Transcript	TC000522_001	protein_coding											63	-1						TC000522_001			
+C	upstream_gene_variant	MODIFIER		TC000523	Transcript	TC000523_001	protein_coding											1503	-1						TC000523_001			
+C	upstream_gene_variant	MODIFIER		TC000524	Transcript	TC000524_001	protein_coding											3803	-1						TC000524_001			
+CSQ=T	intron_variant	MODIFIER		TC000408	Transcript	TC000408_001	protein_coding		1/7										-1						TC000408_001			
+T	upstream_gene_variant	MODIFIER		TC001148	Transcript	TC001148_001	protein_coding											3837	1						TC001148_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC000407	Transcript	TC000407_001	protein_coding											1943	-1						TC000407_001			
+G	intron_variant	MODIFIER		TC000408	Transcript	TC000408_001	protein_coding		1/7										-1						TC000408_001			
+G	upstream_gene_variant	MODIFIER		TC001148	Transcript	TC001148_001	protein_coding											242	1						TC001148_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC032258	Transcript	TC032258_001	protein_coding											4618	-1						TC032258_001			
+A	upstream_gene_variant	MODIFIER		TC032258	Transcript	TC032258_002	protein_coding											4618	-1						TC032258_002			
+CSQ=T	downstream_gene_variant	MODIFIER		TC003089	Transcript	TC003089_001	protein_coding											1210	-1						TC003089_001			
+T	intron_variant	MODIFIER		TC032332	Transcript	TC032332_001	protein_coding		3/13										1						TC032332_001			
+CSQ=G	intergenic_variant	MODIFIER																										
+CSQ=C	intron_variant	MODIFIER		TC002984	Transcript	TC002984_001	protein_coding		2/8										-1						TC002984_001			
+CSQ=C	intron_variant	MODIFIER		TC032392	Transcript	TC032392_001	protein_coding		14/33										-1						TC032392_001			
+C	intron_variant	MODIFIER		TC032392	Transcript	TC032392_002	protein_coding		14/33										-1						TC032392_002			
+C	intron_variant	MODIFIER		TC032392	Transcript	TC032392_003	protein_coding		15/34										-1						TC032392_003			
+CSQ=T	downstream_gene_variant	MODIFIER		TC002947	Transcript	TC002947_001	protein_coding											369	-1						TC002947_001			
+T	upstream_gene_variant	MODIFIER		TC002948	Transcript	TC002948_001	protein_coding											377	-1						TC002948_001			
+T	downstream_gene_variant	MODIFIER		TC003489	Transcript	TC003489_001	protein_coding											3007	1						TC003489_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC003513	Transcript	TC003513_001	protein_coding											1775	1						TC003513_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC002915	Transcript	TC002915_001	protein_coding											2189	-1						TC002915_001			
+A	intron_variant	MODIFIER		TC003531	Transcript	TC003531_001	protein_coding		1/3										1						TC003531_001			
+A	upstream_gene_variant	MODIFIER		TC003532	Transcript	TC003532_001	protein_coding											4748	1						TC003532_001			
+CSQ=G	intergenic_variant	MODIFIER																										
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=T	downstream_gene_variant	MODIFIER		TC002838	Transcript	TC002838_001	protein_coding											2877	-1						TC002838_001			
+T	downstream_gene_variant	MODIFIER		TC002839	Transcript	TC002839_001	protein_coding											222	-1						TC002839_001			
+T	upstream_gene_variant	MODIFIER		TC002840	Transcript	TC002840_001	protein_coding											1463	-1						TC002840_001			
+T	upstream_gene_variant	MODIFIER		TC002841	Transcript	TC002841_001	protein_coding											3916	-1						TC002841_001			
+T	downstream_gene_variant	MODIFIER		TC003599	Transcript	TC003599_001	protein_coding											1226	1						TC003599_001			
+T	3_prime_UTR_variant	MODIFIER		TC003600	Transcript	TC003600_001	protein_coding	2/2				1064							1						TC003600_001			
+T	upstream_gene_variant	MODIFIER		TC003601	Transcript	TC003601_001	protein_coding											759	1						TC003601_001			
+T	upstream_gene_variant	MODIFIER		TC003602	Transcript	TC003602_001	protein_coding											206	1						TC003602_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC002830	Transcript	TC002830_001	protein_coding											1130	-1						TC002830_001			
+T	synonymous_variant	LOW		TC032427	Transcript	TC032427_001	protein_coding	1/14				79	36	12	I	atC/atT			1						TC032427_001			
+CSQ=T	intron_variant	MODIFIER		TC002816	Transcript	TC002816_001	protein_coding		5/6										-1						TC002816_001			
+T	intron_variant	MODIFIER		TC002816	Transcript	TC002816_002	protein_coding		5/6										-1						TC002816_002			
+T	upstream_gene_variant	MODIFIER		TC030659	Transcript	TC030659_001	protein_coding											4280	-1						TC030659_001			
+T	downstream_gene_variant	MODIFIER		TC032439	Transcript	TC032439_001	protein_coding											1405	1						TC032439_001			
+CSQ=C	intron_variant	MODIFIER		TC002816	Transcript	TC002816_001	protein_coding		2/6										-1						TC002816_001			
+C	intron_variant	MODIFIER		TC002816	Transcript	TC002816_002	protein_coding		2/6										-1						TC002816_002			
+CSQ=T	upstream_gene_variant	MODIFIER	tRNA-Ile	ENSRNA022734747	Transcript	ENSRNA022734747-T1	tRNA											2704	-1		TRNASCAN_SE							
+T	downstream_gene_variant	MODIFIER		TC002796	Transcript	TC002796_001	protein_coding											3641	-1						TC002796_001			
+CSQ=T	intron_variant	MODIFIER		TC002789	Transcript	TC002789_001	protein_coding		1/1										-1						TC002789_001			
+T	intron_variant	MODIFIER		TC002789	Transcript	TC002789_002	protein_coding		1/1										-1						TC002789_002			
+T	upstream_gene_variant	MODIFIER		TC002790	Transcript	TC002790_001	protein_coding											1191	-1						TC002790_001			
+T	upstream_gene_variant	MODIFIER		TC032455	Transcript	TC032455_001	protein_coding											581	1						TC032455_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC002777	Transcript	TC002777_001	protein_coding											1196	-1						TC002777_001			
+T	downstream_gene_variant	MODIFIER		TC003652	Transcript	TC003652_001	protein_coding											228	1						TC003652_001			
+T	upstream_gene_variant	MODIFIER		TC003653	Transcript	TC003653_001	protein_coding											846	1						TC003653_001			
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=T	intron_variant	MODIFIER		TC003707	Transcript	TC003707_001	protein_coding		1/1										1						TC003707_001			
+T	upstream_gene_variant	MODIFIER		TC031045	Transcript	TC031045_001	protein_coding											4435	-1						TC031045_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC002708	Transcript	TC002708_001	protein_coding											1604	-1						TC002708_001			
+A	upstream_gene_variant	MODIFIER		TC032496	Transcript	TC032496_001	protein_coding											1779	1						TC032496_001			
+A	upstream_gene_variant	MODIFIER		TC032496	Transcript	TC032496_002	protein_coding											1779	1						TC032496_002			
+A	upstream_gene_variant	MODIFIER		TC032496	Transcript	TC032496_003	protein_coding											1790	1						TC032496_003			
+A	upstream_gene_variant	MODIFIER		TC032496	Transcript	TC032496_004	protein_coding											1779	1						TC032496_004			
+CSQ=G	downstream_gene_variant	MODIFIER		TC010517	Transcript	TC010517_001	protein_coding											4360	-1						TC010517_001			
+G	intron_variant	MODIFIER		TC010518	Transcript	TC010518_001	protein_coding		5/17										-1						TC010518_001			
+CSQ=T	intron_variant	MODIFIER		TC010489	Transcript	TC010489_001	protein_coding		7/8										-1						TC010489_001			
+T	upstream_gene_variant	MODIFIER		TC010490	Transcript	TC010490_001	protein_coding											1673	-1						TC010490_001			
+CSQ=A	intron_variant	MODIFIER		TC031052	Transcript	TC031052_001	protein_coding		21/21										-1						TC031052_001			
+A	intron_variant	MODIFIER		TC031052	Transcript	TC031052_002	protein_coding		22/22										-1						TC031052_002			
+A	intron_variant	MODIFIER		TC031052	Transcript	TC031052_003	protein_coding		22/22										-1						TC031052_003			
+CSQ=C	intron_variant	MODIFIER		TC003789	Transcript	TC003789_001	protein_coding		2/4										-1						TC003789_001			
+C	missense_variant	MODERATE		TC031051	Transcript	TC031051_001	protein_coding	1/3				244	229	77	K/Q	Aaa/Caa			1						TC031051_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC030354	Transcript	TC030354_001	protein_coding											4866	-1						TC030354_001			
+T	downstream_gene_variant	MODIFIER		TC030355	Transcript	TC030355_001	protein_coding											3095	-1						TC030355_001			
+T	upstream_gene_variant	MODIFIER		TC030356	Transcript	TC030356_001	protein_coding											20	-1						TC030356_001			
+CSQ=G	intergenic_variant	MODIFIER																										
+CSQ=A	intergenic_variant	MODIFIER																										
+CSQ=T	missense_variant	MODERATE		TC034612	Transcript	TC034612_001	protein_coding	5/12				842	725	242	R/K	aGa/aAa			-1						TC034612_001			
+T	missense_variant	MODERATE		TC034612	Transcript	TC034612_002	protein_coding	5/11				842	725	242	R/K	aGa/aAa			-1						TC034612_002			
+CSQ=T	intron_variant	MODIFIER		TC012892	Transcript	TC012892_001	protein_coding		1/2										1						TC012892_001			
+CSQ=A	intron_variant	MODIFIER		TC031362	Transcript	TC031362_001	protein_coding		2/12										-1						TC031362_001			
+A	intron_variant	MODIFIER		TC031362	Transcript	TC031362_002	protein_coding		3/13										-1						TC031362_002			
+CSQ=G	5_prime_UTR_variant	MODIFIER		TC002588	Transcript	TC002588_001	protein_coding	1/5				128							-1						TC002588_001			
+G	downstream_gene_variant	MODIFIER		TC003836	Transcript	TC003836_001	protein_coding											3477	1						TC003836_001			
+G	upstream_gene_variant	MODIFIER		TC003837	Transcript	TC003837_001	protein_coding											3358	1						TC003837_001			
+CSQ=A	intron_variant	MODIFIER		TC002587	Transcript	TC002587_001	protein_coding		3/15										-1						TC002587_001			
+A	intron_variant	MODIFIER		TC002587	Transcript	TC002587_002	protein_coding		3/16										-1						TC002587_002			
+CSQ=C	upstream_gene_variant	MODIFIER		TC032583	Transcript	TC032583_001	protein_coding											1930	-1						TC032583_001			
+CSQ=T	intergenic_variant	MODIFIER																										
+CSQ=T	intron_variant	MODIFIER		TC002493	Transcript	TC002493_001	protein_coding		2/5										-1						TC002493_001			
+CSQ=G	intron_variant	MODIFIER		TC032646	Transcript	TC032646_001	protein_coding		2/5										-1						TC032646_001			
+CSQ=A	intergenic_variant	MODIFIER																										
+CSQ=T	intron_variant	MODIFIER		TC032667	Transcript	TC032667_001	protein_coding		9/18										-1						TC032667_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC007668	Transcript	TC007668_001	protein_coding											2444	-1						TC007668_001			
+G	upstream_gene_variant	MODIFIER		TC007829	Transcript	TC007829_001	protein_coding											406	1						TC007829_001			
+G	upstream_gene_variant	MODIFIER		TC032744	Transcript	TC032744_001	protein_coding											322	1						TC032744_001			
+CSQ=C	intron_variant	MODIFIER		TC007661	Transcript	TC007661_001	protein_coding		2/2										-1						TC007661_001			
+C	downstream_gene_variant	MODIFIER		TC032747	Transcript	TC032747_001	protein_coding											2357	1						TC032747_001			
+C	downstream_gene_variant	MODIFIER		TC032747	Transcript	TC032747_002	protein_coding											2357	1						TC032747_002			
+CSQ=G	downstream_gene_variant	MODIFIER		TC007648	Transcript	TC007648_001	protein_coding											2124	-1						TC007648_001			
+G	downstream_gene_variant	MODIFIER		TC007648	Transcript	TC007648_002	protein_coding											2124	-1						TC007648_002			
+G	downstream_gene_variant	MODIFIER		TC007648	Transcript	TC007648_003	protein_coding											2124	-1						TC007648_003			
+G	5_prime_UTR_variant	MODIFIER		TC007649	Transcript	TC007649_001	protein_coding	2/2				501							-1						TC007649_001			
+G	upstream_gene_variant	MODIFIER		TC007650	Transcript	TC007650_001	protein_coding											3029	-1						TC007650_001			
+G	synonymous_variant	LOW		TC007854	Transcript	TC007854_001	protein_coding	4/4				877	843	281	S	tcA/tcG			1						TC007854_001			
+G	3_prime_UTR_variant	MODIFIER		TC007854	Transcript	TC007854_002	protein_coding	4/4				2420							1						TC007854_002			
+G	upstream_gene_variant	MODIFIER		TC007855	Transcript	TC007855_001	protein_coding											623	1						TC007855_001			
+CSQ=A	intron_variant	MODIFIER		TC007504	Transcript	TC007504_001	protein_coding		3/4										-1						TC007504_001			
+A	intron_variant	MODIFIER		TC032792	Transcript	TC032792_001	protein_coding		1/5										-1						TC032792_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC008010	Transcript	TC008010_001	protein_coding											2754	1						TC008010_001			
+C	intron_variant	MODIFIER		TC008011	Transcript	TC008011_001	protein_coding		1/1										1						TC008011_001			
+C	intron_variant	MODIFIER		TC031102	Transcript	TC031102_001	protein_coding		3/3										-1						TC031102_001			
+CSQ=C	intron_variant	MODIFIER		TC032808	Transcript	TC032808_001	protein_coding		3/4										-1						TC032808_001			
+C	intron_variant	MODIFIER		TC032808	Transcript	TC032808_002	protein_coding		2/3										-1						TC032808_002			
+CSQ=T	intron_variant	MODIFIER		TC032808	Transcript	TC032808_001	protein_coding		3/4										-1						TC032808_001			
+T	intron_variant	MODIFIER		TC032808	Transcript	TC032808_002	protein_coding		2/3										-1						TC032808_002			
+CSQ=C	downstream_gene_variant	MODIFIER		TC007400	Transcript	TC007400_001	protein_coding											1956	-1						TC007400_001			
+C	upstream_gene_variant	MODIFIER		TC007401	Transcript	TC007401_001	protein_coding											851	-1						TC007401_001			
+C	upstream_gene_variant	MODIFIER		TC007402	Transcript	TC007402_001	protein_coding											2301	-1						TC007402_001			
+C	downstream_gene_variant	MODIFIER		TC008103	Transcript	TC008103_001	protein_coding											3178	1						TC008103_001			
+C	downstream_gene_variant	MODIFIER		TC008104	Transcript	TC008104_001	protein_coding											2238	1						TC008104_001			
+C	downstream_gene_variant	MODIFIER		TC008105	Transcript	TC008105_001	protein_coding											9	1						TC008105_001			
+C	upstream_gene_variant	MODIFIER		TC008106	Transcript	TC008106_001	protein_coding											1591	1						TC008106_001			
+C	upstream_gene_variant	MODIFIER		TC008107	Transcript	TC008107_001	protein_coding											3331	1						TC008107_001			
+C	upstream_gene_variant	MODIFIER		TC008107	Transcript	TC008107_002	protein_coding											3331	1						TC008107_002			
+C	5_prime_UTR_variant	MODIFIER		TC032812	Transcript	TC032812_001	protein_coding	2/3				240							1						TC032812_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC007337	Transcript	TC007337_001	protein_coding											3670	-1						TC007337_001			
+G	upstream_gene_variant	MODIFIER		TC008164	Transcript	TC008164_001	protein_coding											4788	1						TC008164_001			
+G	intron_variant	MODIFIER		TC032828	Transcript	TC032828_001	protein_coding		1/10										-1						TC032828_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC007288	Transcript	TC007288_001	protein_coding											4203	-1						TC007288_001			
+A	intron_variant	MODIFIER		TC008198	Transcript	TC008198_001	protein_coding		1/11										1						TC008198_001			
+A	intron_variant	MODIFIER		TC008198	Transcript	TC008198_002	protein_coding		1/8										1						TC008198_002			
+A	intron_variant	MODIFIER		TC008198	Transcript	TC008198_004	protein_coding		1/6										1						TC008198_004			
+A	intron_variant	MODIFIER		TC008198	Transcript	TC008198_006	protein_coding		1/8										1						TC008198_006			
+CSQ=A	downstream_gene_variant	MODIFIER		TC007216	Transcript	TC007216_001	protein_coding											3113	-1						TC007216_001			
+A	upstream_gene_variant	MODIFIER		TC007217	Transcript	TC007217_001	protein_coding											4994	-1						TC007217_001			
+A	missense_variant	MODERATE		TC008259	Transcript	TC008259_001	protein_coding	2/2				212	212	71	G/E	gGa/gAa			1						TC008259_001			
+CSQ=A	intron_variant	MODIFIER		TC007162	Transcript	TC007162_001	protein_coding		2/2										-1						TC007162_001			
+A	upstream_gene_variant	MODIFIER		TC007163	Transcript	TC007163_001	protein_coding											4526	-1						TC007163_001			
+A	upstream_gene_variant	MODIFIER		TC008309	Transcript	TC008309_001	protein_coding											4283	1						TC008309_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC007089	Transcript	TC007089_002	protein_coding											1303	-1						TC007089_002			
+CSQ=C	intron_variant	MODIFIER		TC007025	Transcript	TC007025_001	protein_coding		3/4										-1						TC007025_001			
+C	downstream_gene_variant	MODIFIER		TC032902	Transcript	TC032902_001	protein_coding											727	1						TC032902_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC007008	Transcript	TC007008_001	protein_coding											2653	-1						TC007008_001			
+C	downstream_gene_variant	MODIFIER		TC007008	Transcript	TC007008_002	protein_coding											2653	-1						TC007008_002			
+C	5_prime_UTR_variant	MODIFIER		TC007009	Transcript	TC007009_001	protein_coding	1/8				1745							-1						TC007009_001			
+CSQ=T	missense_variant	MODERATE		TC016314	Transcript	TC016314_001	protein_coding	3/3				1196	952	318	A/S	Gcc/Tcc			1						TC016314_001			
+T	downstream_gene_variant	MODIFIER		TC016318	Transcript	TC016318_001	protein_coding											149	-1						TC016318_001			
+CSQ=T	intron_variant	MODIFIER		TC000150	Transcript	TC000150_001	protein_coding		2/8										-1						TC000150_001			
+T	intron_variant	MODIFIER		TC000150	Transcript	TC000150_002	protein_coding		2/8										-1						TC000150_002			
+CSQ=T	intron_variant	MODIFIER		TC010943	Transcript	TC010943_001	protein_coding		2/2										1						TC010943_001			
+T	upstream_gene_variant	MODIFIER		TC033009	Transcript	TC033009_001	protein_coding											3058	-1						TC033009_001			
+CSQ=G	intergenic_variant	MODIFIER																										
+CSQ=C	downstream_gene_variant	MODIFIER		TC013817	Transcript	TC013817_001	protein_coding											2884	-1						TC013817_001			
+C	upstream_gene_variant	MODIFIER		TC013818	Transcript	TC013818_001	protein_coding											1022	-1						TC013818_001			
+C	upstream_gene_variant	MODIFIER		TC013819	Transcript	TC013819_001	protein_coding											4453	-1						TC013819_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC013808	Transcript	TC013808_001	protein_coding											1041	-1						TC013808_001			
+G	upstream_gene_variant	MODIFIER		TC013809	Transcript	TC013809_001	protein_coding											4911	-1						TC013809_001			
+G	upstream_gene_variant	MODIFIER		TC013993	Transcript	TC013993_001	protein_coding											3621	1						TC013993_001			
+CSQ=T	upstream_gene_variant	MODIFIER		TC013808	Transcript	TC013808_001	protein_coding											1183	-1						TC013808_001			
+T	upstream_gene_variant	MODIFIER		TC013993	Transcript	TC013993_001	protein_coding											3479	1						TC013993_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC014041	Transcript	TC014041_001	protein_coding											468	1						TC014041_001			
+G	intron_variant	MODIFIER		TC030576	Transcript	TC030576_001	protein_coding		6/7										-1						TC030576_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC014314	Transcript	TC014314_001	protein_coding											4124	1						TC014314_001			
+A	intron_variant	MODIFIER		TC031145	Transcript	TC031145_001	protein_coding		6/16										-1						TC031145_001			
+A	intron_variant	MODIFIER		TC031145	Transcript	TC031145_002	protein_coding		6/16										-1						TC031145_002			
+CSQ=T	intron_variant	MODIFIER		TC013418	Transcript	TC013418_001	protein_coding		1/2										-1						TC013418_001			
+T	upstream_gene_variant	MODIFIER		TC013419	Transcript	TC013419_001	protein_coding											2699	-1						TC013419_001			
+T	upstream_gene_variant	MODIFIER		TC013419	Transcript	TC013419_002	protein_coding											2699	-1						TC013419_002			
+T	upstream_gene_variant	MODIFIER		TC013419	Transcript	TC013419_003	protein_coding											2699	-1						TC013419_003			
+T	upstream_gene_variant	MODIFIER		TC033148	Transcript	TC033148_001	protein_coding											4642	-1						TC033148_001			
+CSQ=A	downstream_gene_variant	MODIFIER		TC013376	Transcript	TC013376_001	protein_coding											3830	-1						TC013376_001			
+A	downstream_gene_variant	MODIFIER		TC013377	Transcript	TC013377_001	protein_coding											285	-1						TC013377_001			
+A	upstream_gene_variant	MODIFIER		TC014428	Transcript	TC014428_001	protein_coding											4069	1						TC014428_001			
+A	downstream_gene_variant	MODIFIER		TC033158	Transcript	TC033158_001	protein_coding											4696	1						TC033158_001			
+A	synonymous_variant	LOW		TC033159	Transcript	TC033159_001	protein_coding	3/3				4015	3840	1280	G	ggG/ggA			1						TC033159_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC013354	Transcript	TC013354_001	protein_coding											2744	-1						TC013354_001			
+G	intron_variant	MODIFIER		TC013355	Transcript	TC013355_001	protein_coding		1/3										-1						TC013355_001			
+G	upstream_gene_variant	MODIFIER		TC014458	Transcript	TC014458_001	protein_coding											4427	1						TC014458_001			
+G	upstream_gene_variant	MODIFIER		TC014458	Transcript	TC014458_002	protein_coding											2527	1						TC014458_002			
+CSQ=T	upstream_gene_variant	MODIFIER		TC013232	Transcript	TC013232_001	protein_coding											1651	-1						TC013232_001			
+T	intron_variant	MODIFIER		TC014566	Transcript	TC014566_002	protein_coding		2/5										1						TC014566_002			
+CSQ=G	intron_variant	MODIFIER		TC033193	Transcript	TC033193_001	protein_coding		10/22										-1						TC033193_001			
+G	intron_variant	MODIFIER		TC033193	Transcript	TC033193_002	protein_coding		10/23										-1						TC033193_002			
+CSQ=G	intron_variant	MODIFIER		TC014772	Transcript	TC014772_001	protein_coding		7/7										1						TC014772_001			
+G	upstream_gene_variant	MODIFIER		TC014773	Transcript	TC014773_001	protein_coding											2546	1						TC014773_001			
+G	upstream_gene_variant	MODIFIER		TC014773	Transcript	TC014773_002	protein_coding											2546	1						TC014773_002			
+CSQ=C	intron_variant	MODIFIER		TC013022	Transcript	TC013022_002	protein_coding		2/3										-1						TC013022_002			
+C	upstream_gene_variant	MODIFIER		TC013022	Transcript	TC013022_003	protein_coding											472	-1						TC013022_003			
+C	3_prime_UTR_variant	MODIFIER		TC033261	Transcript	TC033261_001	protein_coding	3/3				1824							-1						TC033261_001			
+CSQ=A	intron_variant	MODIFIER		TC015081	Transcript	TC015081_001	protein_coding		11/11										-1						TC015081_001			
+A	upstream_gene_variant	MODIFIER		TC015082	Transcript	TC015082_001	protein_coding											3001	-1						TC015082_001			
+CSQ=T	intron_variant	MODIFIER		TC015081	Transcript	TC015081_001	protein_coding		3/11										-1						TC015081_001			
+T	downstream_gene_variant	MODIFIER		TC015625	Transcript	TC015625_001	protein_coding											2502	1						TC015625_001			
+CSQ=G	intron_variant	MODIFIER		TC015026	Transcript	TC015026_001	protein_coding		1/3										-1						TC015026_001			
+G	intron_variant	MODIFIER		TC015667	Transcript	TC015667_001	protein_coding		2/9										1						TC015667_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC015005	Transcript	TC015005_001	protein_coding											815	1						TC015005_001			
+G	intron_variant	MODIFIER		TC030908	Transcript	TC030908_001	protein_coding		1/5										-1						TC030908_001			
+G	intron_variant	MODIFIER		TC030908	Transcript	TC030908_002	protein_coding		1/1										-1						TC030908_002			
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=A	intron_variant	MODIFIER		TC033450	Transcript	TC033450_001	protein_coding		2/8										1						TC033450_001			
+A	intron_variant	MODIFIER		TC033450	Transcript	TC033450_002	protein_coding		2/7										1						TC033450_002			
+CSQ=G	intron_variant	MODIFIER		TC015804	Transcript	TC015804_001	protein_coding		1/5										1						TC015804_001			
+G	intron_variant	MODIFIER		TC015804	Transcript	TC015804_002	protein_coding		2/5										1						TC015804_002			
+G	intron_variant	MODIFIER		TC015804	Transcript	TC015804_003	protein_coding		1/4										1						TC015804_003			
+CSQ=C	intron_variant	MODIFIER		TC033567	Transcript	TC033567_001	protein_coding		1/24										-1						TC033567_001			
+C	intron_variant	MODIFIER		TC033567	Transcript	TC033567_002	protein_coding		1/24										-1						TC033567_002			
+CSQ=A	intron_variant	MODIFIER		TC033567	Transcript	TC033567_001	protein_coding		1/24										-1						TC033567_001			
+A	intron_variant	MODIFIER		TC033567	Transcript	TC033567_002	protein_coding		1/24										-1						TC033567_002			
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=G	upstream_gene_variant	MODIFIER		TC009024	Transcript	TC009024_001	protein_coding											1078	-1						TC009024_001			
+G	upstream_gene_variant	MODIFIER		TC009818	Transcript	TC009818_001	protein_coding											1715	1						TC009818_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC009023	Transcript	TC009023_001	protein_coding											4758	-1						TC009023_001			
+G	intron_variant	MODIFIER		TC009818	Transcript	TC009818_001	protein_coding		2/5										1						TC009818_001			
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=C	downstream_gene_variant	MODIFIER		TC009006	Transcript	TC009006_001	protein_coding											2045	-1						TC009006_001			
+C	upstream_gene_variant	MODIFIER		TC009007	Transcript	TC009007_001	protein_coding											1427	-1						TC009007_001			
+C	downstream_gene_variant	MODIFIER		TC009833	Transcript	TC009833_001	protein_coding											3568	1						TC009833_001			
+C	downstream_gene_variant	MODIFIER		TC009834	Transcript	TC009834_001	protein_coding											1416	1						TC009834_001			
+C	upstream_gene_variant	MODIFIER		TC033707	Transcript	TC033707_001	protein_coding											894	-1						TC033707_001			
+CSQ=C	intron_variant	MODIFIER		TC010081	Transcript	TC010081_001	protein_coding		1/5										-1						TC010081_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC008754	Transcript	TC008754_001	protein_coding											3557	1						TC008754_001			
+G	intron_variant	MODIFIER		TC031212	Transcript	TC031212_001	protein_coding		5/8										1						TC031212_001			
+G	intron_variant	MODIFIER		TC031212	Transcript	TC031212_002	protein_coding		5/8										1						TC031212_002			
+G	intron_variant	MODIFIER		TC031212	Transcript	TC031212_003	protein_coding		7/10										1						TC031212_003			
+CSQ=T	upstream_gene_variant	MODIFIER		TC008817	Transcript	TC008817_001	protein_coding											748	1						TC008817_001			
+T	upstream_gene_variant	MODIFIER		TC008818	Transcript	TC008818_001	protein_coding											3568	1						TC008818_001			
+T	downstream_gene_variant	MODIFIER		TC010012	Transcript	TC010012_001	protein_coding											2622	-1						TC010012_001			
+T	downstream_gene_variant	MODIFIER		TC033797	Transcript	TC033797_001	protein_coding											924	1						TC033797_001			
+CSQ=T	intron_variant	MODIFIER		TC009970	Transcript	TC009970_001	protein_coding		5/7										-1						TC009970_001			
+CSQ=A	intron_variant	MODIFIER		TC008916	Transcript	TC008916_001	protein_coding		2/2										1						TC008916_001			
+CSQ=C	intron_variant	MODIFIER		TC008933	Transcript	TC008933_001	protein_coding		1/5										1						TC008933_001			
+CSQ=T	intergenic_variant	MODIFIER																										
+CSQ=A	intergenic_variant	MODIFIER																										
+CSQ=C	intergenic_variant	MODIFIER																										
+CSQ=C	downstream_gene_variant	MODIFIER		TC006161	Transcript	TC006161_001	protein_coding											1081	1						TC006161_001			
+C	intron_variant	MODIFIER		TC033978	Transcript	TC033978_001	protein_coding		6/7										-1						TC033978_001			
+CSQ=G	synonymous_variant	LOW		TC005932	Transcript	TC005932_001	protein_coding	4/8				1652	1626	542	L	ctA/ctC			-1						TC005932_001			
+CSQ=A	upstream_gene_variant	MODIFIER		TC006303	Transcript	TC006303_001	protein_coding											2128	1						TC006303_001			
+A	upstream_gene_variant	MODIFIER		TC034034	Transcript	TC034034_001	protein_coding											2884	-1						TC034034_001			
+CSQ=T	intergenic_variant	MODIFIER																										
+CSQ=T	synonymous_variant	LOW		TC006386	Transcript	TC006386_001	protein_coding	4/5				454	351	117	T	acA/acT			1						TC006386_001			
+T	upstream_gene_variant	MODIFIER		TC006387	Transcript	TC006387_001	protein_coding											2838	1						TC006387_001			
+T	upstream_gene_variant	MODIFIER		TC006388	Transcript	TC006388_001	protein_coding											2897	1						TC006388_001			
+CSQ=T	intergenic_variant	MODIFIER																										
+CSQ=T	upstream_gene_variant	MODIFIER		TC015261	Transcript	TC015261_001	protein_coding											4159	1						TC015261_001			
+CSQ=T	missense_variant	MODERATE		TC005666	Transcript	TC005666_001	protein_coding	1/1				599	500	167	S/N	aGt/aAt			-1						TC005666_001			
+T	upstream_gene_variant	MODIFIER		TC005667	Transcript	TC005667_001	protein_coding											4402	-1						TC005667_001			
+T	upstream_gene_variant	MODIFIER		TC034095	Transcript	TC034095_001	protein_coding											2450	1						TC034095_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC005599	Transcript	TC005599_001	protein_coding											2044	-1						TC005599_001			
+CSQ=G	missense_variant	MODERATE		TC006642	Transcript	TC006642_001	protein_coding	9/9				1851	1810	604	S/A	Tca/Gca			1						TC006642_001			
+G	upstream_gene_variant	MODIFIER		TC006643	Transcript	TC006643_001	protein_coding											3397	1						TC006643_001			
+G	upstream_gene_variant	MODIFIER		TC034149	Transcript	TC034149_001	protein_coding											1307	1						TC034149_001			
+CSQ=T	intron_variant	MODIFIER		TC005427	Transcript	TC005427_001	protein_coding		3/3										-1						TC005427_001			
+T	downstream_gene_variant	MODIFIER		TC006718	Transcript	TC006718_001	protein_coding											4435	1						TC006718_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC005304	Transcript	TC005304_001	protein_coding											3499	-1						TC005304_001			
+C	downstream_gene_variant	MODIFIER		TC005305	Transcript	TC005305_001	protein_coding											1330	-1						TC005305_001			
+C	missense_variant	MODERATE		TC005306	Transcript	TC005306_001	protein_coding	1/2				682	473	158	V/G	gTc/gGc			-1						TC005306_001			
+C	upstream_gene_variant	MODIFIER		TC005307	Transcript	TC005307_001	protein_coding											2529	-1						TC005307_001			
+C	upstream_gene_variant	MODIFIER		TC005308	Transcript	TC005308_001	protein_coding											4939	-1						TC005308_001			
+C	downstream_gene_variant	MODIFIER		TC006818	Transcript	TC006818_001	protein_coding											3581	1						TC006818_001			
+C	downstream_gene_variant	MODIFIER		TC006819	Transcript	TC006819_001	protein_coding											1213	1						TC006819_001			
+C	upstream_gene_variant	MODIFIER		TC031294	Transcript	TC031294_001	protein_coding											3657	1						TC031294_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC005220	Transcript	TC005220_001	protein_coding											1386	1						TC005220_001			
+G	intron_variant	MODIFIER		TC034284	Transcript	TC034284_001	protein_coding		2/3										-1						TC034284_001			
+CSQ=C	upstream_gene_variant	MODIFIER		TC005212	Transcript	TC005212_001	protein_coding											4568	-1						TC005212_001			
+C	intron_variant	MODIFIER		TC005223	Transcript	TC005223_001	protein_coding		1/1										1						TC005223_001			
+CSQ=T	intron_variant	MODIFIER		TC001667	Transcript	TC001667_001	protein_coding		4/16										-1						TC001667_001			
+T	downstream_gene_variant	MODIFIER		TC001675	Transcript	TC001675_001	protein_coding											2033	1						TC001675_001			
+CSQ=C	intron_variant	MODIFIER		TC001667	Transcript	TC001667_001	protein_coding		1/16										-1						TC001667_001			
+CSQ=G	upstream_gene_variant	MODIFIER		TC010979	Transcript	TC010979_001	protein_coding											4132	-1						TC010979_001			
+G	intron_variant	MODIFIER		TC034274	Transcript	TC034274_001	protein_coding		1/4										-1						TC034274_001			
+CSQ=G	intron_variant	MODIFIER		TC012350	Transcript	TC012350_001	protein_coding		2/2										1						TC012350_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC012121	Transcript	TC012121_001	protein_coding											2140	-1						TC012121_001			
+G	downstream_gene_variant	MODIFIER		TC012351	Transcript	TC012351_001	protein_coding											1249	1						TC012351_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC012118	Transcript	TC012118_001	protein_coding											3409	-1						TC012118_001			
+T	downstream_gene_variant	MODIFIER		TC012118	Transcript	TC012118_002	protein_coding											3409	-1						TC012118_002			
+T	downstream_gene_variant	MODIFIER		TC012355	Transcript	TC012355_001	protein_coding											1986	1						TC012355_001			
+T	intron_variant	MODIFIER		TC012356	Transcript	TC012356_001	protein_coding		2/2										1						TC012356_001			
+CSQ=G	intron_variant	MODIFIER		TC034305	Transcript	TC034305_001	protein_coding		1/5										-1						TC034305_001			
+G	intron_variant	MODIFIER		TC034305	Transcript	TC034305_002	protein_coding		2/6										-1						TC034305_002			
+CSQ=T	intron_variant	MODIFIER		TC012082	Transcript	TC012082_001	protein_coding		1/6										-1						TC012082_001			
+T	intron_variant	MODIFIER		TC012082	Transcript	TC012082_002	protein_coding		1/19										-1						TC012082_002			
+T	intron_variant	MODIFIER		TC012082	Transcript	TC012082_003	protein_coding		1/19										-1						TC012082_003			
+CSQ=G	downstream_gene_variant	MODIFIER		TC012411	Transcript	TC012411_001	protein_coding											4192	1						TC012411_001			
+G	intron_variant	MODIFIER		TC034322	Transcript	TC034322_001	protein_coding		2/6										-1						TC034322_001			
+CSQ=C	upstream_gene_variant	MODIFIER		TC012058	Transcript	TC012058_001	protein_coding											4405	-1						TC012058_001			
+C	downstream_gene_variant	MODIFIER		TC012415	Transcript	TC012415_001	protein_coding											1867	1						TC012415_001			
+C	intron_variant	MODIFIER		TC012416	Transcript	TC012416_001	protein_coding		3/12										1						TC012416_001			
+CSQ=T	downstream_gene_variant	MODIFIER		TC012446	Transcript	TC012446_001	protein_coding											4421	1						TC012446_001			
+T	intron_variant	MODIFIER		TC012447	Transcript	TC012447_001	protein_coding		2/5										1						TC012447_001			
+CSQ=G	intron_variant	MODIFIER		TC012447	Transcript	TC012447_001	protein_coding		4/5										1						TC012447_001			
+CSQ=T	intron_variant	MODIFIER		TC010674	Transcript	TC010674_001	protein_coding		2/2										-1						TC010674_001			
+T	upstream_gene_variant	MODIFIER		TC034352	Transcript	TC034352_002	protein_coding											4994	1						TC034352_002			
+T	upstream_gene_variant	MODIFIER		TC034352	Transcript	TC034352_003	protein_coding											4994	1						TC034352_003			
+T	intron_variant	MODIFIER		TC034353	Transcript	TC034353_001	protein_coding		2/2										1						TC034353_001			
+T	intron_variant	MODIFIER		TC034870	Transcript	TC034870_001	protein_coding		4/4										1						TC034870_001			
+CSQ=C	intron_variant	MODIFIER		TC010643	Transcript	TC010643_001	protein_coding		3/3										1						TC010643_001			
+C	intron_variant	MODIFIER		TC034352	Transcript	TC034352_002	protein_coding		2/4										1						TC034352_002			
+C	intron_variant	MODIFIER		TC034352	Transcript	TC034352_003	protein_coding		2/3										1						TC034352_003			
+CSQ=G	intron_variant	MODIFIER		TC012018	Transcript	TC012018_001	protein_coding		3/4										-1						TC012018_001			
+G	downstream_gene_variant	MODIFIER		TC012458	Transcript	TC012458_001	protein_coding											4747	1						TC012458_001			
+CSQ=C	upstream_gene_variant	MODIFIER	tRNA-Asn	ENSRNA022736455	Transcript	ENSRNA022736455-T1	tRNA											2523	1		TRNASCAN_SE							
+C	intron_variant	MODIFIER		TC011998	Transcript	TC011998_001	protein_coding		10/11										-1						TC011998_001			
+C	upstream_gene_variant	MODIFIER		TC034357	Transcript	TC034357_001	protein_coding											1681	-1						TC034357_001			
+C	upstream_gene_variant	MODIFIER		TC034357	Transcript	TC034357_002	protein_coding											1681	-1						TC034357_002			
+CSQ=G	downstream_gene_variant	MODIFIER	tRNA-Asn	ENSRNA022736455	Transcript	ENSRNA022736455-T1	tRNA											4228	1		TRNASCAN_SE							
+G	intron_variant	MODIFIER		TC011998	Transcript	TC011998_001	protein_coding		5/11										-1						TC011998_001			
+CSQ=G	intron_variant	MODIFIER		TC034370	Transcript	TC034370_001	protein_coding		3/12										-1						TC034370_001			
+G	intron_variant	MODIFIER		TC034370	Transcript	TC034370_002	protein_coding		3/12										-1						TC034370_002			
+G	intron_variant	MODIFIER		TC034370	Transcript	TC034370_003	protein_coding		4/13										-1						TC034370_003			
+CSQ=T	intron_variant	MODIFIER		TC034367	Transcript	TC034367_001	protein_coding		9/10										-1						TC034367_001			
+T	upstream_gene_variant	MODIFIER		TC034881	Transcript	TC034881_001	protein_coding											4897	-1						TC034881_001			
+CSQ=G	downstream_gene_variant	MODIFIER		TC011970	Transcript	TC011970_001	protein_coding											1385	-1						TC011970_001			
+G	3_prime_UTR_variant	MODIFIER		TC012509	Transcript	TC012509_001	protein_coding	12/12				2475							1						TC012509_001			
+CSQ=G	intron_variant	MODIFIER		TC031243	Transcript	TC031243_001	protein_coding		2/8										-1						TC031243_001			
+G	intron_variant	MODIFIER		TC031243	Transcript	TC031243_002	protein_coding		2/8										-1						TC031243_002			
+G	intron_variant	MODIFIER		TC031243	Transcript	TC031243_003	protein_coding		2/6										-1						TC031243_003			
+G	intron_variant	MODIFIER		TC031243	Transcript	TC031243_004	protein_coding		3/9										-1						TC031243_004			
+G	intron_variant	MODIFIER		TC031243	Transcript	TC031243_005	protein_coding		2/14										-1						TC031243_005			
+CSQ=A	upstream_gene_variant	MODIFIER		TC031243	Transcript	TC031243_001	protein_coding											489	-1						TC031243_001			
+A	upstream_gene_variant	MODIFIER		TC031243	Transcript	TC031243_002	protein_coding											489	-1						TC031243_002			
+A	upstream_gene_variant	MODIFIER		TC031243	Transcript	TC031243_003	protein_coding											489	-1						TC031243_003			
+A	intron_variant	MODIFIER		TC031243	Transcript	TC031243_004	protein_coding		2/9										-1						TC031243_004			
+A	upstream_gene_variant	MODIFIER		TC031243	Transcript	TC031243_005	protein_coding											489	-1						TC031243_005			
+A	downstream_gene_variant	MODIFIER		TC031243	Transcript	TC031243_007	protein_coding											4873	-1						TC031243_007			
+CSQ=T	upstream_gene_variant	MODIFIER		TC031243	Transcript	TC031243_001	protein_coding											1000	-1						TC031243_001			
+T	upstream_gene_variant	MODIFIER		TC031243	Transcript	TC031243_002	protein_coding											1000	-1						TC031243_002			
+T	upstream_gene_variant	MODIFIER		TC031243	Transcript	TC031243_003	protein_coding											1000	-1						TC031243_003			
+T	intron_variant	MODIFIER		TC031243	Transcript	TC031243_004	protein_coding		2/9										-1						TC031243_004			
+T	upstream_gene_variant	MODIFIER		TC031243	Transcript	TC031243_005	protein_coding											1000	-1						TC031243_005			
+T	downstream_gene_variant	MODIFIER		TC031243	Transcript	TC031243_007	protein_coding											4362	-1						TC031243_007			
+CSQ=A	downstream_gene_variant	MODIFIER		TC011953	Transcript	TC011953_001	protein_coding											3796	-1						TC011953_001			
+A	downstream_gene_variant	MODIFIER		TC011953	Transcript	TC011953_002	protein_coding											3796	-1						TC011953_002			
+A	intron_variant	MODIFIER		TC012524	Transcript	TC012524_001	protein_coding		6/9										1						TC012524_001			
+CSQ=C	downstream_gene_variant	MODIFIER		TC011953	Transcript	TC011953_001	protein_coding											3134	-1						TC011953_001			
+C	downstream_gene_variant	MODIFIER		TC011953	Transcript	TC011953_002	protein_coding											3134	-1						TC011953_002			
+C	intron_variant	MODIFIER		TC012524	Transcript	TC012524_001	protein_coding		6/9										1						TC012524_001			
+CSQ=T	intron_variant	MODIFIER		TC011916	Transcript	TC011916_002	protein_coding		3/3										-1						TC011916_002			
+T	intron_variant	MODIFIER		TC012584	Transcript	TC012584_001	protein_coding		1/1										1						TC012584_001			
+CSQ=A	intron_variant	MODIFIER		TC031328	Transcript	TC031328_001	protein_coding		2/3										-1						TC031328_001			
+CSQ=T	intergenic_variant	MODIFIER																										

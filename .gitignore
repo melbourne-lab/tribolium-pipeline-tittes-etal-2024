@@ -1,0 +1,5 @@
+figures/
+data/
+.snakemake/
+.Rproj.user/
+Rplots.pdf

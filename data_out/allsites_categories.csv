@@ -1,0 +1,18 @@
+category,outlier percent,conserved percent,high impact percent
+synonymous,3.27,0.44,0.15
+missense,1.38,0.42,1.08
+stop gained,0,0,12.29
+stop lost,0,0.02,2.6100000000000003
+stop retained,0,0.02,0
+start lost,0,0,2.76
+splice region&synonymous,0,0.02,0
+start lost&splice region,0,0,0.15
+3 prime UTR,1.38,1.6400000000000001,0.9199999999999999
+5 prime UTR,1.0699999999999998,0.7000000000000001,1.38
+intron,35.3,36.730000000000004,8.450000000000001
+splice acceptor,0,0,4.3
+splice donor,0,0,13.669999999999998
+splice region,0.5,0.27999999999999997,0
+upstream,26.950000000000003,27.689999999999998,24.73
+downstream,25.82,27.99,27.500000000000004
+intergenic,4.33,4.04,0
