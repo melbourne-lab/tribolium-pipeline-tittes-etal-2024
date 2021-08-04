@@ -1,5 +1,7 @@
 library(tidyverse)
+
 library(magrittr)
+
 #match references names
 anno_key <- read.table("data/annotation_key.txt", header = F) %>%
   set_colnames(c("seqid","alt","chrom"))
