@@ -4,3 +4,4 @@ Chrom.,Position,Ref.,Alt.,Treatment,Trait,Coeff.,Gene,category
 2,13661311,T,C,edge,growth rate,0.03062473507448139,TC034605,upstream  
 2,28435516,A,G,founder,growth rate,0.019928294683114592,TC010263,upstream  
 5,9632109,G,A,core,weight,0.016154720140432437,TC014860,intron 
+1,782705,C,A,founder,weight,-0.005626986173097816,TC004987,intron 

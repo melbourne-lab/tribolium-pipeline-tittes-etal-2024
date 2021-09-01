@@ -102,7 +102,7 @@ trait_lasso <- function(in_df, trait_var, nfolds, hist_resid = FALSE, return_mod
     t() %>% 
     as_tibble() %>% 
     gather("MRK", "coef") %>%
-    filter(coef > 0) %>%
+    filter(abs(coef) > 0.0) %>%
     mutate(MRK = sub(pattern = "\\`", replacement = "", x = MRK)) %>% 
     mutate(MRK = sub(pattern = "\\`", replacement = "", x = MRK)) %>% 
     filter(!MRK %in% c("(Intercept)") ) %>%
@@ -214,14 +214,14 @@ lasso_weight
 
 
 #SLOW!!!
-# lasso_gr_permuted_within <- lasso_n(trait_df, trait_var = mean_gr, n_runs = 100,  n_permutes = 100, prop_in = 0.95, permute = TRUE, permute_within = TRUE)
-# write_csv(lasso_gr_permuted_within, "data_out/lasso_gr_permuted_within.csv")
-# lasso_weight_permuted_within <- lasso_n(trait_df, trait_var = mean_weight,  n_permutes = 100, prop_in = 0.95, permute = TRUE, permute_within = TRUE)
-# write_csv(lasso_weight_permuted_within, "data_out/lasso_weight_permuted_within.csv")
-# lasso_gr_permuted_across <- lasso_n(trait_df, trait_var = mean_gr, n_runs = 100, n_permutes = 100, prop_in = 0.95, permute = TRUE)
-# write_csv(lasso_gr_permuted_across, "data_out/lasso_gr_permuted_across.csv")
-# lasso_weight_permuted_across <- lasso_n(trait_df, trait_var = mean_weight,  n_permutes = 100, prop_in = 0.95, permute = TRUE)
-# write_csv(lasso_weight_permuted_across, "data_out/lasso_weight_permuted_across.csv")
+lasso_gr_permuted_within <- lasso_n(trait_df, trait_var = mean_gr, n_runs = 100,  n_permutes = 100, prop_in = 0.95, permute = TRUE, permute_within = TRUE)
+write_csv(lasso_gr_permuted_within, "data_out/lasso_gr_permuted_within.csv")
+lasso_weight_permuted_within <- lasso_n(trait_df, trait_var = mean_weight,  n_permutes = 100, prop_in = 0.95, permute = TRUE, permute_within = TRUE)
+write_csv(lasso_weight_permuted_within, "data_out/lasso_weight_permuted_within.csv")
+lasso_gr_permuted_across <- lasso_n(trait_df, trait_var = mean_gr, n_runs = 100, n_permutes = 100, prop_in = 0.95, permute = TRUE)
+write_csv(lasso_gr_permuted_across, "data_out/lasso_gr_permuted_across.csv")
+lasso_weight_permuted_across <- lasso_n(trait_df, trait_var = mean_weight,  n_permutes = 100, prop_in = 0.95, permute = TRUE)
+write_csv(lasso_weight_permuted_across, "data_out/lasso_weight_permuted_across.csv")
 
 ##########
 #PERMUTATIONS
