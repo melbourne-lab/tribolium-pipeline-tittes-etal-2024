@@ -11,6 +11,10 @@ rule all:
         "figures/figure3.png",
         "figures/figure4.pdf",
         "figures/figure4.png",
+        "data_out/lasso_gr_permuted_within.csv",
+        "data_out/lasso_weight_permuted_within.csv",
+        "data_out/lasso_gr_permuted_across.csv",
+        "data_out/lasso_weight_permuted_across.csv",
         "data_out/trait_outlier_table.csv",
         "data_out/outlier_conserved_df.csv",
         "figures/figure5.pdf",
@@ -65,6 +69,10 @@ rule figure3and4:
         "data/baypass2/vep_baypass_r0.98_d3_L3_M30_q0.99_a35_thin100.txt",
         "data/baypass2/aux_model_summary_yij_pij.out"
     output:
+        "data_out/lasso_gr_permuted_within.csv",
+        "data_out/lasso_weight_permuted_within.csv",
+        "data_out/lasso_gr_permuted_across.csv",
+        "data_out/lasso_weight_permuted_across.csv",
         "figures/figure3.pdf",
         "figures/figure3.png",
         "figures/figure4.pdf",
