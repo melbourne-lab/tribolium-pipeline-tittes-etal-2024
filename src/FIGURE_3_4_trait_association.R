@@ -233,6 +233,7 @@ lasso_gr_permuted_across <- read_csv("data_out/lasso_gr_permuted_across.csv")
 lasso_weight_permuted_across <- read_csv("data_out/lasso_weight_permuted_across.csv")
 
 
+
 get_nulldist <- function(permuted){
   1:100 %>% map_dbl(~{
     p_df <- filter(permuted, grepl(.x, permute_index))
@@ -249,8 +250,8 @@ get_nulldist <- function(permuted){
 #simpler helper functions to asses permutations
 plot_coef <- function(permuted, empirical, q = 0.975, ...){
   p_dist <- get_nulldist(permuted)
-  hist(p_dist, xlim = c(0, max(c(p_dist, empirical))*1.2), ...)
-  abline(v = empirical)
+  hist(p_dist, xlim = c(-max(c(p_dist, empirical))*1.2, max(c(p_dist, empirical))*1.2), ...)
+  abline(v = empirical, col = "blue")
 }
 
          
@@ -281,11 +282,20 @@ prop_gte(lasso_gr_permuted_within, lasso_gr$mean_coef)
 idx_table(lasso_weight_permuted_across$permute_index) %>% length()
 idx_table(lasso_weight_permuted_within$permute_index) %>% length()
 
+idx_table(lasso_gr_permuted_across$permute_index) %>% length()
+idx_table(lasso_gr_permuted_within$permute_index) %>% length()
+
 idx_table(lasso_gr_permuted_across$permute_index) %>% quantile(c(0.5, 0.975))
 idx_table(lasso_gr_permuted_within$permute_index) %>% quantile(c(0.5, 0.975))
 
 idx_table(lasso_weight_permuted_across$permute_index) %>% quantile(c(0.5, 0.975))
 idx_table(lasso_weight_permuted_within$permute_index) %>% quantile(c(0.5, 0.975))
+
+table(lasso_weight_permuted_across$treatment)
+table(lasso_gr_permuted_across$treatment)
+
+table(lasso_weight_permuted_within$treatment)
+table(lasso_gr_permuted_within$treatment)
 
 
 wt_df <- 
@@ -304,7 +314,6 @@ out_trait_df <-
     wt_df
   ) %>% 
   select(CHROM, POS, REF, ALT, INFO, treatment, trait, mean_coef)
-
 
 outlier_table <- 
   out_trait_df %>% 
@@ -335,27 +344,79 @@ mrk_df %>%
   geom_boxplot() +
   geom_jitter(width = 0.1, height = 0)
 
-weight_plot <- 
-  mrk_df %>% 
-  mutate(weight_sc = scale(mean_weight),
-         f_sc = scale(M_P)) %>% 
+
+#Predictor residual plotting function
+make_avdf <- function(assoc_df, av_obj, org_df){
+  assoc_df <- mutate(assoc_df, as.numeric(MRK))
+  MRK <- assoc_df$MRK
+  seq_along(MRK) %>% 
+    map_df(~{
+      data.frame(av_obj[[.x]]) %>%
+        set_colnames(c("allele_residual", "trait_residual")) %>% 
+        mutate(MRK = MRK[.x]) %>% 
+        bind_cols(., org_df)
+    }) %>% 
+    full_join(., assoc_df) %>% 
+    mutate(mrk_treat = paste0(treatment, " (", CHROM, " : ", POS, ")"))
+}
+
+
+#Predictor residual plot for weight outliers ----
+weight_sites_df <- 
+  all_freqs %>% 
+  filter(MRK %in% wt_df$MRK) %>% 
+  full_join(., trait_df, by = "POP")
+
+wt_model_df <-   
+  weight_sites_df %>% 
+  select(MRK, POP, M_P, mean_weight) %>%
   drop_na() %>% 
-  ggplot(aes(M_P, mean_weight)) +
+  arrange(POP) %>% 
+  spread(MRK, M_P) %>%
+  left_join(., Z, by = "POP") 
+
+#added variable plots for weight
+wt_model <- lm(mean_weight ~  `147616` + `8103`, data = wt_model_df)
+summary(wt_model)
+av_wt <- car::avPlots(wt_model)
+
+wt_av_df <-  make_avdf(assoc_df = wt_df, av_obj = av_wt, org_df = wt_model_df) 
+
+wt_plot <- wt_av_df %>% 
+  ggplot(aes(allele_residual, trait_residual, colour = treat)) + 
+  geom_point(size = 2) +
   geom_smooth(method = "lm", se = F, colour = "grey50") +
-  geom_point(aes(colour = treat.x, shape = treat.x), inherit.aes = T, size = 2) +
-  ylab("Body weight (mg)") +
-  xlab("Allele frequency") +
+  facet_wrap(~mrk_treat, ncol = 1) +
   guides(colour = guide_legend(""), shape = guide_legend("")) +
   scale_colour_manual(values = my_pall[c(1,2,4)]) +
-  ggsave("figures/figure3.pdf", width = 7, height = 5) +
-  ggsave("figures/figure3.png", width = 7, height = 5, units = "in", dpi = 200)
-weight_plot
+  ylab("Body weight (mg) (residuals)") + 
+  xlab("Allele frequency (residuals)")
 
-mrk_df %>% 
-  mutate(weight_sc = scale(mean_weight),
-         f_sc = scale(M_P)) %>% 
-  lm(mean_weight ~ M_P, data = .) %>% 
-summary()
+
+
+#----
+
+# weight_plot <- 
+#   mrk_df %>% 
+#   mutate(weight_sc = scale(mean_weight),
+#          f_sc = scale(M_P)) %>% 
+#   drop_na() %>% 
+#   ggplot(aes(M_P, mean_weight)) +
+#   geom_smooth(method = "lm", se = F, colour = "grey50") +
+#   geom_point(aes(colour = treat.x, shape = treat.x), inherit.aes = T, size = 2) +
+#   ylab("Body weight (mg)") +
+#   xlab("Allele frequency") +
+#   guides(colour = guide_legend(""), shape = guide_legend("")) +
+#   scale_colour_manual(values = my_pall[c(1,2,4)]) +
+#   ggsave("figures/figure3.pdf", width = 7, height = 5) +
+#   ggsave("figures/figure3.png", width = 7, height = 5, units = "in", dpi = 200)
+# weight_plot
+# 
+# mrk_df %>% 
+#   mutate(weight_sc = scale(mean_weight),
+#          f_sc = scale(M_P)) %>% 
+#   lm(mean_weight ~ M_P, data = .) %>% 
+# summary()
 
 
 #Predictor residual plot for population growth rate outlier at edge----
@@ -363,7 +424,6 @@ gr_sites_df <-
   all_freqs %>% 
   filter(MRK %in% gr_df$MRK) %>% 
   full_join(., trait_df, by = "POP")
-  
 
 gr_model_df <-   
 gr_sites_df %>% 
@@ -373,47 +433,55 @@ gr_sites_df %>%
   spread(MRK, M_P) %>%
   left_join(., Z, by = "POP") 
   
-
 #added variable plot
-gr_df$MRK
-summary(lm(mean_gr ~  `58565` + `36490` + `158827`, data = gr_model_df))
-edge_r <- lm(`58565` ~  `36490` + `158827`, data = gr_model_df)
-edge_resid <- gr_model_df$`58565` - predict(edge_r)
+select(gr_df, MRK, POS)
+gr_mod <- lm(mean_gr ~  `58565` + `36490` + `158827` + `84435`, data = gr_model_df)
+summary(gr_mod)
 
-resid_other <- lm(`58565` ~  `36490` + `158827`, data = gr_model_df) %>% resid
-resid_predictor <- lm(mean_gr ~ `36490` + `158827`, data = gr_model_df) %>% resid
-lm(resid_predictor ~ resid_other)
+#added variable plots for growth rate
+av_gr <- car::avPlots(gr_mod)
+
+gr_av_df <- make_avdf(gr_df, av_gr, gr_model_df)
+
+gr_av_plot <- gr_av_df %>% 
+  ggplot(aes(allele_residual, trait_residual, colour = treat)) + 
+  geom_point(size = 2) +
+  geom_smooth(method = "lm", se = F, colour = "grey50") +
+  facet_wrap(~mrk_treat, ncol = 1) +
+  guides(colour = guide_legend(""), shape = guide_legend("")) +
+  scale_colour_manual(values = my_pall[c(1,2,4)]) 
 
 
 edge_coeff <- filter(outlier_table, Treatment == "edge") %>% pull(Coeff.)
 
-gr_plot <- 
-tibble(
-  edge_resid = edge_resid,
-  mean_gr = gr_model_df$mean_gr,
-  resid_predictor,
-  treat = gr_model_df$treat
-) %>% 
-ggplot(aes(edge_resid,  resid_predictor, colour = treat, shape = treat)) +
-  geom_point(size = 2) +
-  geom_smooth(aes(edge_resid, resid_predictor),
-              method = "lm", se = F, inherit.aes = F,
-              colour = "grey50") +
-  #geom_abline(intercept = 0, slope = edge_coeff, col = "red") +
-  xlab("Allele frequency (residuals)") +
-  ylab("Log population growth rate (residuals)") +
-  scale_colour_manual(values = my_pall[c(1,2,4)]) +
-  guides(colour = guide_legend(""), shape = guide_legend("")) +
-  ggsave("figures/figure3.pdf", width = 7, height = 5) +
-  ggsave("figures/figure3.png", width = 7, height = 5, units = "in", dpi = 200)
-gr_plot
+# gr_plot <- 
+# tibble(
+#   edge_resid = edge_resid,
+#   mean_gr = gr_model_df$mean_gr,
+#   resid_predictor,
+#   treat = gr_model_df$treat
+# ) %>% 
+# ggplot(aes(edge_resid,  resid_predictor, colour = treat, shape = treat)) +
+#   geom_point(size = 2) +
+#   geom_smooth(aes(edge_resid, resid_predictor),
+#               method = "lm", se = F, inherit.aes = F,
+#               colour = "grey50") +
+#   #geom_abline(intercept = 0, slope = edge_coeff, col = "red") +
+#   xlab("Allele frequency (residuals)") +
+#   ylab("Log population growth rate (residuals)") +
+#   scale_colour_manual(values = my_pall[c(1,2,4)]) +
+#   guides(colour = guide_legend(""), shape = guide_legend("")) +
+#   ggsave("figures/figure3.pdf", width = 7, height = 5) +
+#   ggsave("figures/figure3.png", width = 7, height = 5, units = "in", dpi = 200)
+# gr_plot
 
 summary(lm(gr_model_df$mean_gr ~ edge_resid))
 
 edge_mrk <- 
   all_freqs %>% 
-  filter(MRK == 58565) %>% 
-  full_join(., Z, by = "POP") 
+  right_join(., mutate(gr_df, MRK = as.numeric(MRK))) %>% 
+  full_join(., Z, by = "POP") %>% 
+  mutate(mrk_treat = paste0(treatment, " (", CHROM, " : ", POS, ")"))
 
 select(edge_mrk, POP, MRK, M_P, treat) %>% 
   group_by(treat) %>% 
@@ -426,16 +494,23 @@ edge_plot <-
   geom_jitter(width = 0.1, height = 0) +
   ylab("Allele frequency") +
   xlab("Population") +
+  facet_wrap(~mrk_treat, ncol = 1) +
   scale_colour_manual(values = my_pall) +
-  scale_shape_manual(values=c(20, 17, 18, 15)) +
+  scale_shape_manual(values=c(20, 17, 18, 15)) 
   #ylim(0,1) +
-  theme(legend.position = "n")
+  #theme(legend.position = "n")
 
-edge_plot + ggtitle("A") + 
-gr_plot + ggtitle("B") + 
-plot_layout(nrow = 1) +
-  ggsave("figures/figure4.pdf", width = 8, height = 4) +
-  ggsave("figures/figure4.png", width = 8, height = 4, units = "in", dpi = 200)
+gr_av_plot + 
+  ylab("Log population growth rate (residuals)")  + 
+  xlab("Allele frequency (residuals)") +
+  theme(legend.position = "n") + 
+  edge_plot
+
+# edge_plot + ggtitle("A") + 
+# gr_plot + ggtitle("B") + 
+# plot_layout(nrow = 1) +
+#   ggsave("figures/figure4.pdf", width = 8, height = 4) +
+#   ggsave("figures/figure4.png", width = 8, height = 4, units = "in", dpi = 200)
 
 
 disp_edge <- trait_df %>% 

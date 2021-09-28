@@ -17,7 +17,8 @@ dispersal_df <- read_csv("data/F2_dispersal.csv") %>%
 
 census_df <- read_csv("data/F2_census.csv") %>% 
   mutate(treat = ifelse(Treatment == "S","shuffled", Location)) %>% 
-  mutate(landscape = as.character(Landscape)) %>% 
+  mutate(landscape = as.character(Landscape)) %>%
+  mutate(treat = as.character(treat)) %>%
   select(-Landscape)
 
 growthrate_df <- 
