@@ -1,0 +1,82 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20200728)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.4081749 Released 2020-10-09
+Analyzed List:	upload_1 (Tribolium castaneum)
+Reference List:	Tribolium castaneum (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO biological process complete	Tribolium castaneum - REFLIST (16579)	upload_1 (1076)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+homophilic cell adhesion via plasma membrane adhesion molecules (GO:0007156)	27	10	1.75	+	5.71	5.20E-05	5.53E-03
+cell-cell adhesion via plasma-membrane adhesion molecules (GO:0098742)	27	10	1.75	+	5.71	5.20E-05	5.41E-03
+cell-cell adhesion (GO:0098609)	60	17	3.89	+	4.37	2.94E-06	4.06E-04
+neuron projection guidance (GO:0097485)	49	12	3.18	+	3.77	2.67E-04	2.39E-02
+axon guidance (GO:0007411)	49	12	3.18	+	3.77	2.67E-04	2.35E-02
+cell adhesion (GO:0007155)	115	28	7.46	+	3.75	3.33E-08	1.42E-05
+biological adhesion (GO:0022610)	115	28	7.46	+	3.75	3.33E-08	1.31E-05
+taxis (GO:0042330)	50	12	3.25	+	3.70	3.13E-04	2.58E-02
+chemotaxis (GO:0006935)	50	12	3.25	+	3.70	3.13E-04	2.54E-02
+chemical synaptic transmission (GO:0007268)	92	21	5.97	+	3.52	4.07E-06	5.33E-04
+anterograde trans-synaptic signaling (GO:0098916)	92	21	5.97	+	3.52	4.07E-06	5.19E-04
+axon development (GO:0061564)	57	13	3.70	+	3.51	2.74E-04	2.37E-02
+axonogenesis (GO:0007409)	57	13	3.70	+	3.51	2.74E-04	2.33E-02
+trans-synaptic signaling (GO:0099537)	97	22	6.30	+	3.49	2.65E-06	3.86E-04
+cell morphogenesis involved in differentiation (GO:0000904)	63	14	4.09	+	3.42	2.04E-04	1.86E-02
+cell morphogenesis involved in neuron differentiation (GO:0048667)	59	13	3.83	+	3.39	3.66E-04	2.78E-02
+synaptic signaling (GO:0099536)	101	22	6.56	+	3.36	4.66E-06	5.80E-04
+cell morphogenesis (GO:0000902)	74	15	4.80	+	3.12	2.93E-04	2.45E-02
+cell-cell signaling (GO:0007267)	135	27	8.76	+	3.08	1.69E-06	2.61E-04
+cellular component morphogenesis (GO:0032989)	70	14	4.54	+	3.08	5.18E-04	3.89E-02
+neuron differentiation (GO:0030182)	118	23	7.66	+	3.00	1.40E-05	1.62E-03
+neurogenesis (GO:0022008)	140	26	9.09	+	2.86	8.42E-06	9.99E-04
+generation of neurons (GO:0048699)	130	23	8.44	+	2.73	5.32E-05	5.43E-03
+anatomical structure morphogenesis (GO:0009653)	150	26	9.74	+	2.67	3.91E-05	4.24E-03
+nervous system development (GO:0007399)	188	32	12.20	+	2.62	5.01E-06	6.08E-04
+cell differentiation (GO:0030154)	274	46	17.78	+	2.59	5.10E-08	1.30E-05
+cellular developmental process (GO:0048869)	275	46	17.85	+	2.58	8.59E-08	1.91E-05
+actin cytoskeleton organization (GO:0030036)	126	21	8.18	+	2.57	3.23E-04	2.57E-02
+actin filament-based process (GO:0030029)	127	21	8.24	+	2.55	3.40E-04	2.63E-02
+system development (GO:0048731)	227	37	14.73	+	2.51	2.85E-06	4.04E-04
+multicellular organism development (GO:0007275)	367	58	23.82	+	2.44	7.11E-09	3.30E-06
+anatomical structure development (GO:0048856)	448	70	29.08	+	2.41	2.91E-10	1.85E-07
+developmental process (GO:0032502)	523	80	33.94	+	2.36	5.02E-11	4.27E-08
+intracellular signal transduction (GO:0035556)	278	42	18.04	+	2.33	2.57E-06	3.86E-04
+G protein-coupled receptor signaling pathway (GO:0007186)	207	31	13.43	+	2.31	5.76E-05	5.76E-03
+protein phosphorylation (GO:0006468)	249	36	16.16	+	2.23	2.95E-05	3.27E-03
+regulation of cell communication (GO:0010646)	256	35	16.61	+	2.11	1.07E-04	1.05E-02
+regulation of signaling (GO:0023051)	256	35	16.61	+	2.11	1.07E-04	1.03E-02
+regulation of catalytic activity (GO:0050790)	360	44	23.36	+	1.88	1.94E-04	1.80E-02
+regulation of molecular function (GO:0065009)	400	48	25.96	+	1.85	1.28E-04	1.21E-02
+signaling (GO:0023052)	1204	140	78.14	+	1.79	2.15E-10	1.57E-07
+regulation of transcription, DNA-templated (GO:0006355)	922	107	59.84	+	1.79	4.06E-08	1.48E-05
+regulation of transcription by RNA polymerase II (GO:0006357)	753	87	48.87	+	1.78	1.24E-06	1.98E-04
+regulation of RNA biosynthetic process (GO:2001141)	937	108	60.81	+	1.78	5.06E-08	1.52E-05
+regulation of nucleic acid-templated transcription (GO:1903506)	937	108	60.81	+	1.78	5.06E-08	1.43E-05
+cell communication (GO:0007154)	1224	140	79.44	+	1.76	6.22E-10	3.53E-07
+phosphorylation (GO:0016310)	460	52	29.85	+	1.74	3.25E-04	2.55E-02
+regulation of RNA metabolic process (GO:0051252)	998	112	64.77	+	1.73	8.82E-08	1.80E-05
+regulation of nucleobase-containing compound metabolic process (GO:0019219)	1019	114	66.13	+	1.72	8.04E-08	1.86E-05
+regulation of cellular macromolecule biosynthetic process (GO:2000112)	1002	110	65.03	+	1.69	3.62E-07	6.84E-05
+regulation of macromolecule biosynthetic process (GO:0010556)	1017	111	66.00	+	1.68	4.32E-07	7.87E-05
+regulation of cellular biosynthetic process (GO:0031326)	1022	111	66.33	+	1.67	4.75E-07	8.35E-05
+regulation of cellular metabolic process (GO:0031323)	1357	147	88.07	+	1.67	5.25E-09	2.68E-06
+regulation of biosynthetic process (GO:0009889)	1027	111	66.65	+	1.67	6.78E-07	1.15E-04
+signal transduction (GO:0007165)	1144	123	74.25	+	1.66	1.84E-07	3.61E-05
+regulation of nitrogen compound metabolic process (GO:0051171)	1296	138	84.11	+	1.64	5.06E-08	1.36E-05
+regulation of primary metabolic process (GO:0080090)	1306	138	84.76	+	1.63	7.75E-08	1.88E-05
+regulation of macromolecule metabolic process (GO:0060255)	1410	146	91.51	+	1.60	8.65E-08	1.84E-05
+regulation of metabolic process (GO:0019222)	1479	153	95.99	+	1.59	4.67E-08	1.49E-05
+regulation of cellular process (GO:0050794)	2810	289	182.37	+	1.58	4.89E-15	1.25E-11
+regulation of gene expression (GO:0010468)	1149	118	74.57	+	1.58	3.18E-06	4.27E-04
+regulation of biological process (GO:0050789)	2936	296	190.55	+	1.55	1.92E-14	3.26E-11
+biological regulation (GO:0065007)	3255	328	211.25	+	1.55	3.57E-16	1.82E-12
+response to stimulus (GO:0050896)	1681	169	109.10	+	1.55	4.51E-08	1.53E-05
+cellular response to stimulus (GO:0051716)	1499	149	97.29	+	1.53	7.59E-07	1.25E-04
+multicellular organismal process (GO:0032501)	967	92	62.76	+	1.47	5.45E-04	3.97E-02
+localization (GO:0051179)	1680	146	109.03	+	1.34	5.26E-04	3.89E-02
+biological_process (GO:0008150)	8698	680	564.51	+	1.20	6.82E-12	6.95E-09
+cellular process (GO:0009987)	6740	509	437.44	+	1.16	2.07E-05	2.34E-03
+Unclassified (UNCLASSIFIED)	7881	396	511.49	-	.77	6.82E-12	8.69E-09

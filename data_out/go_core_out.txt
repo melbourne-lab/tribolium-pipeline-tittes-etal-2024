@@ -1,0 +1,19 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20200728)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.4081749 Released 2020-10-09
+Analyzed List:	upload_1 (Tribolium castaneum)
+Reference List:	Tribolium castaneum (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO biological process complete	Tribolium castaneum - REFLIST (16579)	upload_1 (595)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+cell adhesion (GO:0007155)	115	16	4.13	+	3.88	1.22E-05	6.21E-02
+biological adhesion (GO:0022610)	115	16	4.13	+	3.88	1.22E-05	3.10E-02
+anatomical structure morphogenesis (GO:0009653)	150	18	5.38	+	3.34	2.20E-05	2.81E-02
+anatomical structure development (GO:0048856)	448	36	16.08	+	2.24	2.01E-05	3.43E-02
+developmental process (GO:0032502)	523	39	18.77	+	2.08	4.84E-05	4.11E-02
+regulation of cellular process (GO:0050794)	2810	140	100.85	+	1.39	6.42E-05	4.68E-02
+biological regulation (GO:0065007)	3255	159	116.82	+	1.36	4.29E-05	4.38E-02

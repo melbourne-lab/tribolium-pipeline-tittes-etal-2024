@@ -1,7 +1,7 @@
-Chrom.,Position,Ref.,Alt.,Treatment,Trait,Coeff.,Gene,category
-6,6778087,T,C,core,growth rate,0.020914271920552896,TC033673,intron 
-2,2024267,T,A,core,growth rate,0.010573131814137542,TC032333,intron 
-2,13661311,T,C,edge,growth rate,0.03062473507448139,TC034605,upstream  
-2,28435516,A,G,founder,growth rate,0.019928294683114592,TC010263,upstream  
-5,9632109,G,A,core,weight,0.016154720140432437,TC014860,intron 
-1,782705,C,A,founder,weight,-0.005626986173097816,TC004987,intron 
+Chrom.,Position,Ref.,Alt.,Treatment,Trait,Coeff.,Gene,category,props_gt
+6,6778087,T,C,core,growth rate,0.020914271920552896,TC033673,intron ,0.76
+2,2024267,T,A,core,growth rate,0.010573131814137542,TC032333,intron ,0.62
+2,13661311,T,C,edge,growth rate,0.03062473507448139,TC034605,upstream  ,0.94
+2,28435516,A,G,founder,growth rate,0.019928294683114592,TC010263,upstream  ,0.74
+5,9632109,G,A,core,weight,0.016154720140432437,TC014860,intron ,0.96
+1,782705,C,A,founder,weight,-0.005626986173097816,TC004987,intron ,0.94

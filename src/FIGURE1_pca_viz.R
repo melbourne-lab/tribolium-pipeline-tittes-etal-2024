@@ -209,24 +209,51 @@ PC_dists <-
   })
 
 
-pc_rep_dists <- c("edge", "core", "shuffled", "founder") %>% 
-  map_df(~{
-    
-    distmat <- filter(full_pcdf, treat == .x) %>% 
-      select(starts_with("PC")) %>% 
+
+filter(full_pcdf, treat == "core") %>% 
+  group_by(temporal_block) %>% 
+  group_modify(~{
+    distmat <- select(., starts_with("PC")) %>% 
       dist() %>%
-      as.matrix() 
+      as.matrix()
     distmat[upper.tri(distmat, diag = TRUE)] <- NA
     
     distmat %>% 
       data.frame() %>%
       mutate(pops = colnames(.)) %>% 
       pivot_longer(cols = -pops, names_to = "pop", values_to = "distance") %>%
-      mutate(treat = .x) %>% 
+      mutate(treat = "temp") %>% 
       select(distance, treat) %>% 
       drop_na() %>% 
       arrange(distance)
+
+  })
+  
+
+
+pc_rep_dists <- c("edge", "core", "shuffled", "founder") %>% 
+  map_df(function(x){
+
+    filter(full_pcdf, treat == x) %>% 
+      group_by(temporal_block) %>% 
+      group_modify(~{
+        distmat <- select(., starts_with("PC")) %>% 
+          dist() %>%
+          as.matrix()
+        distmat[upper.tri(distmat, diag = TRUE)] <- NA
+        
+        distmat %>% 
+          data.frame() %>%
+          mutate(pops = colnames(.)) %>% 
+          pivot_longer(cols = -pops, names_to = "pop", values_to = "distance") %>%
+          mutate(treat = x) %>% 
+          select(distance, treat) %>% 
+          drop_na() %>% 
+          arrange(distance)
+        
+      })
   }) 
+
 
 pc_rep_dists %>% 
   group_by(treat) %>% 

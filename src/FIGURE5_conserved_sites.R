@@ -168,7 +168,7 @@ fig5 <- function(){
   plot(q_shuff, qs, xlim = c(-0.3, 0.3), type = "l", bty = "l", axes = T,
        col = my_pall[4], lwd = wds, 
        xlab =  expression(Delta[p]),
-       ylab = "Cumulative  density",
+       ylab = "Cumulative  probability",
        cex.lab = cx)
   lines(q_core, qs, 
         col = my_pall[1], lwd = wds,

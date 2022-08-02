@@ -1,0 +1,39 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20200728)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.4081749 Released 2020-10-09
+Analyzed List:	upload_1 (Tribolium castaneum)
+Reference List:	Tribolium castaneum (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO biological process complete	Tribolium castaneum - REFLIST (16579)	upload_1 (633)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+homophilic cell adhesion via plasma membrane adhesion molecules (GO:0007156)	27	7	1.03	+	6.79	1.99E-04	4.23E-02
+cell-cell adhesion via plasma-membrane adhesion molecules (GO:0098742)	27	7	1.03	+	6.79	1.99E-04	4.06E-02
+cyclic nucleotide metabolic process (GO:0009187)	28	7	1.07	+	6.55	2.41E-04	4.55E-02
+cell adhesion (GO:0007155)	115	21	4.39	+	4.78	2.52E-08	2.14E-05
+biological adhesion (GO:0022610)	115	21	4.39	+	4.78	2.52E-08	1.84E-05
+cell-cell adhesion (GO:0098609)	60	10	2.29	+	4.37	2.28E-04	4.48E-02
+homeostatic process (GO:0042592)	185	19	7.06	+	2.69	1.97E-04	4.37E-02
+regulation of response to stimulus (GO:0048583)	236	24	9.01	+	2.66	3.47E-05	1.18E-02
+multicellular organism development (GO:0007275)	367	33	14.01	+	2.36	1.80E-05	7.05E-03
+developmental process (GO:0032502)	523	45	19.97	+	2.25	1.25E-06	7.98E-04
+anatomical structure development (GO:0048856)	448	38	17.11	+	2.22	1.25E-05	5.33E-03
+signaling (GO:0023052)	1204	78	45.97	+	1.70	9.52E-06	4.85E-03
+cell communication (GO:0007154)	1224	79	46.73	+	1.69	1.08E-05	5.01E-03
+response to stimulus (GO:0050896)	1681	104	64.18	+	1.62	2.03E-06	1.15E-03
+regulation of primary metabolic process (GO:0080090)	1306	80	49.86	+	1.60	5.25E-05	1.67E-02
+signal transduction (GO:0007165)	1144	70	43.68	+	1.60	1.82E-04	4.23E-02
+regulation of nitrogen compound metabolic process (GO:0051171)	1296	79	49.48	+	1.60	6.82E-05	2.05E-02
+biological regulation (GO:0065007)	3255	198	124.28	+	1.59	1.18E-11	6.03E-08
+regulation of cellular metabolic process (GO:0031323)	1357	82	51.81	+	1.58	7.01E-05	1.99E-02
+regulation of cellular process (GO:0050794)	2810	169	107.29	+	1.58	1.62E-09	4.13E-06
+cellular response to stimulus (GO:0051716)	1499	90	57.23	+	1.57	3.31E-05	1.21E-02
+regulation of biological process (GO:0050789)	2936	173	112.10	+	1.54	4.23E-09	7.19E-06
+regulation of macromolecule metabolic process (GO:0060255)	1410	83	53.83	+	1.54	1.29E-04	3.13E-02
+regulation of metabolic process (GO:0019222)	1479	87	56.47	+	1.54	9.85E-05	2.64E-02
+biological_process (GO:0008150)	8698	405	332.10	+	1.22	1.19E-08	1.52E-05
+cellular process (GO:0009987)	6740	307	257.34	+	1.19	1.05E-04	2.69E-02
+Unclassified (UNCLASSIFIED)	7881	228	300.90	-	.76	1.19E-08	1.21E-05
