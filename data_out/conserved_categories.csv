@@ -1,13 +1,18 @@
 category,percent
-3 prime UTR,1.6400000000000001
-5 prime UTR,0.7000000000000001
-downstream,27.99
-intergenic,4.04
-intron,36.730000000000004
-missense,0.42
-splice region,0.27999999999999997
-splice region&synonymous,0.02
-stop lost,0.02
-stop retained,0.02
-synonymous,0.44
-upstream,27.689999999999998
+3 prime UTR,1.3299999999999998
+5 prime UTR,0.59
+downstream,29.23
+intergenic,0.03
+intron,37.14
+missense,0.27999999999999997
+splice donor 5th base,0.01
+splice donor region,0.04
+splice polypyrimidine tract,0.5
+splice polypyrimidine tract&splice region ,0.09
+splice region,0.05
+splice region&synonymous,0.01
+stop gained,0.03
+stop lost,0.01
+stop retained,0.01
+synonymous,0.22999999999999998
+upstream,30.42

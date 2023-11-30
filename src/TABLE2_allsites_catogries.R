@@ -36,5 +36,6 @@ impact_df <- full_join(
 
 print(impact_df)
 
+View(impact_df)
 write_csv(impact_df, "data_out/allsites_categories.csv")
 

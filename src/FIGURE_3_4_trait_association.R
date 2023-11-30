@@ -12,19 +12,18 @@ pc_df <- read_csv("data_out/core_freq_PCA.csv") %>%
   select(1:9)
 
 
-sites <- read.table("data/baypass2/vep_baypass_r0.98_d3_L3_M30_q0.99_a35_thin100.txt") %>%
-  set_colnames(c("chrom", "pos", "pos2", "ref_alt", "freq")) %>%
-  mutate(MRK = 1:n())
-
-jeff_df <- read.table("data/baypass2/aux_model_summary_betai.out", header = T) %>% 
-  filter(BF.dB. >= 20)
-
+#sites <- read.table("data/baypass2/vep_baypass_r0.98_d3_L3_M30_q0.99_a35.txt") %>%
+#  ungroup() %>% 
+#  set_colnames(c("chrom", "pos", "pos2", "ref_alt", "freq")) %>%
+#  mutate(MRK = 1:n())
 
 all_freqs <- fread("data/baypass2/aux_model_summary_yij_pij.out")
 
-gwa_df <- 
-  all_freqs %>% 
-  full_join(., jeff_df, by = "MRK") %>% 
+
+gwa_df <- read.table("data/baypass2/aux_model_summary_betai.out", header = T) %>% 
+  filter(BF.dB. >= 30) %>% 
+  right_join(all_freqs, ., by = "MRK") %>% 
+  distinct() %>% 
   drop_na()
 
 # mx_patch <- trait_df %>% 
@@ -37,7 +36,7 @@ gwa_df <-
 #   drop_na() %>% 
 #   select(POP, mx_patch)
 
-trait_df %>% 
+trait_df %>%
   ggplot(aes(treat, prop_disp)) +
   geom_boxplot() +
   geom_jitter(width = 0.1, height = 0) 
@@ -64,6 +63,7 @@ trait_df %>%
 
 
 trait_lasso <- function(in_df, trait_var, nfolds, hist_resid = FALSE, return_mod = FALSE, ...){
+  #in_df <- trait_df; trait_var <- "prop_disp"; maxit = 10e8; permute = FALSE; hist_resid = TRUE
   
   trait_var <- enquo(trait_var)
   
@@ -71,14 +71,18 @@ trait_lasso <- function(in_df, trait_var, nfolds, hist_resid = FALSE, return_mod
     in_df %>% 
     ungroup() %>%  
     select( !!trait_var, POP, treat) %>% 
-    dplyr::rename(mx_patch = !!trait_var)
+    dplyr::rename(mx_patch = !!trait_var) %>% 
+    drop_na()
 
+  #fubar here
   gwa_train <-
     gwa_df %>% 
-    select(MRK, POP, M_P) %>% 
-    spread(MRK, M_P) %>% 
+    select(MRK, POP, M_P) %>%
+    distinct() %>% 
+    pivot_wider(names_from = c(MRK), values_from = M_P) %>% 
     full_join(., mx_patch_df, by = "POP", na_matches = "never") %>% 
     left_join(., pc_df, by = "POP", na_matches = "never") %>% 
+    ungroup() %>% 
     drop_na()
   
 
@@ -87,6 +91,7 @@ trait_lasso <- function(in_df, trait_var, nfolds, hist_resid = FALSE, return_mod
     model.matrix(mx_patch ~ . -1, data = .) %>% 
     scale()
   
+
   if(missing(nfolds)){
     nfolds <- nrow(gwa_train)
   }
@@ -183,10 +188,9 @@ lasso_n <- function(in_df2, trait_var, n_runs = 100, n_permutes = 1, prop_in = 0
   
 
 set.seed(45456)
-
 trait_lasso(trait_df, trait_var = prop_disp, maxit = 10e8, permute = FALSE, hist_resid = TRUE)
 trait_lasso(trait_df, trait_var = mean_gr, maxit = 10e8, permute = FALSE, hist_resid = TRUE)
-trait_lasso(trait_df, trait_var = mean_weight, maxit = 10e8, permute = FALSE, hist_resid = TRUE)
+trait_lasso(trait_df, trait_var = mean_weight, maxit = 10e8, permute = FALSE, hist_resid = TRUE) %>% View()
 
 OUT <- trait_lasso(trait_df, trait_var = mean_gr, maxit = 10e8, hist_resid = TRUE, return_mod = TRUE)
 

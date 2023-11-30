@@ -1,18 +1,26 @@
 category,outlier percent,conserved percent,high impact percent
-synonymous,3.27,0.44,0.15
-missense,1.38,0.42,1.08
-stop gained,0,0,12.29
-stop lost,0,0.02,2.6100000000000003
-stop retained,0,0.02,0
-start lost,0,0,2.76
-splice region&synonymous,0,0.02,0
-start lost&splice region,0,0,0.15
-3 prime UTR,1.38,1.6400000000000001,0.9199999999999999
-5 prime UTR,1.0699999999999998,0.7000000000000001,1.38
-intron,35.3,36.730000000000004,8.450000000000001
-splice acceptor,0,0,4.3
-splice donor,0,0,13.669999999999998
-splice region,0.5,0.27999999999999997,0
-upstream,26.950000000000003,27.689999999999998,24.73
-downstream,25.82,27.99,27.500000000000004
-intergenic,4.33,4.04,0
+synonymous,1.7500000000000002,0.22999999999999998,0.25
+missense,0.88,0.27999999999999997,0.83
+stop gained,0,0.03,11.58
+stop lost,0,0.01,2.26
+stop retained,0,0.01,0
+start lost,0,0,3.34
+splice region&synonymous,0,0.01,0
+start lost&splice region,0,0,0.05
+3 prime UTR,1.03,1.3299999999999998,0.64
+5 prime UTR,0.73,0.59,0.98
+intron,37.72,37.14,6.18
+splice acceptor,0,0,4.32
+splice donor,0,0,14.180000000000001
+splice region,0,0.05,0.05
+upstream,25.919999999999998,30.42,25.66
+downstream,26.5,29.23,29.2
+intergenic,5.2,0.03,0
+NA,0.03,0,0
+NA,0.12,0.5,0.15
+NA,0.12,0,0
+NA,0,0.01,0
+NA,0,0.04,0.05
+NA,0,0.09,0
+NA,0,0,0.05
+NA,0,0,0.25

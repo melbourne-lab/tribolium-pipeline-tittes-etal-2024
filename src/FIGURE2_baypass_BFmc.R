@@ -9,7 +9,7 @@ bf <- read.table("data/baypass2/aux_model_summary_betai.out", header = T) %>%
 
 n <- 4
 #used to be AllPops_popdps_4-22_meandp4-22_mincnt0_minor3_majfreq-0.998_autosomes.sites
-sites <- read.table("data/baypass2/vep_baypass_r0.98_d3_L3_M30_q0.99_a35_thin100.txt") %>%
+sites <- read.table("data/baypass2/vep_baypass_r0.98_d3_L3_M30_q0.99_a35.txt") %>%
   set_colnames(c("chrom", "pos", "pos2", "ref_alt", "freq")) %>%
   replicate(n, ., simplify = FALSE) %>% #need to repeat rows for bind_cols
   bind_rows()
@@ -172,11 +172,13 @@ fig2 <- function(){
            lines(bf_min, n_loci, col = my_pall[.x], lwd = 3))
     })
   
-  text(10.5, 2500, "founder", col = my_pall["founder"], font = 2, cex = lab_cex)
-  rect(xleft = 8.5, ybottom = 1550, xright = 15, ytop = 1750, border = FALSE, col = "white")
-  text(9, 1650, "shuffled", col = my_pall["shuffled"], font = 2, cex = lab_cex)
-  text(6.5, 850, "core", col = my_pall["core"], font = 2, cex = lab_cex)
-  text(6.5, 200, "edge", col = my_pall["edge"], font = 2, cex = lab_cex)
+  rect(xleft = 5.5, ybottom = 4700, xright = 15, ytop = 5300, border = FALSE, col = "white")
+  text(7.75, 5000, "founder", col = my_pall["founder"], font = 2, cex = lab_cex)
+  rect(xleft = 5.5, ybottom = 3200, xright = 15, ytop = 3800, border = FALSE, col = "white")
+  text(7.75, 3500, "shuffled", col = my_pall["shuffled"], font = 2, cex = lab_cex)
+  text(6.5, 1900, "core", col = my_pall["core"], font = 2, cex = lab_cex)
+  rect(xleft = 4.5, ybottom = 700, xright = 9, ytop = 1100, border = FALSE, col = "white")
+  text(6.5, 800, "edge", col = my_pall["edge"], font = 2, cex = lab_cex)
   
   ################
   ### PANEL C ####
@@ -220,6 +222,14 @@ outlier_df <- bf_full %>%
 
 write_csv(outlier_df, path = "data_out/outlier_df.csv")
 
+write_csv(outlier_df[,!grepl("\\.\\.\\.", colnames(outlier_df))], path = "data_out/suppmat_outlier_df.csv")
+
+
+outlier_df %>% 
+  group_by(treatment) %>% 
+  summarize(n()) %>% 
+  ungroup()
+
 outlier_info <- info_df(outlier_df$INFO) 
 
 outlier_info %>% 
@@ -249,7 +259,7 @@ info_DF <- info_df(outlier_df$INFO) %>%
 ### SUPPLAMENTAL TABLE ###
 ##########################
 write_tsv(info_DF, "data_out/outlier.tsv")
-
+View(info_DF)
 
 filter(info_DF, Consequence == "missense_variant") %>% 
   pull(Gene) %>% 
@@ -268,27 +278,12 @@ category_table <-
   data_frame(
     category = consequences,
     percent = as.vector(outlier_consequences)
-  ) #%>% 
-  #xtable::xtable() %>% 
-  #xtable_to_flextable()
-  #flextable() %>% 
-  #theme_vanilla() %>% 
-  #flextable::autofit() %>% 
-  #align(j = "category", align = "left", part = "all") %>% 
-  #align(j = "percent", align = "right", part = "all") %>% 
-  #add_footer()
+  ) 
 
 print(category_table)
 write_csv(category_table, "data_out/outlier_categories.csv")
 
+
 #doc <- body_add_flextable(doc, value = category_table, pos = "after")
 #print(doc, "data/tables.docx", pos = "after")
-
-
-###what does estimates look like for edge outlier?
-read.table("data/baypass2/aux_model_summary_betai.out", header = T) %>% 
-  filter(MRK == 58565)
-
-read.table("data/baypass2/aux_model_summary_pi_xtx.out", header = T) %>% 
-  filter(MRK == 58565) 
 

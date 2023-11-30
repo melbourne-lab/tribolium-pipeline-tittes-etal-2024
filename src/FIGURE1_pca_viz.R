@@ -4,6 +4,8 @@ source("src/helper_functions.R")
 pc_viz <- function(pca, type = "?", pt_color = NULL){
   
   var_exp <- ((pca$sdev^2)/sum(pca$sdev^2))
+  print(paste0("variance explained, pc1: ", var_exp[1], "\n pc2:", var_exp[2]))
+  
   var_exp1 <- round(var_exp[1]*100, 2)
   var_exp2 <- round(var_exp[2]*100, 2)
   
@@ -87,13 +89,13 @@ cov_mat <- read.table("data/baypass2/core_model_mat_omega.out")
 
 cvmat <- cov2cor(as.matrix(cov_mat))
 diag(cvmat) <- NA
-  cvmat %>%
+cvmat %>%
   data.frame() %>% 
   mutate(treat = Z$treat) %>% 
   pivot_longer(-treat) %>% 
   ggplot(aes(treat, value)) +
   geom_sina()
-  
+
 
 diag(as.matrix(cov_mat)) %>% 
   tibble(var = .) %>% 
@@ -134,9 +136,12 @@ palette(my_pall)
 #PCA of allele frequencies
 allele_df_full <- data.table::fread("data/baypass2/core_model_summary_yij_pij.out")
 outlier_df <- read_csv("data_out/outlier_df.csv")
+#exclude outliers
 allele_df <- filter(allele_df_full, !MRK %in% outlier_df$MRK)
+rm(allele_df_full)
+gc()
 
-#grab random 10K sites
+#grab random 20K sites
 mrks <- sort(sample(allele_df$MRK, 20000))
 allele_sample <- allele_df %>% 
   filter(MRK %in% mrks) %>% 
@@ -160,7 +165,6 @@ pc_df <- bind_cols(POP = Z$POP, PC$x)
 write_csv(pc_df, "data_out/core_freq_PCA.csv")
 
 full_pcdf <- full_join(pc_df, Z, by = "POP")
-
 
 #quantify distance of populations from their ancestral pop
 PC_dists <- 

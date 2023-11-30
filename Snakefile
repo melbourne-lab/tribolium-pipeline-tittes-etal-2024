@@ -1,5 +1,6 @@
 rule all:
     input:
+        "data/conserved_sites/vep_baypass_r0.98_d3_L3_M30_q0.99_a35.sites"
         "figures/figure2.pdf",
         "figures/figure2.png",
         "data_out/outlier_df.csv",
@@ -24,7 +25,17 @@ rule all:
         "data_out/allsites_categories.csv"
 
 
-helpers = ["data/Z.csv", "data/conserved_sites/vep_baypass_r0.98_d3_L3_M30_q0.99_a35_thin100.sites", "data/VEP_allsites.vcf", ]
+rule make_sites:
+    input:
+        "data/baypass2/vep_baypass_r0.98_d3_L3_M30_q0.99_a35.txt"
+    output:
+        "data/conserved_sites/vep_baypass_r0.98_d3_L3_M30_q0.99_a35.sites"
+    shell:
+        """
+        cut -d " " -f1-5 {input} | awk '{print NR" "$0}' > {output}
+        """
+        
+helpers = ["data/Z.csv", "data/conserved_sites/vep_baypass_r0.98_d3_L3_M30_q0.99_a35.sites", "data/VEP_allsites.vcf"]
 
 rule figure2:
     input:
@@ -32,7 +43,7 @@ rule figure2:
         "src/FIGURE2_baypass_BFmc.R", 
         "src/helper_functions.R",
         "data/baypass2/aux_model_summary_betai.out",
-        "data/baypass2/vep_baypass_r0.98_d3_L3_M30_q0.99_a35_thin100.txt",
+        "data/baypass2/vep_baypass_r0.98_d3_L3_M30_q0.99_a35.txt",
     output:
         "figures/figure2.pdf",
         "figures/figure2.png",
@@ -66,7 +77,7 @@ rule figure3and4:
         "src/FIGURE_3_4_trait_association.R",
         "data_out/outlier_df.csv",
         "data_out/core_freq_PCA.csv",
-        "data/baypass2/vep_baypass_r0.98_d3_L3_M30_q0.99_a35_thin100.txt",
+        "data/baypass2/vep_baypass_r0.98_d3_L3_M30_q0.99_a35.txt",
         "data/baypass2/aux_model_summary_yij_pij.out"
     output:
         "data_out/lasso_gr_permuted_within.csv",

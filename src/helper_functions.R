@@ -52,8 +52,9 @@ Z <- load_z()
 
 #load tidy version of the sites info file (I originally generated along side the input file for baypass)
 load_sites <- function(){
-  read_tsv("data/conserved_sites/vep_baypass_r0.98_d3_L3_M30_q0.99_a35_thin100.sites", col_names = F) %>% 
-    set_colnames(c("MRK", "chrom", "pos", "pos2", "ref_alt", "freq"))
+  read_delim("data/conserved_sites/vep_baypass_r0.98_d3_L3_M30_q0.99_a35.sites", col_names = F, delim = "\t") %>% 
+    set_colnames(c("MRK", "chrom", "pos", "pos2", "ref_alt", "freq")) %>% 
+    select(c(MRK, chrom, pos, pos2, ref_alt, freq))
 }
 
 
@@ -74,24 +75,31 @@ treat_key <- data_frame(
   treatment = c("founder", "core", "edge", "shuffled")
 )
 
+trait_key <- data_frame(COVARIABLE = 1:3, trait = c("growth_rate", "proportion_dispersed", "mean_weight"))
 
-vep <- read_tsv("data/VEP_allsites.vcf", skip = 4, 
+
+#this is made by loading data/conserved_sites/vep_baypass_r0.98_d3_L3_M30_q0.99_a35.sites to ensemble vep web interface
+#(couldn't get local vep to play nice sadly)
+vep <- read_tsv("data/VEP_allsites.vcf", skip = 5, 
                 col_names = c("CHROM", "POS", "ID", "REF", 
                               "ALT","QUAL", "FILTER","INFO")) %>% 
   mutate(MRK = 1:n())
 
-info_names <- "Allele|Consequence|IMPACT|SYMBOL|Gene|Feature_type|Feature|BIOTYPE|EXON|INTRON|HGVSc|HGVSp|cDNA_position|CDS_position|Protein_position|Amino_acids|Codons|Existing_variation|DISTANCE|STRAND|FLAGS|SYMBOL_SOURCE|HGNC_ID|TSL|APPRIS|ENSP|CLIN_SIG|SOMATIC|PHENO" %>%
+info_names <- "Allele|Consequence|IMPACT|SYMBOL|Gene|Feature_type|Feature|BIOTYPE|EXON|INTRON|HGVSc|HGVSp|cDNA_position|CDS_position|Protein_position|Amino_acids|Codons|Existing_variation|DISTANCE|STRAND|FLAGSSYMBOL_SOURCE|HGNC_ID|CLIN_SIG|SOMATIC|PHENO" %>%
   str_split("\\|") %>% 
   unlist()
+info_names
 
 #organize info column into data frame (takes a long time so don't do it on all loci at once)
 info_df <- function(loci){
+  #loci <- vep$INFO[1:10]
   loci %>% #!!!
     map(function(y){
       str_split(y, ",") %>% 
         unlist() %>% 
         map_df(~{
-          str_split(.x, "\\|") %>% 
+          str_replace(.x, "\\|$", "") %>% 
+          str_split("\\|") %>% 
             unlist() %>% 
             rbind() %>% 
             set_colnames(info_names) %>% 
@@ -99,5 +107,6 @@ info_df <- function(loci){
         })
     })
 }
-#por exemplo
+
 info_df(vep$INFO[1:10])
+

@@ -21,7 +21,7 @@ read_csv("data_out/outlier_df.csv") %>%
 
 info_df(cons_pij$INFO[1:3])
 
-outlier_info <- info_df(cons_pij$INFO)
+outlier_info <- info_df(unique(cons_pij$INFO))
 
 outlier_info %>% 
   map(~{
@@ -225,28 +225,39 @@ ks.test(diff_df$shuff_d, diff_df$core_d)
 #######
 ### TEST AGAIN AT HIGH IMAPACT SITES
 #######
+length(unique(cons_pij$MRK))
+
+rm(cons_pij)
+gc()
 
 effect <- c("MODERATE", "HIGH")
 effect <- c("HIGH")
 vep_high <- vep %>% 
   filter(grepl(paste(effect, collapse="|"), INFO))
 
-
-
 pij_df <- fread("data/baypass2/aux_model_summary_yij_pij.out")
 
 r_mrk <- unique(sort(vep_high$MRK))
 # #randomly chosen markers
-cons_pij <- pij_df %>%
-   as_tibble() %>%
-   full_join(., Z, by = "POP") %>%
-   filter(MRK %in% r_mrk) %>% 
-   mutate(edge = ifelse(treat == "edge", "edge", "not edge")) %>%
-   left_join(., baypass_majmin, by = "MRK") %>% 
-   right_join(., vep_high, by = "MRK")
+cons_pij_dfs <- pij_df %>%
+  as_tibble() %>%
+  mutate(group = round(MRK/1e5, 0)) %>% 
+  group_by(group) %>% 
+  group_split()
 
-outlier_info <- info_df(cons_pij$INFO)
+cons_pij <- cons_pij_dfs %>% 
+  map_df(~{
+    full_join(.x, Z, by = "POP") %>%
+      filter(MRK %in% r_mrk) %>% 
+      mutate(edge = ifelse(treat == "edge", "edge", "not edge")) %>%
+      left_join(., baypass_majmin, by = "MRK") %>% 
+      right_join(., vep_high, by = "MRK")  
+  })
+  
+rm(cons_pij_dfs)
+gc()
 
+outlier_info <- info_df(unique(cons_pij$INFO))
 
 outlier_info %>% 
   map(~{
@@ -283,10 +294,12 @@ conserved_vep <-
 print(conserved_vep)
 write_csv(conserved_vep, "data_out/highimpact_categories.csv")
 
+
+baypass_majmin
 #Capture maj/min ref/alt orientation of each locus
 polar_df <- cons_pij %>% 
   group_by(MRK) %>% 
-  summarise(mean_f = mean(M_P)) %>% 
+  summarise(mean_f = mean(M_P, na.rm = TRUE)) %>% 
   left_join(., baypass_majmin, by = "MRK") %>%
   ungroup() %>% 
   mutate(polar_freq = ifelse(mean_f < 0.5 & type == "maj" | mean_f >= 0.5 & type == "min", 1 - mean_f, mean_f),
@@ -304,8 +317,9 @@ temp <- cons_pij %>%
 
 diff_df <- polar_df %>% 
   group_by(MRK) %>% 
-  select(polar_M_P, landscape, treat) %>% 
-  spread(treat, polar_M_P) %>% 
+  select(MRK, polar_M_P, landscape, treat) %>% 
+  drop_na() %>% 
+  pivot_wider(id_cols = c(landscape, MRK), names_from = treat, values_from = polar_M_P) %>%
   mutate(
     edge_d =  founder - edge,
     core_d =  founder - core,
@@ -314,6 +328,9 @@ diff_df <- polar_df %>%
     core_d_tr =  log(((founder - core)/(founder*(1-founder)))^2),
     shuff_d_tr = log(((founder - shuffled)/(founder*(1-founder)))^2)
   )
+
+
+length(unique(diff_df$MRK))
 
 den_shuff <- density(na.omit(diff_df$shuff_d))
 den_core <- density(na.omit(diff_df$core_d))
